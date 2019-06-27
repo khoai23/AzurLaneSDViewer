@@ -1,4 +1,8 @@
 var charData = {
+	"Le Malin": "edu",
+	"Le Malin_2": "edu_2",
+	"L'Opiniâtre": "juejiang",
+	"L'Opiniâtre_2": "juejiang_2",
     "Curlew Kai": "biaoyu_g",
     "Fiji_2": "feiji_2",
     "Curacoa Kai": "kulasuo_g",
@@ -53,6 +57,8 @@ var charData = {
     "Saratoga_4": "salatuojia_4",
     
     "Javelin_4": "biaoqiang_4",
+	
+    "Javelin_5": "biaoqiang_5",
     "Laffey_5": "lafei_5",
     "Ayanami_6": "lingbo_6",
     "Z23_4": "z23_4",
@@ -215,6 +221,7 @@ var charData = {
     "Duke of York_3": "yuekegongjue_3",
     "Dunkerque": "dunkeerke",
     "Dunkerque_2": "dunkeerke_2",
+    "Dunkerque_3": "dunkeerke_3",
     "Edinburgh": "aidingbao",
     "Edinburgh_2": "aidingbao_2",
     "Eidsvold": "eidsvold",
@@ -224,6 +231,7 @@ var charData = {
     "Eldridge_4": "aierdeliqi_4",
     "Emile Bertin": "aimierbeierding",
     "Emile Bertin_2": "aimierbeierding_2",
+    "Emile Bertin Kai": "aimierbeierding_g",
     "Enterprise Wedding": "qiye_h",
     "Enterprise": "qiye",
     "Enterprise_2": "qiye_2",
@@ -240,6 +248,7 @@ var charData = {
     "Forbin Kai": "fuerban_g",
     "Forbin": "fuerban",
     "Forbin_2": "fuerban_2",
+    "Forbin_3": "fuerban_3",
     "Fortune Kai": "mingyunnvshen_g",
     "Fortune": "mingyunnvshen",
     "Fortune_2": "mingyunnvshen_2",
@@ -403,7 +412,8 @@ var charData = {
     "Langley": "lanli",
     "Le Mars Kai": "lemaer_g",
     "Le Mars": "lemaer",
-    "Le Mars_2": "lemaer_2",
+    "Le Mars_2": "lemaer_2",	
+	"Le Mars 3": "lemaer_3",
     "Le Temeraire": "lumang",
     "Le Triomphant": "kaixuan",
     "Leander Kai": "liande_g",
@@ -783,4 +793,6 @@ var charData = {
     "miaogaodanchuan_kizuna": "miaogaodanchuan_kizuna",
     "yangyandanchuan_kizuna": "yangyandanchuan_kizuna",
     "zibao_kizuna": "zibao_kizuna",
+	"1zhounianwutaiB": "1zhounianwutaiB",
+	"1zhounianwutaiT": "1zhounianwutaiT",
 };
