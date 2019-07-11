@@ -1,0 +1,34 @@
+
+shuilei4.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+boom1
+  rotate: false
+  xy: 2, 18
+  size: 68, 80
+  orig: 68, 80
+  offset: 0, 0
+  index: -1
+boom2
+  rotate: false
+  xy: 72, 18
+  size: 68, 80
+  orig: 68, 80
+  offset: 0, 0
+  index: -1
+boom3
+  rotate: false
+  xy: 142, 18
+  size: 68, 80
+  orig: 68, 80
+  offset: 0, 0
+  index: -1
+tielian
+  rotate: true
+  xy: 2, 2
+  size: 14, 89
+  orig: 14, 89
+  offset: 0, 0
+  index: -1

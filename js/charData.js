@@ -1,4 +1,9 @@
-var charData = {
+﻿var charData = {
+	"I-25": "I25",
+	"I-56": "I56",
+	"I-168": "I168",
+	"U-101": "U101",
+	"U-522": "U522",
 	"Le Malin": "edu",
 	"Le Malin_2": "edu_2",
 	"L'Opiniâtre": "juejiang",
