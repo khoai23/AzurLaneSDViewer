@@ -1,5 +1,4 @@
 var backgroundData = [
-	"blue.png",
 	"diban4.png",
 	"dibanap.png",
 	"dibanbsm.png",
@@ -38,7 +37,8 @@ var backgroundData = [
 	"dibanzo.png",
 	"floor_4.png",
 	"gerdiban.png",
-	"green.png",
 	"podiban.png",
 	"tatami.png",
+	"zblue.png",
+	"zgreen.png",
 ];
