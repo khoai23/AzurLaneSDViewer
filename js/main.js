@@ -25,7 +25,7 @@ var viewer = {
             viewer.changeAnimation(this.selectedIndex);
         });
 
-        viewer.app = new PIXI.Application(712, 512, { backgroundColor: 0x1099bb });
+        viewer.app = new PIXI.Application(712, 512, { transparent: true });
         viewer.canvas.html(viewer.app.view);
     },
     changeCanvas : function(skeletonData) {
@@ -47,3 +47,30 @@ var viewer = {
         viewer.spine.state.setAnimation(0, name, true);
     }
 };
+
+function onSelectBG(){
+    var div = document.createElement('div');
+    div.className = "darken";
+    div.id = "darken";
+    document.body.appendChild(div);
+    document.body.style.overflow = "hidden";
+    var selector = document.createElement('div');
+    selector.id = "selector";
+    selector.className = "selector";
+    document.body.appendChild(selector);
+    for (var i = 0; i < backgroundData.length; i++){
+        var img = document.createElement('div');
+        img.className = "thumbbutton";
+        img.style.backgroundImage = "url(../assets/bg/"+backgroundData[i]+")";
+        img.style.backgroundSize = "500px auto";
+        img.style.backgroundPosition = "50% 50%";
+        img.id = backgroundData[i];
+        img.addEventListener("click", function(e) {
+            document.getElementById("SdCanvas").style.backgroundImage = "url(../assets/bg/"+this.id+")";
+            document.body.removeChild(document.getElementById("selector"));
+            document.body.removeChild(document.getElementById("darken"));
+            document.body.style.overflow = "auto";
+        }, false);
+        document.getElementById("selector").appendChild(img);
+    }
+}

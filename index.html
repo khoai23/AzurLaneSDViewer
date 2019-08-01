@@ -3,28 +3,99 @@
     <head>
         <meta charset="UTF-8">
         <title>Azur Lane SD</title>
+        <style>
+            .divCanvas {
+                height: 512px; 
+                width: 712px;  
+                background-image: url(../assets/bg/dibancj.png); 
+                background-position: 50% 50%;
+                display: inline-block;
+            }
+            .selectStyle {
+                background-color: #24252d;
+                color: #ffffff;
+
+            }
+            .btnGenericText {
+                white-space: nowrap;
+                height: 30px;
+                text-align: center;
+                vertical-align: middle;
+                display: table-cell;
+                background-color: #24252d;
+                border-style: solid;
+                border-color: #5c5d70;
+                border-width: 1px;
+                cursor: pointer;
+                padding: 0px 7px 0px 7px;
+                font-size: 14px;
+                color: white;
+            }
+            .btnGenericText:hover {
+                box-shadow: 0px 0px 10px white;
+            }
+            .btnGenericText:active {
+                box-shadow: 1px 1px 4px white, -1px 1px 4px white, 1px -1px 4px white, -1px -1px 4px white;
+            }
+            .darken {
+                height: 100%;
+                width: 100%;
+                background-color: rgba(0, 0, 0, 0.5);
+                position: absolute;
+                top: 0px;
+                left: 0px;
+            }
+            .selector {
+                width: 80%;
+                height: 90%;
+                position: absolute;
+                top: 5%;
+                left: 10%;
+                background-color: #5c5d70;
+                overflow-y: scroll;
+                padding: 10px;
+                border-radius: 3px;
+            }
+            .thumbbutton {
+                cursor: pointer;
+                height: 90px;
+                width: 90px;
+                display: inline-block;
+                margin-top: 20px;
+                margin-left: 20px;
+                border-radius: 3px;
+            }
+
+        </style>
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     </head>
 
 
-    <body>
+    <body style="background-color: #494a5a; color: white;">
         <div class="container">
-            <header>
+            <div align="center">
                 <h1>Azur Lane SD Viewer</h1>
-            </header>
+            </div>
             <nav class="clearfix">
-                <div class="left">
-                    <div class="form-group">
-                        <label>Character:</label>
-                        <select class="selectCharacter form-control"></select>
+                <div align="center">
+                    <div class="form-group" style="width: 40%; display: inline-block;">
+                        <label><b>Character</b></label>
+                        <select class="selectCharacter form-control" style="background-color: #24252d; color: #ffffff;"></select>
                     </div>
-                    <div class="form-group">
-                        <label>Animation:</label>
-                        <select class="selectAnimation form-control"></select>
+                    <div class="form-group" style="width: 40%; display: inline-block;">
+                        <label><b>Animation</b></label>
+                        <select class="selectAnimation form-control" style="background-color: #24252d; color: #ffffff;"></select>
                     </div>
                 </div>
-                <div class="Canvas left"></div>
+                <div align="center" style="margin-bottom: 15px;">
+                    <div class="btnGenericText" onclick="onSelectBG()">
+                        Change Background
+                    </div>
+                </div>
+                <div align="center">
+                    <div class="Canvas divCanvas" id="SdCanvas"></div>
+                </div>
             </nav>
         </div>
 
@@ -37,5 +108,6 @@
         <script src="js/sd.js"></script>
         <script src="js/charData.js"></script>
         <script src="js/main.js"></script>
+        <script src="js/backgroundData.js"></script>
 
 </html>
