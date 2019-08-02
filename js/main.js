@@ -52,11 +52,13 @@ function onSelectBG(){
     var div = document.createElement('div');
     div.className = "darken";
     div.id = "darken";
+    div.style.top = window.pageYOffset + "px";
     document.body.appendChild(div);
     document.body.style.overflow = "hidden";
     var selector = document.createElement('div');
     selector.id = "selector";
     selector.className = "selector";
+    selector.style.top = (window.pageYOffset + (window.innerHeight * 0.05)) + "px" ;
     document.body.appendChild(selector);
     for (var i = 0; i < backgroundData.length; i++){
         var img = document.createElement('div');
