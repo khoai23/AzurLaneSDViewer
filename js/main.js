@@ -27,6 +27,12 @@ var viewer = {
 
         viewer.app = new PIXI.Application(712, 512, { transparent: true });
         viewer.canvas.html(viewer.app.view);
+
+        window.onresize = (event) => {
+            if (event === void 0) { event = null; }
+            document.getElementById("darken").top = window.pageYOffset + "px";
+            document.getElementById("selector").top = (window.pageYOffset + (window.innerHeight * 0.05)) + "px";
+        };
     },
     changeCanvas : function(skeletonData) {
         viewer.app.stage.removeChildren();
