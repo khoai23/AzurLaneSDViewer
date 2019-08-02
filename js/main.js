@@ -61,6 +61,11 @@ function onSelectBG(){
     div.className = "darken";
     div.id = "darken";
     div.style.top = window.pageYOffset + "px";
+    div.addEventListener("click", function(e) {
+            document.body.removeChild(document.getElementById("selector"));
+            document.body.removeChild(document.getElementById("darken"));
+            document.body.style.overflow = "auto";
+        }, false);
     document.body.appendChild(div);
     document.body.style.overflow = "hidden";
     var selector = document.createElement('div');
