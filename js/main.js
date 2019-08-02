@@ -30,8 +30,10 @@ var viewer = {
 
         window.onresize = (event) => {
             if (event === void 0) { event = null; }
-            document.getElementById("darken").top = window.pageYOffset + "px";
-            document.getElementById("selector").top = (window.pageYOffset + (window.innerHeight * 0.05)) + "px";
+            if (document.getElementById("darken") != null){
+                document.getElementById("darken").top = window.pageYOffset + "px";
+                document.getElementById("selector").top = (window.pageYOffset + (window.innerHeight * 0.05)) + "px";
+            }
         };
     },
     changeCanvas : function(skeletonData) {
