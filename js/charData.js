@@ -1,4 +1,5 @@
 ﻿var charData = {
+    "Cleveland_4": "kelifulan_4",
     "Saratoga_5": "salatuojia_5",    
 	"Aylwin": "aierwen",
 	"Aylwin_2": "aierwen_2",
