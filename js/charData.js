@@ -387,7 +387,7 @@ var charData = {
 		"name" : "Colorado",
 		"type" : "Battleship",
 		"group" : "Eagle Union",
-		"skin" : ["keluoladuo",]
+		"skin" : ["keluoladuo","keluoladuo_2",]
 	},
 	"columbia" : {
 		"name" : "Columbia",
@@ -1251,7 +1251,7 @@ var charData = {
 		"name" : "Maryland",
 		"type" : "Battleship",
 		"group" : "Eagle Union",
-		"skin" : ["malilan",]
+		"skin" : ["malilan","malilan_2",]
 	},
 	"massachusetts" : {
 		"name" : "Massachusetts",
@@ -1625,6 +1625,12 @@ var charData = {
 		"group" : "Eagle Union",
 		"skin" : ["shengdiyage","shengdiyage_2","shengdiyage_g",]
 	},
+    "san_francisco" : {
+        "name" : "San Francisco",
+        "type" : "Heavy Cruiser",
+        "group" : "Eagle Union",
+        "skin" : ["aidahe",]
+    },
 	"san_juan" : {
 		"name" : "San Juan",
 		"type" : "Light Cruiser",
@@ -1977,7 +1983,7 @@ var charData = {
 		"name" : "West Virginia",
 		"type" : "Battleship",
 		"group" : "Eagle Union",
-		"skin" : ["xifujiniya",]
+		"skin" : ["xifujiniya","xifujiniya_2",]
 	},
 	"wichita" : {
 		"name" : "Wichita",
@@ -2175,7 +2181,8 @@ var charData = {
         "name" : "Enemy Ship",
         "type" : "Miscellaneous",
         "group" : "Miscellaneous",
-        "skin" : ["bailudanchuan",
+        "skin" : ["eidsvold",
+            "bailudanchuan",
             "Ztingdanchuan",
             "biruiwudaodanchuan1",
             "changliangdanchuan",
@@ -2259,6 +2266,20 @@ var charData = {
             "zhongguojie",
             "1zhounianwutaiB",
             "1zhounianwutaiT",
-            "shuilei4",]
+            "shuilei4",
+            "gin_skill",
+            "kin_skill",
+            "NekoBox1",
+            "NekoBox2",
+            "NekoBox3",
+            "NekoBox4",
+            "SRNekoBox1",
+            "SRNekoBox2",
+            "SRNekoBox3",
+            "SRNekoBox4",
+            "SSRNekoBox1",
+            "SSRNekoBox2",
+            "SSRNekoBox3",
+            "SSRNekoBox4",]
     }
 };
