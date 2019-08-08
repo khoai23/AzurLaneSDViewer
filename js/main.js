@@ -168,7 +168,7 @@ function check(){
     for (var x in charData) {
         for (var i in charData[x].skin){
             $.ajax({
-                url:'../assets/qicon/'+charData[x].skin[i]+'.png',
+                url:'../assets/'+charData[x].skin[i]+'.png',
                 type:'HEAD',
                 error: function()
                 {
