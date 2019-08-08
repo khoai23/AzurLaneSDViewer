@@ -164,11 +164,11 @@ function onSelectBG(){
     }
 }
 
-function check(a){
+function check(a, b){
     for (var x in charData) {
         for (var i in charData[x].skin){
             $.ajax({
-                url:'../'+a+charData[x].skin[i]+'.png',
+                url:'../'+a+charData[x].skin[i]+b,
                 type:'HEAD',
                 error: function()
                 {
