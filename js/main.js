@@ -163,3 +163,22 @@ function onSelectBG(){
         document.getElementById("selector").appendChild(img);
     }
 }
+
+function check(){
+    for (var x in charData) {
+        for (var i in charData[x].skin){
+            $.ajax({
+                url:'../assets/qicon/'+charData[x].skin[i]+'.png',
+                type:'HEAD',
+                error: function()
+                {
+                    console.log(charData[x].skin[i]);
+                },
+                success: function()
+                {
+                    //file exists
+                }
+            });
+        }
+    }
+}
