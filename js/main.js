@@ -5,6 +5,7 @@ $(document).ready(function(){
 var viewer = {
     init: function() {
         viewer.sd = new SD('assets');
+        viewer.searchResults = charData;
 
         viewer.canvas = $(".Canvas");
         viewer.selectAnimation = $(".selectAnimation");
@@ -22,6 +23,7 @@ var viewer = {
                     $('#selector').remove();
                     $('#darken').remove();
                     $(document.body).css("overflow", "auto");
+                    viewer.searchResults = charData;
                 }))
             .append($("<div></div>")
                 .attr("id","selector")
@@ -36,13 +38,16 @@ var viewer = {
                     .attr("id","searchField")
                     .addClass("form-control")
                     .css({"background-color": "#24252d", "color": "#ffffff", "display" : "inline-block"})
-                    .on("input", function(){
-                        viewer.search();
+                    .on("keyup", function(){
+                        var key = event.keyCode || event.charCode;
+                        viewer.search(null, null, key);
                     })))
             .append($("<div></div>")
                 .attr("id","resultContainer")
                 .addClass("resultContainer"));
-            viewer.loadResults(charData);
+            viewer.loadFilter("type", "#searchType", "#ecd2fc");
+            viewer.loadFilter("group", "#searchGroup", "#ccccff");
+            viewer.loadResults(viewer.searchResults);
         });
 
         viewer.app = new PIXI.Application(712, 512, { transparent: true });
@@ -74,19 +79,29 @@ var viewer = {
         var name = viewer.spine.spineData.animations[num].name;
         viewer.spine.state.setAnimation(0, name, true);
     },
-    search : function(){
-        if ($("#searchField").val() == ""){
-            viewer.loadResults(charData);
-            return;
+    search : function(filter, filterType, key){
+        if (filter != null && filterType != null){
+            var temp = {};
+            for (var value in viewer.searchResults){
+                if (viewer.searchResults[value][filterType] == filter)
+                    temp[value] = viewer.searchResults[value];                
+            }
+            viewer.searchResults = temp;
+        }
+        if (key != null){
+            if (key == 8 || key == 46)
+                viewer.searchResults = charData;
         }
         var data = {};
         var r = new RegExp($("#searchField").val().toLowerCase().trim());
-        for (var value in charData){
-            if (r.test(charData[value].name.toLowerCase())){
-                data[value] = charData[value];
-            }
+        for (var value in viewer.searchResults){
+            if (r.test(viewer.searchResults[value].name.toLowerCase()))
+                data[value] = viewer.searchResults[value];
         }
-        viewer.loadResults(data);
+        viewer.searchResults = data;
+        viewer.loadFilter("type", "#searchType", "#ecd2fc");
+        viewer.loadFilter("group", "#searchGroup", "#ccccff");
+        viewer.loadResults(viewer.searchResults);
     },
     loadResults : function(data){
         $("#resultContainer").empty();
@@ -123,8 +138,33 @@ var viewer = {
                         $('#selector').remove();
                         $('#darken').remove();
                         $(document.body).css("overflow", "auto");
+                        viewer.searchResults = charData;
                     }
                     $("#skinContainer").children(":first").trigger("click");
+                }));
+        }
+    },
+    loadFilter : function (filterType, container, color){
+        if ($(container).length == 0){
+            $("#searchContainer").append($("<div></div>")
+                .attr("id",container.substring(1))
+                .css({"width" : "100%", "margin-top" : "15px"}));
+        }
+        $(container).empty();
+        var words = [];
+        for (var i in viewer.searchResults){
+            words.push(viewer.searchResults[i][filterType]);
+        }
+        var distinct = [];
+        $.each(words, function(i, val){
+            if ($.inArray(val, distinct) === -1) distinct.push(val);
+        });
+        for (var j in distinct){
+            $(container).append($("<div>"+distinct[j]+"</div>")
+                .addClass("btnGenericText")
+                .css({"display" : "inline-block", "margin" : "0px 0px 5px 10px", "color" : color})
+                .click(function(){
+                    viewer.search($(this).html(), filterType);
                 }));
         }
     }
