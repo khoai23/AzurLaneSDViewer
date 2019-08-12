@@ -93,7 +93,6 @@ var viewer = {
         viewer.changeAnimation(0);
         viewer.app.stage.addChild(viewer.spine);
         viewer.spine.position.set(viewer.app.view.width * 0.5 , viewer.app.view.height * 0.8);
-        console.log(viewer.spine.position._x + " : " + viewer.spine.position._y);
     },
     changeAnimation : function(num) {
         var name = viewer.spine.spineData.animations[num].name;
