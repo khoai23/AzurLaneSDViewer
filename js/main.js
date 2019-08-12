@@ -6,6 +6,9 @@ var viewer = {
     init: function() {
         viewer.sd = new SD('assets');
         viewer.searchResults = charData;
+        viewer.mouse = false;
+        viewer.lastMouseX = 0;
+        viewer.lastMouseY = 0;
 
         viewer.canvas = $(".Canvas");
         viewer.selectAnimation = $(".selectAnimation");
@@ -52,6 +55,22 @@ var viewer = {
 
         viewer.app = new PIXI.Application(712, 512, { transparent: true });
         viewer.canvas.html(viewer.app.view);
+        viewer.canvas.mousedown(() => {
+            viewer.mouse = true;
+            viewer.lastMouseX = event.clientX - event.target.getBoundingClientRect().left;
+            viewer.lastMouseY = event.clientY - event.target.getBoundingClientRect().top;
+        });
+        viewer.canvas.mouseup(() => {viewer.mouse = false});
+        viewer.canvas.mousemove((event) => {
+            var sx = event.clientX - event.target.getBoundingClientRect().left;
+            var sy = event.clientY - event.target.getBoundingClientRect().top;
+            if(viewer.mouse){
+                viewer.spine.position.set((sx - viewer.lastMouseX) + viewer.spine.position._x, (sy - viewer.lastMouseY) + viewer.spine.position._y);
+
+                viewer.lastMouseX = sx;
+                viewer.lastMouseY = sy;
+            }
+        });
 
         window.onresize = (event) => {
             if (event === void 0) { event = null; }
@@ -74,6 +93,7 @@ var viewer = {
         viewer.changeAnimation(0);
         viewer.app.stage.addChild(viewer.spine);
         viewer.spine.position.set(viewer.app.view.width * 0.5 , viewer.app.view.height * 0.8);
+        console.log(viewer.spine.position._x + " : " + viewer.spine.position._y);
     },
     changeAnimation : function(num) {
         var name = viewer.spine.spineData.animations[num].name;
