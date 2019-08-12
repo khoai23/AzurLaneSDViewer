@@ -52,16 +52,20 @@ var viewer = {
             viewer.loadFilter("group", "#searchGroup", "#ccccff");
             viewer.loadResults(viewer.searchResults);
         });
+        $(".vertical-descending").on("input", () => {
+            if (viewer.spine != null)
+                viewer.spine.scale.set($(".vertical-descending").val(), $(".vertical-descending").val());
+        })
 
         viewer.app = new PIXI.Application(712, 512, { transparent: true });
-        viewer.canvas.html(viewer.app.view);
-        viewer.canvas.mousedown(() => {
+        viewer.canvas.append($(viewer.app.view));
+        $(viewer.app.view).mousedown(() => {
             viewer.mouse = true;
             viewer.lastMouseX = event.clientX - event.target.getBoundingClientRect().left;
             viewer.lastMouseY = event.clientY - event.target.getBoundingClientRect().top;
         });
-        viewer.canvas.mouseup(() => {viewer.mouse = false});
-        viewer.canvas.mousemove((event) => {
+        $(viewer.app.view).mouseup(() => {viewer.mouse = false});
+        $(viewer.app.view).mousemove((event) => {
             var sx = event.clientX - event.target.getBoundingClientRect().left;
             var sy = event.clientY - event.target.getBoundingClientRect().top;
             if(viewer.mouse){
