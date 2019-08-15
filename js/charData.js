@@ -459,7 +459,7 @@ var charData = {
 		"name" : "Dewey",
 		"type" : "Destroyer",
 		"group" : "Eagle Union",
-		"skin" : ["duwei",]
+		"skin" : ["duwei","duwei_2"]
 	},
 	"dorsetshire" : {
 		"name" : "Dorsetshire",
@@ -615,13 +615,13 @@ var charData = {
 		"name" : "Gascogne",
 		"type" : "Battleship",
 		"group" : "Vichya Dominion",
-		"skin" : ["jiasikenie",]
+		"skin" : ["jiasikenie","jiasikenie_2",]
 	},
 	"georgia" : {
 		"name" : "Georgia",
 		"type" : "Battleship",
 		"group" : "Eagle Union",
-		"skin" : ["zuozhiya","zuozhiya_2",]
+		"skin" : ["zuozhiya","zuozhiya_2","zuozhiya_4",]
 	},
 	"glorious" : {
 		"name" : "Glorious",
@@ -1767,7 +1767,7 @@ var charData = {
 		"name" : "Sussex",
 		"type" : "Heavy Cruiser",
 		"group" : "Royal Navy",
-		"skin" : ["susaikesi",]
+		"skin" : ["susaikesi","susaikesi_2",]
 	},
 	"suzuya" : {
 		"name" : "Suzuya",

@@ -30,6 +30,7 @@ var backgroundData = [
 	"dibanxd.png",
 	"dibanxg.png",
 	"dibany.png",
+	"dibanyg.png",
 	"dibanyl.png",
 	"dibanyy.png",
 	"dibanyz.png",
