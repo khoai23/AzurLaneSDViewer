@@ -999,7 +999,7 @@ var charData = {
 		"name" : "Juno",
 		"type" : "Destroyer",
 		"group" : "Royal Navy",
-		"skin" : ["tianhou","tianhou_2",]
+		"skin" : ["tianhou",]
 	},
 	"junyou" : {
 		"name" : "Jun'you",
