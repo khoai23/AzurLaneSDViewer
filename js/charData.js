@@ -513,7 +513,7 @@ var charData = {
 		"name" : "Enterprise",
 		"type" : "Aircraft Carrier",
 		"group" : "Eagle Union",
-		"skin" : ["qiye","qiye_2","qiye_3","qiye_h","qiye_dark",]
+		"skin" : ["qiye","qiye_2","qiye_3","qiye_4","qiye_h","qiye_dark",]
 	},
 	"erebus" : {
 		"name" : "Erebus",
