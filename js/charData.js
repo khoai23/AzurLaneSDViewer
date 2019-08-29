@@ -209,6 +209,12 @@ var charData = {
 		"group" : "Sakura Empire",
 		"skin" : ["wuqi",]
 	},
+	"bache" : {
+		"name" : "Bache",
+		"type" : "Destroyer",
+		"group" : "Eagle Union",
+		"skin" : ["beiqi",]
+	},
 	"bailey" : {
 		"name" : "Bailey",
 		"type" : "Destroyer",
@@ -274,6 +280,12 @@ var charData = {
 		"type" : "Battleship",
 		"group" : "Ironblood",
 		"skin" : ["bisimai","bisimai_2",]
+	},
+	"black_prince" : {
+		"name" : "Black Prince",
+		"type" : "Light Cruiser",
+		"group" : "Royal Navy",
+		"skin" : ["heitaizi",]
 	},
 	"bogue" : {
 		"name" : "Bogue",
@@ -807,7 +819,7 @@ var charData = {
 		"name" : "Honolulu",
 		"type" : "Light Cruiser",
 		"group" : "Eagle Union",
-		"skin" : ["huonululu","huonululu_2","huonululu_3","huonululu_4",]
+		"skin" : ["huonululu","huonululu_2","huonululu_3","huonululu_4","huonululu_5",]
 	},
 	"hood" : {
 		"name" : "Hood",
@@ -873,7 +885,7 @@ var charData = {
 		"name" : "I26",
 		"type" : "Submarine",
 		"group" : "Sakura Empire",
-		"skin" : ["i26","i26_2",]
+		"skin" : ["i26","i26_2","i26_3",]
 	},
 	"i56" : {
 		"name" : "I56",
@@ -903,7 +915,7 @@ var charData = {
 		"name" : "Ikazuchi",
 		"type" : "Destroyer",
 		"group" : "Sakura Empire",
-		"skin" : ["lei","lei_2",]
+		"skin" : ["lei","lei_2","lei_3",]
 	},
 	"illustrious" : {
 		"name" : "Illustrious",
@@ -915,7 +927,7 @@ var charData = {
 		"name" : "Inazuma",
 		"type" : "Destroyer",
 		"group" : "Sakura Empire",
-		"skin" : ["dian","dian_2",]
+		"skin" : ["dian","dian_2","dian_3",]
 	},
 	"independence" : {
 		"name" : "Independence",
@@ -1101,7 +1113,13 @@ var charData = {
 		"name" : "Kitakaze",
 		"type" : "Destroyer",
 		"group" : "Sakura Empire",
-		"skin" : ["beifeng",]
+		"skin" : ["beifeng","beifeng_2",]
+	},
+	"kiyonami" : {
+		"name" : "Kiyonami",
+		"type" : "Destroyer",
+		"group" : "Sakura Empire",
+		"skin" : ["qingbo",]
 	},
 	"kizuna_ai" : {
 		"name" : "KizunaAI",
@@ -1371,7 +1389,7 @@ var charData = {
 		"name" : "Mutsuki",
 		"type" : "Destroyer",
 		"group" : "Sakura Empire",
-		"skin" : ["muyue","muyue_2","muyue_g",]
+		"skin" : ["muyue","muyue_2","muyue_3","muyue_g",]
 	},
 	"myoukou" : {
 		"name" : "Myoukou",
@@ -1671,7 +1689,7 @@ var charData = {
 		"name" : "Sheffield",
 		"type" : "Light Cruiser",
 		"group" : "Royal Navy",
-		"skin" : ["xiefeierde","xiefeierde_2",]
+		"skin" : ["xiefeierde","xiefeierde_2","xiefeierde_3",]
 	},
 	"shigure" : {
 		"name" : "Shigure",
@@ -1935,7 +1953,7 @@ var charData = {
 		"name" : "Vampire",
 		"type" : "Destroyer",
 		"group" : "Royal Navy",
-		"skin" : ["xixuegui","xixuegui_2","xixuegui_3","xixuegui_h",]
+		"skin" : ["xixuegui","xixuegui_2","xixuegui_3","xixuegui_4","xixuegui_h",]
 	},
 	"vestal" : {
 		"name" : "Vestal",
@@ -2121,7 +2139,7 @@ var charData = {
 		"name" : "Zuikaku",
 		"type" : "Aircraft Carrier",
 		"group" : "Sakura Empire",
-		"skin" : ["ruihe",]
+		"skin" : ["ruihe","ruihe_2",]
 	},
 	"siren_tester" : {
 		"name" : "Tester",
