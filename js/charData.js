@@ -285,7 +285,7 @@ var charData = {
 		"name" : "Black Prince",
 		"type" : "Light Cruiser",
 		"group" : "Royal Navy",
-		"skin" : ["heitaizi",]
+		"skin" : ["heitaizi","heitaizi_2",]
 	},
 	"bogue" : {
 		"name" : "Bogue",
@@ -1101,7 +1101,7 @@ var charData = {
 		"name" : "Kirishima",
 		"type" : "Battlecruiser",
 		"group" : "Sakura Empire",
-		"skin" : ["wudao","wudao_2",]
+		"skin" : ["wudao","wudao_2","wudao_3",]
 	},
 	"kisaragi" : {
 		"name" : "Kisaragi",
@@ -1768,6 +1768,12 @@ var charData = {
 		"type" : "Light Cruiser",
 		"group" : "Eagle Union",
 		"skin" : ["shengluyisi","shengluyisi_2","shengluyisi_3",]
+	},
+	"stanly" : {
+		"name" : "Stanly",
+		"type" : "Destroyer",
+		"group" : "Eagle Union",
+		"skin" : ["sitanli",]
 	},
 	"suffolk" : {
 		"name" : "Suffolk",
