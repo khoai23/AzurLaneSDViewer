@@ -1,0 +1,48 @@
+
+zhaladanchuan.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 2, 74
+  size: 448, 274
+  orig: 448, 274
+  offset: 0, 0
+  index: -1
+weapon1
+  rotate: false
+  xy: 2, 2
+  size: 68, 70
+  orig: 68, 70
+  offset: 0, 0
+  index: -1
+weapon2
+  rotate: false
+  xy: 903, 297
+  size: 59, 51
+  orig: 59, 51
+  offset: 0, 0
+  index: -1
+zx01
+  rotate: false
+  xy: 452, 174
+  size: 449, 86
+  orig: 449, 86
+  offset: 0, 0
+  index: -1
+zx02
+  rotate: false
+  xy: 452, 86
+  size: 449, 86
+  orig: 449, 86
+  offset: 0, 0
+  index: -1
+zx03
+  rotate: false
+  xy: 452, 262
+  size: 449, 86
+  orig: 449, 86
+  offset: 0, 0
+  index: -1

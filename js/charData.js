@@ -335,6 +335,12 @@ var charData = {
 		"group" : "Eagle Union",
 		"skin" : ["jialifuniya",]
 	},
+	"carabiniere" : {
+		"name" : "Carabiniere",
+		"type" : "Destroyer",
+		"group" : "Sardegna Empire",
+		"skin" : ["longqibing","longqibing_2",]
+	},
 	"cassin" : {
 		"name" : "Cassin",
 		"type" : "Destroyer",
@@ -418,6 +424,12 @@ var charData = {
 		"type" : "Light Cruiser",
 		"group" : "Eagle Union",
 		"skin" : ["kangkede","kangkede_2",]
+	},
+	"conte_di_cavour" : {
+		"name" : "Conte di Cavour",
+		"type" : "Battleship",
+		"group" : "Sardegna Empire",
+		"skin" : ["jiafuerbojue",]
 	},
 	"craven" : {
 		"name" : "Craven",
@@ -587,6 +599,12 @@ var charData = {
 		"group" : "Ironblood",
 		"skin" : ["feiteliedadi",]
 	},
+	"formidable" : {
+		"name" : "Formidable",
+		"type" : "Aircraft Carrier",
+		"group" : "Royal Navy",
+		"skin" : ["kewei","kewei_2",]
+	},
 	"fubuki" : {
 		"name" : "Fubuki",
 		"type" : "Destroyer",
@@ -634,6 +652,12 @@ var charData = {
 		"type" : "Battleship",
 		"group" : "Eagle Union",
 		"skin" : ["zuozhiya","zuozhiya_2","zuozhiya_4",]
+	},
+	"giulio_cesare" : {
+		"name" : "Giulio Cesare",
+		"type" : "Battleship",
+		"group" : "Sardegna Empire",
+		"skin" : ["kaisa","kaisa_2",]
 	},
 	"glorious" : {
 		"name" : "Glorious",
@@ -1241,6 +1265,12 @@ var charData = {
 		"group" : "Eagle Union",
 		"skin" : ["shengdiyage_younv",]
 	},
+	"littorio" : {
+		"name" : "Littorio",
+		"type" : "Battleship",
+		"group" : "Sardegna Empire",
+		"skin" : ["lituoliao","lituoliao_2",]
+	},
 	"london" : {
 		"name" : "London",
 		"type" : "Heavy Cruiser",
@@ -1541,6 +1571,12 @@ var charData = {
 		"group" : "Dragon Empire",
 		"skin" : ["pinghai","pinghai_2","pinghai_3","pinghai_g",]
 	},
+	"pola" : {
+		"name" : "Pola",
+		"type" : "Heavy Cruiser",
+		"group" : "Sardegna Empire",
+		"skin" : ["bola",]
+	},
 	"portland" : {
 		"name" : "Portland",
 		"type" : "Heavy Cruiser",
@@ -1701,7 +1737,7 @@ var charData = {
 		"name" : "Shiranui",
 		"type" : "Destroyer",
 		"group" : "Sakura Empire",
-		"skin" : ["buzhihuo","buzhihuo_g",]
+		"skin" : ["buzhihuo","buzhihuo_g","buzhihuo_2",]
 	},
 	"shiratsuyu" : {
 		"name" : "Shiratsuyu",
@@ -1852,6 +1888,12 @@ var charData = {
 		"type" : "Battleship",
 		"group" : "Ironblood",
 		"skin" : ["tierbici","tierbici_2",]
+	},
+	"trento" : {
+		"name" : "Trento",
+		"type" : "Heavy Cruiser",
+		"group" : "Sardegna Empire",
+		"skin" : ["teluntuo","teluntuo_2",]
 	},
 	"tone" : {
 		"name" : "Tone",
@@ -2134,6 +2176,12 @@ var charData = {
 		"type" : "Destroyer",
 		"group" : "Ironblood",
 		"skin" : ["z46","z46_2",]
+	},
+	"zara" : {
+		"name" : "Zara",
+		"type" : "Heavy Cruiser",
+		"group" : "Sardegna Empire",
+		"skin" : ["zhala","zhala_2",]
 	},
 	"zeppelinchan" : {
 		"name" : "Zeppelin-chan",
