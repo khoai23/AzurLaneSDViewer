@@ -2021,6 +2021,12 @@ var charData = {
 		"group" : "Eagle Union",
 		"skin" : ["wensensi","wensensi_3","wensensi_2",]
 	},
+	"vittorio_veneto" : {
+		"name" : "Vittorio Veneto",
+		"type" : "Battleship",
+		"group" : "Sardegna Empire",
+		"skin" : ["weineituo",]
+	},
 	"wakaba" : {
 		"name" : "Wakaba",
 		"type" : "Destroyer",
@@ -2285,7 +2291,10 @@ var charData = {
             "fusangdanchuan_kizuna",
             "miaogaodanchuan_kizuna",
             "yangyandanchuan_kizuna",
-            "zibao_kizuna",]
+            "zibao_kizuna",
+            "feichuan",
+            "zhaladanchuan",
+            "zhusannuodanchuan",]
     },
     "miscellaneous" : {
         "name" : "Miscellaneous",
