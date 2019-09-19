@@ -1,5 +1,4 @@
 var backgroundData = [
-	"dibanydl.png",
 	"diban4.png",
 	"dibanap.png",
 	"dibanbsm.png",
@@ -13,6 +12,7 @@ var backgroundData = [
 	"dibancs2.png",
 	"dibancy.png",
 	"diband.png",
+	"dibandh.png",
 	"dibanhl.png",
 	"dibanhl2.png",
 	"dibanhy.png",
@@ -31,6 +31,7 @@ var backgroundData = [
 	"dibanxd.png",
 	"dibanxg.png",
 	"dibany.png",
+	"dibanydl.png",
 	"dibanyg.png",
 	"dibanyl.png",
 	"dibanyy.png",
