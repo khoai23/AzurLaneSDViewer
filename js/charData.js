@@ -69,7 +69,7 @@ var charData = {
 		"name" : "Akatsuki",
 		"type" : "Destroyer",
 		"group" : "Sakura Empire",
-		"skin" : ["xiao","xiao_2",]
+		"skin" : ["xiao","xiao_2","xiao_3",]
 	},
 	"alabama" : {
 		"name" : "Alabama",
@@ -213,7 +213,7 @@ var charData = {
 		"name" : "Bache",
 		"type" : "Destroyer",
 		"group" : "Eagle Union",
-		"skin" : ["beiqi",]
+		"skin" : ["beiqi","beiqi_2",]
 	},
 	"bailey" : {
 		"name" : "Bailey",
@@ -549,7 +549,7 @@ var charData = {
 		"name" : "Essex",
 		"type" : "Aircraft Carrier",
 		"group" : "Eagle Union",
-		"skin" : ["aisaikesi",]
+		"skin" : ["aisaikesi","aisaikesi_2","aisaikesi_3",]
 	},
 	"exeter" : {
 		"name" : "Exeter",
@@ -993,7 +993,7 @@ var charData = {
 		"name" : "Jamaica",
 		"type" : "Light Cruiser",
 		"group" : "Royal Navy",
-		"skin" : ["yamaijia","yamaijia_2",]
+		"skin" : ["yamaijia","yamaijia_2","yamaijia_3",]
 	},
 	"javelin" : {
 		"name" : "Javelin",
@@ -1047,7 +1047,7 @@ var charData = {
 		"name" : "Jupiter",
 		"type" : "Destroyer",
 		"group" : "Royal Navy",
-		"skin" : ["qiubite",]
+		"skin" : ["qiubite","qiubite_2",]
 	},
 	"kaga" : {
 		"name" : "Kaga",
@@ -1731,7 +1731,7 @@ var charData = {
 		"name" : "Shigure",
 		"type" : "Destroyer",
 		"group" : "Sakura Empire",
-		"skin" : ["shiyu","shiyu_2","shiyu_3",]
+		"skin" : ["shiyu","shiyu_2","shiyu_3","shiyu_g",]
 	},
 	"shiranui" : {
 		"name" : "Shiranui",
@@ -1821,7 +1821,13 @@ var charData = {
 		"name" : "Surcouf",
 		"type" : "Submarine",
 		"group" : "Iris Libre",
-		"skin" : ["xukufu",]
+		"skin" : ["xukufu","xukufu_2",]
+	},
+	"suruga" : {
+		"name" : "Suruga",
+		"type" : "Battleship",
+		"group" : "Sakura Empire",
+		"skin" : ["junhe",]
 	},
 	"sussex" : {
 		"name" : "Sussex",
@@ -2115,7 +2121,7 @@ var charData = {
 		"name" : "Yuugure",
 		"type" : "Destroyer",
 		"group" : "Sakura Empire",
-		"skin" : ["ximu","ximu_2","ximu_3","ximu_4",]
+		"skin" : ["ximu","ximu_2","ximu_3","ximu_4","ximu_g",]
 	},
 	"z1" : {
 		"name" : "Z1 (Leberecht Maass)",
@@ -2300,7 +2306,8 @@ var charData = {
         "name" : "Miscellaneous",
         "type" : "Miscellaneous",
         "group" : "Miscellaneous",
-        "skin" : ["anniupaodan",
+        "skin" : ["ai_manjuuu",
+        	"anniupaodan",
             "biandangpaodan",
             "bianpaojiu",
             "boom1",
@@ -2361,6 +2368,7 @@ var charData = {
             "SSRNekoBox1",
             "SSRNekoBox2",
             "SSRNekoBox3",
-            "SSRNekoBox4",]
+            "SSRNekoBox4",
+            "jicheT",]
     }
 };
