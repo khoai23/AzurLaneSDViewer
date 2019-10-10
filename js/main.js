@@ -82,7 +82,15 @@ var viewer = {
                 document.getElementById("darken").top = window.pageYOffset + "px";
                 document.getElementById("selector").top = (window.pageYOffset + (window.innerHeight * 0.05)) + "px";
             }
+            var height = Math.max( document.body.scrollHeight, document.body.offsetHeight, 
+                               document.documentElement.clientHeight, document.documentElement.scrollHeight, document.documentElement.offsetHeight );   
+            $("#footer").css("top",height - $("#footer").height() - 20);
         };
+        window.onload = (event) => {
+            var height = Math.max( document.body.scrollHeight, document.body.offsetHeight, 
+                               document.documentElement.clientHeight, document.documentElement.scrollHeight, document.documentElement.offsetHeight );   
+            $("#footer").css("top",height - $("#footer").height() - 20);
+        }
     },
     changeCanvas : function(skeletonData) {
         viewer.app.stage.removeChildren();
