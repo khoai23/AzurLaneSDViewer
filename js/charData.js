@@ -2073,7 +2073,7 @@ var charData = {
 		"name" : "Yamashiro",
 		"type" : "Battleship",
 		"group" : "Sakura Empire",
-		"skin" : ["shancheng","shancheng_2","shancheng_3","shancheng_4","shancheng_7","shancheng_h","shancheng_g",]
+		"skin" : ["shancheng","shancheng_2","shancheng_3","shancheng_4","shancheng_6","shancheng_7","shancheng_h","shancheng_g",]
 	},
 	"yat_sen" : {
 		"name" : "Yat Sen",
@@ -2091,7 +2091,7 @@ var charData = {
 		"name" : "York",
 		"type" : "Heavy Cruiser",
 		"group" : "Royal Navy",
-		"skin" : ["yueke","yueke_g",]
+		"skin" : ["yueke","yueke_2","yueke_g",]
 	},
 	"yorktown" : {
 		"name" : "Yorktown",
