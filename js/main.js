@@ -86,11 +86,11 @@ var viewer = {
                                document.documentElement.clientHeight, document.documentElement.scrollHeight, document.documentElement.offsetHeight );   
             $("#footer").css("top",height - $("#footer").height() - 20);
         };
-        window.onload = (event) => {
+        $(document).ready(() => {
             var height = Math.max( document.body.scrollHeight, document.body.offsetHeight, 
                                document.documentElement.clientHeight, document.documentElement.scrollHeight, document.documentElement.offsetHeight );   
             $("#footer").css("top",height - $("#footer").height() - 20);
-        }
+        });
     },
     changeCanvas : function(skeletonData) {
         viewer.app.stage.removeChildren();
