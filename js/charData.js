@@ -1917,7 +1917,7 @@ var charData = {
 		"name" : "U-110",
 		"type" : "Submarine",
 		"group" : "Ironblood",
-		"skin" : ["U110","u110_2",]
+		"skin" : ["U110","U110_2",]
 	},
 	"u47" : {
 		"name" : "U-47",
