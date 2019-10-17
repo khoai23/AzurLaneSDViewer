@@ -1913,6 +1913,12 @@ var charData = {
 		"group" : "Ironblood",
 		"skin" : ["U101","u101_2",]
 	},
+	"u110" : {
+		"name" : "U-110",
+		"type" : "Submarine",
+		"group" : "Ironblood",
+		"skin" : ["U110","u110_2",]
+	},
 	"u47" : {
 		"name" : "U-47",
 		"type" : "Submarine",
