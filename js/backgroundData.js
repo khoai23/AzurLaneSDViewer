@@ -1,4 +1,5 @@
 var backgroundData = [
+	"dibanhl3.png",
 	"diban4.png",
 	"dibanap.png",
 	"dibanbsm.png",

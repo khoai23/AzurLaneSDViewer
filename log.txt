@@ -1,13 +1,7 @@
  
 {"result":{"id":"f8e3210ff3a9d59b07a980e0df8779a2"},"success":true,"errors":[],"messages":[]}
- teluntuo_2.png 
+ qingbo.png 
 {"result":{"id":"f8e3210ff3a9d59b07a980e0df8779a2"},"success":true,"errors":[],"messages":[]}
- teluntuo_2.atlas 
+ qingbo.atlas 
 {"result":{"id":"f8e3210ff3a9d59b07a980e0df8779a2"},"success":true,"errors":[],"messages":[]}
- teluntuo_2.skel 
-{"result":{"id":"f8e3210ff3a9d59b07a980e0df8779a2"},"success":true,"errors":[],"messages":[]}
- ximu_4.png 
-{"result":{"id":"f8e3210ff3a9d59b07a980e0df8779a2"},"success":true,"errors":[],"messages":[]}
- ximu_4.atlas 
-{"result":{"id":"f8e3210ff3a9d59b07a980e0df8779a2"},"success":true,"errors":[],"messages":[]}
- ximu_4.skel 
+ qingbo.skel 
