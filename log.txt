@@ -1,7 +1,7 @@
  
 {"result":{"id":"f8e3210ff3a9d59b07a980e0df8779a2"},"success":true,"errors":[],"messages":[]}
- qingbo.png 
+ U110_2.png 
 {"result":{"id":"f8e3210ff3a9d59b07a980e0df8779a2"},"success":true,"errors":[],"messages":[]}
- qingbo.atlas 
+ U110_2.atlas 
 {"result":{"id":"f8e3210ff3a9d59b07a980e0df8779a2"},"success":true,"errors":[],"messages":[]}
- qingbo.skel 
+ U110_2.skel 
