@@ -261,7 +261,7 @@ var charData = {
 		"name" : "Belfast",
 		"type" : "Light Cruiser",
 		"group" : "Royal Navy",
-		"skin" : ["beierfasite","beierfasite_2","beierfasite_3","beierfasite_h",]
+		"skin" : ["beierfasite","beierfasite_2","beierfasite_3","beierfasite_4","beierfasite_h",]
 	},
 	"benson" : {
 		"name" : "Benson",
@@ -682,6 +682,12 @@ var charData = {
 		"type" : "Battleship",
 		"group" : "Sardegna Empire",
 		"skin" : ["kaisa","kaisa_2",]
+	},
+	"glasgow" : {
+		"name" : "Glasgow",
+		"type" : "Light Cruiser",
+		"group" : "Royal Navy",
+		"skin" : ["gelasige",]
 	},
 	"glorious" : {
 		"name" : "Glorious",
