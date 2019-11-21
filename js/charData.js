@@ -687,7 +687,7 @@ var charData = {
 		"name" : "Glasgow",
 		"type" : "Light Cruiser",
 		"group" : "Royal Navy",
-		"skin" : ["gelasige",]
+		"skin" : ["gelasige","gelasige_2",]
 	},
 	"glorious" : {
 		"name" : "Glorious",
