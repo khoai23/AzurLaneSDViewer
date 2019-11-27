@@ -1,0 +1,55 @@
+
+DD_holo.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 622, 143
+  size: 319, 101
+  orig: 319, 101
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 298, 140
+  size: 322, 104
+  orig: 322, 104
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 298, 46
+  size: 319, 92
+  orig: 319, 92
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 81
+  size: 294, 163
+  orig: 294, 163
+  offset: 0, 0
+  index: -1
+weapon
+  rotate: false
+  xy: 943, 215
+  size: 59, 29
+  orig: 59, 29
+  offset: 0, 0
+  index: -1
+wen
+  rotate: false
+  xy: 622, 2
+  size: 267, 139
+  orig: 267, 139
+  offset: 0, 0
+  index: -1
+wen1
+  rotate: false
+  xy: 2, 64
+  size: 29, 15
+  orig: 29, 15
+  offset: 0, 0
+  index: -1

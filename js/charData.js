@@ -555,7 +555,7 @@ var charData = {
 		"name" : "Enterprise",
 		"type" : "Aircraft Carrier",
 		"group" : "Eagle Union",
-		"skin" : ["qiye","qiye_2","qiye_3","qiye_4","qiye_h","qiye_dark",]
+		"skin" : ["qiye","qiye_2","qiye_3","qiye_4","qiye_5","qiye_h","qiye_dark",]
 	},
 	"erebus" : {
 		"name" : "Erebus",
@@ -1397,6 +1397,12 @@ var charData = {
 		"group" : "Sakura Empire",
 		"skin" : ["sanwei",]
 	},
+	"minato_aqua" : {
+		"name" : "Minato Aqua",
+		"type" : "Submarine",
+		"group" : "Hololive",
+		"skin" : ["Vtuber_aqua","Vtuber_aqua_2",]
+	},
 	"minazuki" : {
 		"name" : "Minazuki",
 		"type" : "Destroyer",
@@ -1432,6 +1438,12 @@ var charData = {
 		"type" : "Destroyer",
 		"group" : "Eagle Union",
 		"skin" : ["malani","malani_3",]
+	},
+	"murasaki_shion" : {
+		"name" : "Murasaki Shion",
+		"type" : "Light Aircraft Carrier",
+		"group" : "Hololive",
+		"skin" : ["Vtuber_Shion","Vtuber_Shion_2",]
 	},
 	"musketeer" : {
 		"name" : "Musketeer",
@@ -1486,6 +1498,18 @@ var charData = {
 		"type" : "Light Cruiser",
 		"group" : "Sakura Empire",
 		"skin" : ["nake",]
+	},
+	"nakiri_ayame" : {
+		"name" : "Nakiri Ayame",
+		"type" : "Heavy Cruiser",
+		"group" : "Hololive",
+		"skin" : ["Vtuber_Ayame","Vtuber_Ayame_2",]
+	},
+	"natsuiro_matsuri" : {
+		"name" : "Natsuiro Matsuri",
+		"type" : "Destroyer",
+		"group" : "Hololive",
+		"skin" : ["Vtuber_matsuri","Vtuber_matsuri_2",]
 	},
 	"nelson" : {
 		"name" : "Nelson",
@@ -1564,6 +1588,12 @@ var charData = {
 		"type" : "Light Cruiser",
 		"group" : "Eagle Union",
 		"skin" : ["aomaha",]
+	},
+	"ookami_mio" : {
+		"name" : "Ookami Mio",
+		"type" : "Aircraft Carrier",
+		"group" : "Hololive",
+		"skin" : ["Vtuber_Mio","Vtuber_Mio_2",]
 	},
 	"ooshio" : {
 		"name" : "Ooshio",
@@ -1769,6 +1799,12 @@ var charData = {
 		"group" : "Sakura Empire",
 		"skin" : ["shiyu","shiyu_2","shiyu_3","shiyu_g",]
 	},
+	"shirakami_fubuki" : {
+		"name" : "Shirakami Fubuki",
+		"type" : "Destroyer",
+		"group" : "Hololive",
+		"skin" : ["Vtuber_Fubuki","Vtuber_Fubuki_2",]
+	},
 	"shiranui" : {
 		"name" : "Shiranui",
 		"type" : "Destroyer",
@@ -1942,6 +1978,12 @@ var charData = {
 		"type" : "Heavy Cruiser",
 		"group" : "Sardegna Empire",
 		"skin" : ["teluntuo","teluntuo_2",]
+	},
+	"tokino_sora" : {
+		"name" : "Tokino Sora",
+		"type" : "Aircraft Carrier",
+		"group" : "Hololive",
+		"skin" : ["vtuber_sora","vtuber_sora_2",]
 	},
 	"tone" : {
 		"name" : "Tone",
@@ -2348,7 +2390,14 @@ var charData = {
             "zibao_kizuna",
             "feichuan",
             "zhaladanchuan",
-            "zhusannuodanchuan",]
+            "zhusannuodanchuan",
+            "BB_holo",
+            "CA_holo",
+            "CL_holo",
+            "CV_holo",
+            "DD_holo",
+            "yunshu_holo",
+            "zibao_holo",]
     },
     "miscellaneous" : {
         "name" : "Miscellaneous",
@@ -2418,6 +2467,8 @@ var charData = {
             "SSRNekoBox3",
             "SSRNekoBox4",
             "jicheT",
-            "idolfeiji",]
+            "idolfeiji",
+            "vtuber1",
+            "vtuber2",]
     }
 };
