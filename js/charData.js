@@ -45,7 +45,7 @@ var charData = {
 		"name" : "Agano",
 		"type" : "Light Cruiser",
 		"group" : "Sakura Empire",
-		"skin" : ["aheye",]
+		"skin" : ["aheye","aheye_3",]
 	},
 	"ajax" : {
 		"name" : "Ajax",
@@ -441,7 +441,7 @@ var charData = {
 		"name" : "Concord",
 		"type" : "Light Cruiser",
 		"group" : "Eagle Union",
-		"skin" : ["kangkede","kangkede_2",]
+		"skin" : ["kangkede","kangkede_2","kangkede_3",]
 	},
 	"conte_di_cavour" : {
 		"name" : "Conte di Cavour",
@@ -501,7 +501,7 @@ var charData = {
 		"name" : "Dewey",
 		"type" : "Destroyer",
 		"group" : "Eagle Union",
-		"skin" : ["duwei","duwei_2"]
+		"skin" : ["duwei","duwei_2","duwei_3",]
 	},
 	"dorsetshire" : {
 		"name" : "Dorsetshire",
@@ -1011,7 +1011,7 @@ var charData = {
 		"name" : "Isuzu",
 		"type" : "Light Cruiser",
 		"group" : "Sakura Empire",
-		"skin" : ["wushiling","wushiling_2",]
+		"skin" : ["wushiling","wushiling_2","wushiling_3",]
 	},
 	"izumo" : {
 		"name" : "Izumo",
@@ -1173,7 +1173,7 @@ var charData = {
 		"name" : "Kiyonami",
 		"type" : "Destroyer",
 		"group" : "Sakura Empire",
-		"skin" : ["qingbo",]
+		"skin" : ["qingbo","qingbo_3",]
 	},
 	"kizuna_ai" : {
 		"name" : "KizunaAI",
@@ -1521,7 +1521,7 @@ var charData = {
 		"name" : "Neptune",
 		"type" : "Light Cruiser",
 		"group" : "Royal Navy",
-		"skin" : ["haiwangxing",]
+		"skin" : ["haiwangxing","haiwangxing_2",]
 	},
 	"nevada" : {
 		"name" : "Nevada",
@@ -1767,7 +1767,7 @@ var charData = {
 		"name" : "Seattle",
 		"type" : "Light Cruiser",
 		"group" : "Eagle Union",
-		"skin" : ["xiyatu","xiyatu_2",]
+		"skin" : ["xiyatu","xiyatu_2","xiyatu_3",]
 	},
 	"sendai" : {
 		"name" : "Sendai",
@@ -2127,7 +2127,7 @@ var charData = {
 		"name" : "Wakaba",
 		"type" : "Destroyer",
 		"group" : "Sakura Empire",
-		"skin" : ["ruoye",]
+		"skin" : ["ruoye","ruoye_2",]
 	},
 	"warspite" : {
 		"name" : "Warspite",
