@@ -5,43 +5,43 @@ format: RGBA8888
 filter: Linear,Linear
 repeat: none
 FX
-  rotate: true
-  xy: 420, 2
+  rotate: false
+  xy: 720, 16
   size: 16, 21
   orig: 16, 21
   offset: 0, 0
   index: -1
 FX2
   rotate: false
-  xy: 668, 120
+  xy: 401, 10
   size: 94, 42
   orig: 94, 42
   offset: 0, 0
   index: -1
 body
   rotate: false
-  xy: 776, 168
+  xy: 893, 168
   size: 95, 86
   orig: 95, 86
   offset: 0, 0
   index: -1
 body_w
   rotate: false
-  xy: 471, 10
+  xy: 961, 118
   size: 45, 48
   orig: 45, 48
   offset: 0, 0
   index: -1
 ear1
-  rotate: true
-  xy: 513, 130
+  rotate: false
+  xy: 611, 107
   size: 62, 85
   orig: 62, 85
   offset: 0, 0
   index: -1
 ear2
-  rotate: true
-  xy: 600, 117
+  rotate: false
+  xy: 661, 39
   size: 75, 66
   orig: 75, 66
   offset: 0, 0
@@ -55,14 +55,14 @@ eye_1
   index: -1
 eye_2
   rotate: false
-  xy: 326, 2
+  xy: 513, 116
   size: 92, 16
   orig: 92, 16
   offset: 0, 0
   index: -1
 eye_3
   rotate: false
-  xy: 392, 20
+  xy: 497, 14
   size: 77, 38
   orig: 77, 38
   offset: 0, 0
@@ -111,21 +111,21 @@ hair_R2
   index: -1
 hair_R3
   rotate: true
-  xy: 591, 25
+  xy: 893, 124
   size: 42, 66
   orig: 42, 66
   offset: 0, 0
   index: -1
 hand_L1
-  rotate: false
-  xy: 793, 133
+  rotate: true
+  xy: 622, 11
   size: 26, 33
   orig: 26, 33
   offset: 0, 0
   index: -1
 hand_L2
   rotate: false
-  xy: 764, 125
+  xy: 990, 169
   size: 27, 37
   orig: 27, 37
   offset: 0, 0
@@ -145,36 +145,36 @@ hand_R2
   offset: 0, 0
   index: -1
 hudiejie
-  rotate: true
-  xy: 591, 69
+  rotate: false
+  xy: 741, 126
   size: 46, 74
   orig: 46, 74
   offset: 0, 0
   index: -1
 leg_L1
-  rotate: false
-  xy: 546, 16
+  rotate: true
+  xy: 576, 12
   size: 25, 44
   orig: 25, 44
   offset: 0, 0
   index: -1
 leg_L2
-  rotate: false
-  xy: 821, 136
+  rotate: true
+  xy: 657, 15
   size: 22, 30
   orig: 22, 30
   offset: 0, 0
   index: -1
 leg_R1
   rotate: false
-  xy: 518, 14
+  xy: 990, 208
   size: 26, 46
   orig: 26, 46
   offset: 0, 0
   index: -1
 leg_R2
-  rotate: false
-  xy: 845, 137
+  rotate: true
+  xy: 689, 15
   size: 22, 29
   orig: 22, 29
   offset: 0, 0
@@ -188,28 +188,28 @@ meimao_1
   index: -1
 meimao_2
   rotate: false
-  xy: 392, 60
+  xy: 513, 134
   size: 96, 58
   orig: 96, 58
   offset: 0, 0
   index: -1
 meimao_3
   rotate: false
-  xy: 873, 119
+  xy: 501, 54
   size: 80, 60
   orig: 80, 60
   offset: 0, 0
   index: -1
 meimao_4
-  rotate: false
-  xy: 873, 181
+  rotate: true
+  xy: 326, 23
   size: 95, 73
   orig: 95, 73
   offset: 0, 0
   index: -1
 meimao_5
   rotate: false
-  xy: 672, 164
+  xy: 789, 164
   size: 102, 90
   orig: 102, 90
   offset: 0, 0
@@ -229,8 +229,8 @@ meimao_7
   offset: 0, 0
   index: -1
 meimao_8
-  rotate: true
-  xy: 326, 20
+  rotate: false
+  xy: 401, 54
   size: 98, 64
   orig: 98, 64
   offset: 0, 0
@@ -243,29 +243,36 @@ paopao1
   offset: 0, 0
   index: -1
 sleep5
-  rotate: true
-  xy: 970, 168
+  rotate: false
+  xy: 789, 114
   size: 86, 48
   orig: 86, 48
   offset: 0, 0
   index: -1
 tie
   rotate: true
-  xy: 490, 67
+  xy: 877, 111
   size: 51, 14
   orig: 51, 14
   offset: 0, 0
   index: -1
 weapon
   rotate: false
-  xy: 955, 86
+  xy: 675, 120
   size: 64, 80
   orig: 64, 80
   offset: 0, 0
   index: -1
+weiba
+  rotate: false
+  xy: 672, 202
+  size: 115, 52
+  orig: 115, 52
+  offset: 0, 0
+  index: -1
 yulei
   rotate: true
-  xy: 513, 62
+  xy: 583, 39
   size: 66, 76
   orig: 66, 76
   offset: 0, 0
