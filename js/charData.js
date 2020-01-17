@@ -45,7 +45,7 @@ var charData = {
 		"name" : "Agano",
 		"type" : "Light Cruiser",
 		"group" : "Sakura Empire",
-		"skin" : ["aheye","aheye_3",]
+		"skin" : ["aheye","aheye_3","aheye_2",]
 	},
 	"ajax" : {
 		"name" : "Ajax",
