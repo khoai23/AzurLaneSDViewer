@@ -512,7 +512,7 @@ var charData = {
 	"dido" : {
 		"name" : "Dido",
 		"type" : "Light Cruiser",
-		"group" : "Eagle Union",
+		"group" : "Royal Navy",
 		"skin" : ["daiduo",]
 	},
 	"dorsetshire" : {
