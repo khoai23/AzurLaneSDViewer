@@ -13,44 +13,10 @@ var viewer = {
         viewer.canvas = $(".Canvas");
         viewer.selectAnimation = $(".selectAnimation");
         viewer.selectShip = $(".selectShip");
+        viewer.selectBG = $(".selectBG");
 
         viewer.selectAnimation.change(function() {
             viewer.changeAnimation(this.selectedIndex);
-        });
-        viewer.selectShip.click(function(){
-            $(document.body).append($("<div></div>")
-                .attr("id","darken")
-                .addClass("darken")
-                .css("top", window.pageYOffset + "px")
-                .click(function(){
-                    $('#selector').remove();
-                    $('#darken').remove();
-                    $(document.body).css("overflow", "auto");
-                    viewer.searchResults = charData;
-                }))
-            .append($("<div></div>")
-                .attr("id","selector")
-                .addClass("selector")
-                .css("top", (window.pageYOffset + (window.innerHeight * 0.05)) + "px"))
-            .css("overflow", "hidden");
-            $("#selector").append($("<div></div>")
-                .attr("id","searchContainer")
-                .addClass("searchContainer")
-                .css({"padding" : "15px"})
-                .append($("<input>")
-                    .attr("id","searchField")
-                    .addClass("form-control")
-                    .css({"background-color": "#24252d", "color": "#ffffff", "display" : "inline-block"})
-                    .on("keyup", function(){
-                        var key = event.keyCode || event.charCode;
-                        viewer.search(null, null, key);
-                    })))
-            .append($("<div></div>")
-                .attr("id","resultContainer")
-                .addClass("resultContainer"));
-            viewer.loadFilter("type", "#searchType", "#ecd2fc");
-            viewer.loadFilter("group", "#searchGroup", "#ccccff");
-            viewer.loadResults(viewer.searchResults);
         });
         $(".vertical-descending").on("input", () => {
             if (viewer.spine != null)
@@ -157,7 +123,8 @@ var viewer = {
                             .css("background", "url(../assets/qicon/"+data[$(this).attr("id")].skin[x]+".png)")
                             .css("background-size", "70px 70px")
                             .click(function(){
-                                viewer.sd.load($(this).attr("id"), viewer);        
+                                viewer.toggleButtonState(true);
+                                viewer.sd.load($(this).attr("id"), viewer, viewer.toggleButtonState);        
                                 var self = this;
                                 $("#skinContainer").children("div").each(function(){
                                     if ($(this).attr("id") == $(self).attr("id"))
@@ -198,8 +165,129 @@ var viewer = {
                     viewer.search($(this).html(), filterType);
                 }));
         }
+    },
+    toggleButtonState : function(b){
+        viewer.selectShip.prop("disabled", b);
+        viewer.selectAnimation.prop("disabled", b);
+        viewer.selectBG.prop("disabled", b);
+        if (b){
+            viewer.selectAnimation.css("color","gray");
+            viewer.selectBG.css("color","gray");
+            viewer.selectBG.attr("onclick","");
+            viewer.selectShip.css("color","gray");
+            viewer.selectShip.attr("onclick","");
+        } else {
+            viewer.selectAnimation.css("color","white");
+            viewer.selectBG.css("color","white");
+            viewer.selectBG.attr("onclick","onSelectBG()");
+            viewer.selectShip.css("color","white");
+            viewer.selectShip.attr("onclick","onSelectShip()");
+        }
     }
 };
+
+function onChangeLog(){
+    $(document.body).append($("<div></div>")
+        .attr("id","darken")
+        .addClass("darken")
+        .css("top", window.pageYOffset + "px")
+        .click(function(){
+            $('#selector').remove();
+            $('#darken').remove();
+            $(document.body).css("overflow", "auto");
+            viewer.searchResults = charData;
+        }))
+    .append($("<div></div>")
+        .attr("id","selector")
+        .addClass("selector")
+        .css("top", (window.pageYOffset + (window.innerHeight * 0.05)) + "px")
+        .css("padding", "2%"))
+    .css("overflow", "hidden");
+    $("#selector").append($("<table></table>")
+        .addClass("wikitable")
+        .append($("<tr></tr>")
+            .append($("<td></td>")
+                .css("background-color", "#24252D")
+                .css("height", "30px")
+                .css("padding-left", "8px")
+                .html("<b>Changelog</b>")
+            )
+        )
+        .append($("<tr></tr>")
+            .append($("<td></td>")
+                .attr("id", "chglog")
+                .css("padding", "15px")
+                .css("vertical-align","text-top")
+            )
+        )
+    )
+
+    var cb = function (response){
+        for (i in response){
+            var message = response[i].commit.message;
+            var date = response[i].commit.committer.date;
+            date = date.replace("T", " ");
+            date = date.replace("Z", " UTC");
+            console.log(message, date);
+
+            $("#chglog").append($("<p></p>")
+                .css("line-height", "0.8")
+                .html(message+"<br>")
+                .append($("<font></font>")
+                    .css("font-size", "10px")
+                    .css("color", "gray")
+                    .html(date)
+                )
+            );
+        }
+    }
+
+    var xobj = new XMLHttpRequest();
+    xobj.open("GET", "https://api.github.com/repos/alg-wiki/AzurLaneSDViewer/commits?sha=gh-pages", true);
+    xobj.onreadystatechange = function () {
+          if (xobj.readyState == 4 && xobj.status == "200") {
+            // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+            cb(JSON.parse(xobj.response));
+          }
+    };
+    xobj.send(null); 
+}
+
+function onSelectShip(){
+    $(document.body).append($("<div></div>")
+        .attr("id","darken")
+        .addClass("darken")
+        .css("top", window.pageYOffset + "px")
+        .click(function(){
+            $('#selector').remove();
+            $('#darken').remove();
+            $(document.body).css("overflow", "auto");
+            viewer.searchResults = charData;
+        }))
+    .append($("<div></div>")
+        .attr("id","selector")
+        .addClass("selector")
+        .css("top", (window.pageYOffset + (window.innerHeight * 0.05)) + "px"))
+    .css("overflow", "hidden");
+    $("#selector").append($("<div></div>")
+        .attr("id","searchContainer")
+        .addClass("searchContainer")
+        .css({"padding" : "15px"})
+        .append($("<input>")
+            .attr("id","searchField")
+            .addClass("form-control")
+            .css({"background-color": "#24252d", "color": "#ffffff", "display" : "inline-block"})
+            .on("keyup", function(){
+                var key = event.keyCode || event.charCode;
+                viewer.search(null, null, key);
+            })))
+    .append($("<div></div>")
+        .attr("id","resultContainer")
+        .addClass("resultContainer"));
+    viewer.loadFilter("type", "#searchType", "#ecd2fc");
+    viewer.loadFilter("group", "#searchGroup", "#ccccff");
+    viewer.loadResults(viewer.searchResults);
+}
 
 function onSelectBG(){
     var div = document.createElement('div');

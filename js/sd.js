@@ -5,7 +5,7 @@ function SD(basePath) {
 
 SD.prototype = {
     spineData : {},
-    load: function(name, v) {
+    load: function(name, v, callback2) {
         if (!this.spineData[name]) {
             var skelpath = name+'.skel';
             var atlaspath = name+'.atlas';
@@ -40,9 +40,11 @@ SD.prototype = {
 
                 this.spineData[name] = skeletonData;
                 v.changeCanvas(skeletonData);
+                callback2(false);
             });
         } else {
             v.changeCanvas(this.spineData[name]);
+                callback2(false);
         }
     }
 }
