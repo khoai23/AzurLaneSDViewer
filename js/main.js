@@ -190,11 +190,13 @@ var viewer = {
     },
     drawBG : function(url){
         var bgimg = PIXI.Sprite.fromImage(url);
-        bgimg.anchor.x = 0;
-        bgimg.anchor.y = 0;
-        bgimg.position.x = 0;
-        bgimg.position.y = 0;
-        bgimg.zindex = -1;
+        var h, w;
+        h = viewer.app.view.height;
+        w = viewer.app.view.width;
+        bgimg.anchor.x = 0.5;
+        bgimg.anchor.y = 0.5;
+        bgimg.position.x = w/2;
+        bgimg.position.y = h/2;
         if (viewer.app.stage.children[0] != null)
             viewer.app.stage.removeChildAt(0);
         viewer.app.stage.addChildAt(bgimg,0);
