@@ -15,7 +15,7 @@ var charData = {
 		"name" : "Acasta",
 		"type" : "Destroyer",
 		"group" : "Royal Navy",
-		"skin" : ["akasita","akasita_2","akasita_g",]
+		"skin" : ["akasita","akasita_2","akasita_3","akasita_g",]
 	},
 	"achilles" : {
 		"name" : "Achilles",
