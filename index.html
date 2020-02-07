@@ -11,8 +11,7 @@
             }
             .divCanvas {
                 height: 512px; 
-                width: 712px;  
-                background-image: url(../assets/bg/zgreen.png); 
+                width: 712px;
                 background-position: 50% 50%;
                 display: inline-block;
             }
@@ -156,6 +155,12 @@
                     <div class="Canvas divCanvas" id="SdCanvas" style="position: relative;">
                         <input type="range" min="0" max="2" step="0.1" value="1" class="vertical-descending" style="position: absolute; top: 50%; left: -15%;">
                         <label style="position: absolute; top: 50%; left: -15%"><b>Zoom</b></label>
+                        <div class="recordButton btnGenericText" onclick="record()" style="font-size: 17px; padding: 5px 10px 5px 10px; height:auto; position: absolute; top: 0%; left: -15%;">
+                            <b>● Record</b>
+                        </div>
+                        <div class="outputButton btnGenericText" onclick="" style="font-size: 17px; padding: 5px 10px 5px 10px; height:auto; position: absolute; top: 10%; left: -15%;color: gray">
+                            <b>Output</b>
+                        </div>
                     </div>
                     
                 </div>
@@ -175,11 +180,13 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.7.1/pixi.min.js"></script>
+        <script src="js/CCapture.all.min.js"></script>
         <script src="js/pixi-spine.js"></script>
         <script src="js/SkeletonBinary.js"></script>
         <script src="js/sd.js"></script>
         <script src="js/charData.js"></script>
         <script src="js/main.js"></script>
         <script src="js/backgroundData.js"></script>
+        <script src="js/recorder.js"></script>
 
 </html>

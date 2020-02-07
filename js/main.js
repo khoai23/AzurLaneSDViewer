@@ -6,6 +6,7 @@ var viewer = {
     init: function() {
         viewer.sd = new SD('assets');
         viewer.searchResults = charData;
+        viewer.currentBG = "../assets/bg/zgreen.png";
         viewer.mouse = false;
         viewer.lastMouseX = 0;
         viewer.lastMouseY = 0;
@@ -25,6 +26,7 @@ var viewer = {
 
         viewer.app = new PIXI.Application(712, 512, { transparent: true });
         viewer.canvas.append($(viewer.app.view));
+        viewer.drawBG(viewer.currentBG);   
         $(viewer.app.view).mousedown(() => {
             viewer.mouse = true;
             viewer.lastMouseX = event.clientX - event.target.getBoundingClientRect().left;
@@ -69,6 +71,8 @@ var viewer = {
         }
         viewer.selectAnimation.html(stringAnimations);
         viewer.changeAnimation(0);
+        if (viewer.app.stage.children.length <= 1)
+            viewer.drawBG(viewer.currentBG);
         viewer.app.stage.addChild(viewer.spine);
         viewer.spine.position.set(viewer.app.view.width * 0.5 , viewer.app.view.height * 0.8);
     },
@@ -183,6 +187,17 @@ var viewer = {
             viewer.selectShip.css("color","white");
             viewer.selectShip.attr("onclick","onSelectShip()");
         }
+    },
+    drawBG : function(url){
+        var bgimg = PIXI.Sprite.fromImage(url);
+        bgimg.anchor.x = 0;
+        bgimg.anchor.y = 0;
+        bgimg.position.x = 0;
+        bgimg.position.y = 0;
+        bgimg.zindex = -1;
+        if (viewer.app.stage.children[0] != null)
+            viewer.app.stage.removeChildAt(0);
+        viewer.app.stage.addChildAt(bgimg,0);
     }
 };
 
@@ -316,7 +331,9 @@ function onSelectBG(){
         img.style.backgroundPosition = "50% 50%";
         img.id = backgroundData[i];
         img.addEventListener("click", function(e) {
-            document.getElementById("SdCanvas").style.backgroundImage = "url(../assets/bg/"+this.id+")";
+            //document.getElementById("SdCanvas").style.backgroundImage = "url(../assets/bg/"+this.id+")";
+            viewer.currentBG = "../assets/bg/"+this.id;
+            viewer.drawBG(viewer.currentBG);
             document.body.removeChild(document.getElementById("selector"));
             document.body.removeChild(document.getElementById("darken"));
             document.body.style.overflow = "auto";
