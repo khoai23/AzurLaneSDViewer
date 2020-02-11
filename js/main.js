@@ -1,5 +1,6 @@
 $(document).ready(function(){
     viewer.init();
+    toolbar.init();
   });
 
 var viewer = {
@@ -10,6 +11,7 @@ var viewer = {
         viewer.mouse = false;
         viewer.lastMouseX = 0;
         viewer.lastMouseY = 0;
+        viewer.scale = 1.0;
 
         viewer.canvas = $(".Canvas");
         viewer.selectAnimation = $(".selectAnimation");
@@ -19,10 +21,6 @@ var viewer = {
         viewer.selectAnimation.change(function() {
             viewer.changeAnimation(this.selectedIndex);
         });
-        $(".vertical-descending").on("input", () => {
-            if (viewer.spine != null)
-                viewer.spine.scale.set($(".vertical-descending").val(), $(".vertical-descending").val());
-        })
 
         viewer.app = new PIXI.Application(712, 512, { transparent: true });
         viewer.canvas.append($(viewer.app.view));
@@ -58,6 +56,10 @@ var viewer = {
             var height = Math.max( document.body.scrollHeight, document.body.offsetHeight, 
                                document.documentElement.clientHeight, document.documentElement.scrollHeight, document.documentElement.offsetHeight );   
             $("#footer").css("top",height - $("#footer").height() - 20);
+            toolbar.toolbar.css("top", window.pageYOffset);
+        });
+        $(window).scroll(function(){
+            toolbar.toolbar.css("top", window.pageYOffset);
         });
     },
     changeCanvas : function(skeletonData) {
@@ -143,6 +145,9 @@ var viewer = {
                         viewer.searchResults = charData;
                     }
                     $("#skinContainer").children(":first").trigger("click");
+                    var height = Math.max( document.body.scrollHeight, document.body.offsetHeight, 
+                                       document.documentElement.clientHeight, document.documentElement.scrollHeight, document.documentElement.offsetHeight );  
+                    $("#footer").css("top",height - $("#footer").height() - 20);
                 }));
         }
     },

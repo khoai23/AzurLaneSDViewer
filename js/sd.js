@@ -40,11 +40,13 @@ SD.prototype = {
 
                 this.spineData[name] = skeletonData;
                 v.changeCanvas(skeletonData);
+                v.spine.scale.set(v.scale,v.scale);
                 callback2(false);
             });
         } else {
             v.changeCanvas(this.spineData[name]);
-                callback2(false);
+            v.spine.scale.set(v.scale,v.scale);
+            callback2(false);
         }
     }
 }
