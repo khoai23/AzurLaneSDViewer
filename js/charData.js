@@ -129,7 +129,7 @@ var charData = {
 		"name" : "Ardent",
 		"type" : "Destroyer",
 		"group" : "Royal Navy",
-		"skin" : ["rexin","rexin_g",]
+		"skin" : ["rexin","rexin_2","rexin_g",]
 	},
 	"arethusa" : {
 		"name" : "Arethusa",
@@ -195,7 +195,7 @@ var charData = {
 		"name" : "Aurora",
 		"type" : "Light Cruiser",
 		"group" : "Royal Navy",
-		"skin" : ["ouruola","ouruola_2","ouruola_3",]
+		"skin" : ["ouruola","ouruola_2","ouruola_3","ouruola_4",]
 	},
 	"avrora" : {
 		"name" : "Avrora",
@@ -435,7 +435,7 @@ var charData = {
 		"name" : "Columbia",
 		"type" : "Light Cruiser",
 		"group" : "Eagle Union",
-		"skin" : ["gelunbiya",]
+		"skin" : ["gelunbiya","gelunbiya_2",]
 	},
 	"comet" : {
 		"name" : "Comet",
@@ -1059,7 +1059,7 @@ var charData = {
 		"name" : "Javelin",
 		"type" : "Destroyer",
 		"group" : "Royal Navy",
-		"skin" : ["biaoqiang","biaoqiang_2","biaoqiang_3","biaoqiang_4","biaoqiang_5","biaoqiang_6","biaoqiang_h","biaoqiang_g",]
+		"skin" : ["biaoqiang","biaoqiang_2","biaoqiang_3","biaoqiang_4","biaoqiang_5","biaoqiang_6","biaoqiang_7","biaoqiang_h","biaoqiang_g",]
 	},
 	"jean_bart" : {
 		"name" : "Jean Bart",
@@ -1533,7 +1533,7 @@ var charData = {
 		"name" : "Nagatsuki",
 		"type" : "Destroyer",
 		"group" : "Sakura Empire",
-		"skin" : ["changyue",]
+		"skin" : ["changyue","changyue_2",]
 	},
 	"naka" : {
 		"name" : "Naka",
@@ -2109,7 +2109,7 @@ var charData = {
 		"name" : "Uranami",
 		"type" : "Destroyer",
 		"group" : "Sakura Empire",
-		"skin" : ["pubo",]
+		"skin" : ["pubo","pubo_2",]
 	},
 	"uta_fumiruiru" : {
 		"name" : "Fumiruiru",
