@@ -680,13 +680,13 @@ var charData = {
 	"gangute" : {
 		"name" : "Gangut",
 		"type" : "Battleship",
-		"group" : "Vichya Dominion",
+		"group" : "Northern Parliament",
 		"skin" : ["gangute","gangute_2",]
 	},
 	"gascogne" : {
 		"name" : "Gascogne",
 		"type" : "Battleship",
-		"group" : "Northern Parliament",
+		"group" : "Vichya Dominion",
 		"skin" : ["jiasikenie","jiasikenie_2",]
 	},
 	"gascogne_idol" : {
