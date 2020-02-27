@@ -200,8 +200,8 @@ var charData = {
 	"avrora" : {
 		"name" : "Avrora",
 		"type" : "Light Cruiser",
-		"group" : "Northern Union",
-		"skin" : ["afuleer",]
+		"group" : "Northern Parliament",
+		"skin" : ["afuleer","afuleer_2",]
 	},
 	"ayanami" : {
 		"name" : "Ayanami",
@@ -382,6 +382,12 @@ var charData = {
 		"type" : "Destroyer",
 		"group" : "Dragon Empire",
 		"skin" : ["changchun","changchun_2",]
+	},
+	"chapayev" : {
+		"name" : "Chapayev",
+		"type" : "Light Cruiser",
+		"group" : "Northern Parliament",
+		"skin" : ["qiabayefu","qiabayefu_2",]
 	},
 	"charles_ausburne" : {
 		"name" : "Charles Ausburne",
@@ -671,10 +677,16 @@ var charData = {
 		"group" : "Royal Navy",
 		"skin" : ["jialadiya",]
 	},
+	"gangute" : {
+		"name" : "Gangut",
+		"type" : "Battleship",
+		"group" : "Vichya Dominion",
+		"skin" : ["gangute","gangute_2",]
+	},
 	"gascogne" : {
 		"name" : "Gascogne",
 		"type" : "Battleship",
-		"group" : "Vichya Dominion",
+		"group" : "Northern Parliament",
 		"skin" : ["jiasikenie","jiasikenie_2",]
 	},
 	"gascogne_idol" : {
@@ -742,6 +754,12 @@ var charData = {
 		"type" : "Destroyer",
 		"group" : "Eagle Union",
 		"skin" : ["gelideli","gelideli_2",]
+	},
+	"grozny" : {
+		"name" : "Grozny",
+		"type" : "Destroyer",
+		"group" : "Northern Parliament",
+		"skin" : ["weiyan","weiyan_2",]
 	},
 	"halsey_powell" : {
 		"name" : "Halsey Powell",
@@ -1451,6 +1469,12 @@ var charData = {
 		"group" : "Sakura Empire",
 		"skin" : ["shuiwuyue",]
 	},
+	"minsk" : {
+		"name" : "Minsk",
+		"type" : "Destroyer",
+		"group" : "Northern Parliament",
+		"skin" : ["mingsike","mingsike_2",]
+	},
 	"minneapolis" : {
 		"name" : "Minneapolis",
 		"type" : "Heavy Cruiser",
@@ -1654,6 +1678,12 @@ var charData = {
 		"type" : "Destroyer",
 		"group" : "Sakura Empire",
 		"skin" : ["qinchao",]
+	},
+	"pamiat_merkuria" : {
+		"name" : "Pamiat Merkuria",
+		"type" : "Light Cruiser",
+		"group" : "Northern Parliament",
+		"skin" : ["shuixingjinian","shuixingjinian_2",]
 	},
 	"pennsylvania" : {
 		"name" : "Pennsylvania",
@@ -1925,6 +1955,12 @@ var charData = {
 		"group" : "Eagle Union",
 		"skin" : ["nandaketa","nandaketa_2",]
 	},
+	"sovetskaya_rossiya" : {
+		"name" : "Sovetskaya Rossiya",
+		"type" : "Battleship",
+		"group" : "Northern Parliament",
+		"skin" : ["suweiailuoxiya","suweiailuoxiya_2",]
+	},
 	"spence" : {
 		"name" : "Spence",
 		"type" : "Destroyer",
@@ -2002,6 +2038,12 @@ var charData = {
 		"type" : "Destroyer",
 		"group" : "Sakura Empire",
 		"skin" : ["gufeng","gufeng_2","gufeng_g",]
+	},
+	"tashkent" : {
+		"name" : "Tashkent",
+		"type" : "Destroyer",
+		"group" : "Northern Parliament",
+		"skin" : ["tashigan","tashigan_2",]
 	},
 	"tennessee" : {
 		"name" : "Tennessee",
@@ -2369,35 +2411,47 @@ var charData = {
 		"group" : "Siren",
 		"skin" : ["unknown3",]
 	},
+	"ganraozhe" : {
+		"name" : "ganraozhe",
+		"type" : "Battleship",
+		"group" : "Siren",
+		"skin" : ["ganraozhe",]
+	},
+	"qingchuzhe" : {
+		"name" : "qingchuzhe",
+		"type" : "Battleship",
+		"group" : "Siren",
+		"skin" : ["qingchuzhe",]
+	},
 	"siren_scavenger" : {
 		"name" : "Scavenger",
 		"type" : "Destroyer",
 		"group" : "Siren",
-		"skin" : ["sairenquzhu","sairenquzhu_i",]
+		"skin" : ["sairenquzhu","sairenquzhu_i","sairenquzhu_ii",]
 	},
 	"siren_chaser" : {
 		"name" : "Chaser",
 		"type" : "Light Cruiser",
 		"group" : "Siren",
-		"skin" : ["sairenqingxun","sairenqingxun_i",]
+		"skin" : ["sairenqingxun","sairenqingxun_i","sairenqingxun_iI",]
 	},
 	"siren_navigator" : {
 		"name" : "Navigator",
 		"type" : "Heavy Cruiser",
 		"group" : "Siren",
-		"skin" : ["sairenzhongxun","sairenzhongxun_i",]
+		"skin" : ["sairenzhongxun","sairenzhongxun_i","sairenzhongxun_ii",]
 	},
 	"siren_smasher" : {
 		"name" : "Smasher",
 		"type" : "Battleship",
 		"group" : "Siren",
-		"skin" : ["sairenzhanlie","sairenzhanlie_i",]
+		"skin" : ["sairenzhanlie","sairenzhanlie_i","sairenzhanlie_ii",]
 	},
 	"siren_conductor" : {
 		"name" : "Conductor",
 		"type" : "Aircraft Carrier",
 		"group" : "Siren",
-		"skin" : ["sairenhangmu","sairenhangmu_i",]
+		"skin" : ["sairenhangmu","sairenhangmu_i","sairenhangmu_ii",]
 	},
 	"siren_lurker" : {
 		"name" : "Lurker",
@@ -2409,7 +2463,7 @@ var charData = {
 		"name" : "Siren Ship",
 		"type" : "Miscellaneous",
 		"group" : "Miscellaneous",
-		"skin" : ["SrBB","srBB2","SrCA","srCA2","SrCL","srCL2","SrCV","srCV2","SrDD","srDD2",]
+		"skin" : ["SrBB","srBB2","srBB3","SrCA","srCA2","srCA3","SrCL","srCL2","srCL3","SrCV","srCV2","srCV3","SrDD","srDD2","srDD3","zibao_maozi",]
 	},
     "enemy_ship" : {
         "name" : "Enemy Ship",
@@ -2531,6 +2585,9 @@ var charData = {
             "jicheT",
             "idolfeiji",
             "vtuber1",
-            "vtuber2",]
+            "vtuber2",
+            "chuizi",
+            "elf",
+            "liandao",]
     }
 };

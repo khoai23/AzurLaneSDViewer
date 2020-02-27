@@ -1,25 +1,7 @@
  
 {"result":{"id":"f8e3210ff3a9d59b07a980e0df8779a2"},"success":true,"errors":[],"messages":[]}
- biaoyu_g.png 
+ changliang_2.png 
 {"result":{"id":"f8e3210ff3a9d59b07a980e0df8779a2"},"success":true,"errors":[],"messages":[]}
- biaoyu_g.atlas 
+ changliang_2.atlas 
 {"result":{"id":"f8e3210ff3a9d59b07a980e0df8779a2"},"success":true,"errors":[],"messages":[]}
- biaoyu_g.skel 
-{"result":{"id":"f8e3210ff3a9d59b07a980e0df8779a2"},"success":true,"errors":[],"messages":[]}
- feiteliedadi_2.png 
-{"result":{"id":"f8e3210ff3a9d59b07a980e0df8779a2"},"success":true,"errors":[],"messages":[]}
- feiteliedadi_2.atlas 
-{"result":{"id":"f8e3210ff3a9d59b07a980e0df8779a2"},"success":true,"errors":[],"messages":[]}
- feiteliedadi_2.skel 
-{"result":{"id":"f8e3210ff3a9d59b07a980e0df8779a2"},"success":true,"errors":[],"messages":[]}
- kulasuo_g.png 
-{"result":{"id":"f8e3210ff3a9d59b07a980e0df8779a2"},"success":true,"errors":[],"messages":[]}
- kulasuo_g.atlas 
-{"result":{"id":"f8e3210ff3a9d59b07a980e0df8779a2"},"success":true,"errors":[],"messages":[]}
- kulasuo_g.skel 
-{"result":{"id":"f8e3210ff3a9d59b07a980e0df8779a2"},"success":true,"errors":[],"messages":[]}
- nananpudun.png 
-{"result":{"id":"f8e3210ff3a9d59b07a980e0df8779a2"},"success":true,"errors":[],"messages":[]}
- nananpudun.atlas 
-{"result":{"id":"f8e3210ff3a9d59b07a980e0df8779a2"},"success":true,"errors":[],"messages":[]}
- nananpudun.skel 
+ changliang_2.skel 

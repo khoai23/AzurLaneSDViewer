@@ -1,0 +1,62 @@
+
+srCA3.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 583, 108
+  size: 310, 63
+  orig: 310, 63
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 583, 173
+  size: 314, 81
+  orig: 314, 81
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 2, 19
+  size: 305, 82
+  orig: 305, 82
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 103
+  size: 305, 151
+  orig: 305, 151
+  offset: 0, 0
+  index: -1
+pao
+  rotate: false
+  xy: 309, 67
+  size: 217, 57
+  orig: 217, 57
+  offset: 0, 0
+  index: -1
+weapon
+  rotate: false
+  xy: 899, 209
+  size: 73, 45
+  orig: 73, 45
+  offset: 0, 0
+  index: -1
+wen
+  rotate: false
+  xy: 309, 126
+  size: 272, 128
+  orig: 272, 128
+  offset: 0, 0
+  index: -1
+wen2
+  rotate: false
+  xy: 2, 2
+  size: 26, 15
+  orig: 26, 15
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,55 @@
+
+zibao_maozi.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ji
+  rotate: false
+  xy: 2, 88
+  size: 182, 150
+  orig: 182, 150
+  offset: 0, 0
+  index: -1
+ji2
+  rotate: false
+  xy: 2, 2
+  size: 22, 28
+  orig: 22, 28
+  offset: 0, 0
+  index: -1
+zd01
+  rotate: false
+  xy: 2, 32
+  size: 179, 54
+  orig: 179, 54
+  offset: 0, 0
+  index: -1
+zd02
+  rotate: false
+  xy: 186, 184
+  size: 179, 54
+  orig: 179, 54
+  offset: 0, 0
+  index: -1
+zd03
+  rotate: false
+  xy: 186, 128
+  size: 179, 54
+  orig: 179, 54
+  offset: 0, 0
+  index: -1
+zhadan_1
+  rotate: false
+  xy: 367, 168
+  size: 118, 70
+  orig: 118, 70
+  offset: 0, 0
+  index: -1
+zhadan_2
+  rotate: false
+  xy: 186, 56
+  size: 118, 70
+  orig: 118, 70
+  offset: 0, 0
+  index: -1
