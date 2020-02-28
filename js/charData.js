@@ -2412,13 +2412,13 @@ var charData = {
 		"skin" : ["unknown3",]
 	},
 	"ganraozhe" : {
-		"name" : "ganraozhe",
+		"name" : "Intruder",
 		"type" : "Battleship",
 		"group" : "Siren",
 		"skin" : ["ganraozhe",]
 	},
 	"qingchuzhe" : {
-		"name" : "qingchuzhe",
+		"name" : "Omitter",
 		"type" : "Battleship",
 		"group" : "Siren",
 		"skin" : ["qingchuzhe",]
