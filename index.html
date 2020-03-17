@@ -159,6 +159,81 @@
                 display: flex;
                 flex-direction: column;
             }
+            .rightContext {
+                background-color: #373743;
+                border-style: solid;
+                border-color: #5c5d70;
+                border-width: 1px;
+                padding: 3px;
+                width: 200px;
+                height: 200px;
+                position: absolute;
+                right: 150px;
+                display: flex;
+                flex-direction: column;
+            }
+            #spinebar {
+                width: 150px;
+                height: 100%;
+                position: absolute;
+                right: 0;
+                top: 0;
+                background-color: #373743;
+                display: flex;
+                flex-direction: column;
+            }
+            #mainbody {
+                position: absolute;
+                top: 0px;
+                left: 40px;
+            }
+            .spinetoolbutton {
+                width: 50%; 
+                height: 30px; 
+                display: inline-block; 
+                line-height: 30px; 
+                vertical-align: middle; 
+                text-align: center; 
+                border : 1px solid #5c5d70;
+                cursor: pointer;
+            }
+            .q {
+                background-color: #ff803e;
+                color: white;
+            }
+            .disabled-btn {
+                background-color: white;
+                color: gray;
+                cursor: none;
+            }
+            .spinetoolbutton:hover {
+                background-color: gray;
+            }
+            .spinetoolbutton:active {
+                background-color: white;
+                color: black;
+            }
+            .spineoptionbutton{
+                height: 66px;
+                width : 20px;
+                border: 1px solid #5c5d70;
+                background-color: #373743;
+                float: left;
+                margin-right: 3px; 
+                display: inline-block; 
+                line-height: 66px; 
+                vertical-align: middle; 
+                text-align: center;
+                font-size: 18px;
+                cursor: pointer;
+            }
+            .spineoptionbutton:hover {
+                background-color: gray;
+            }
+            .spineoptionbutton:active {
+                background-color: white;
+                color: black;
+            }
 
         </style>
 
@@ -167,21 +242,19 @@
 
 
     <body style="background-color: #494a5a; color: white;">
-        <div class="container">
+        <div id="mainbody">
             <a href='https://ko-fi.com/K3K71DGPS' target='_blank'><img height='36' style='border:0px;height:36px; position: absolute; top: 1%; right: 1%' src='https://az743702.vo.msecnd.net/cdn/kofi2.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
             <div align="center" style="margin-bottom: 15px;">
                 <h1>Azur Lane SD Viewer</h1>
             </div>
             <nav class="clearfix">                
                 <div align="center" style="margin-bottom: 15px;">
-                    <div class="selectShip btnGenericText" onclick="onSelectShip()" style="display: inline-block; margin-right: 15px; font-size: 17px; padding: 5px 10px 5px 10px; height:auto">
-                        <b>Select Ship</b>
-                    </div>
+                    
                     <div class="selectBG btnGenericText" onclick="onSelectBG()" style="display: inline-block; font-size: 17px;  padding: 5px 10px 5px 10px; height:auto">
                         <b>Change Background</b>
                     </div>
                 </div>
-                <div align="center" id="skinContainer" style="margin-bottom: 15px;vertical-align: middle">
+                <div align="center" id="skinContainer2" style="margin-bottom: 15px;vertical-align: middle">
 
                 </div>
                 <div align="center">                    
@@ -202,8 +275,20 @@
         <div id="toolbar">
             <div class="material-icons btnGenericText toolbar-button" onclick="onChangeLog()" data-toggle="tooltip" title="Changelog">announcement</div>
             <div class="material-icons btnGenericText toolbar-button" data-toggle="tooltip" title="Record" id="tool_record">fiber_manual_record</div>
-            <div class="material-icons btnGenericText toolbar-button" data-toggle="tooltip" title="Zoom" id="tool_zoom">search</div>
+            <div class="material-icons btnGenericText toolbar-button" data-toggle="tooltip" title="Zoom" id="tool_zoom" style="display:none">search</div>
         </div>
+
+        <div id="spinebar">
+            <div style="width: 100%; height: 35px; border-bottom: 2px solid #5c5d70; border-top: 2px solid #5c5d70; display: inline-block; line-height: 30px; padding-left: 10px; vertical-align: middle; background-color: #24252d;"><b>Sprites</b></div>
+            <div style="display: table-cell; width: 100%; height: 30px">
+                <div class="selectShip material-icons spinetoolbutton q" onclick="onSelectShip()">add</div>
+                <div class="material-icons spinetoolbutton" style="float: right;" id="removeSprite">clear</div>
+            </div>
+            <div id="spriteContainer" style="width: 100%; display: flex; flex-direction: column; padding: 3px">
+
+            </div>
+        </div>
+     </body>
 
         <footer id="false" style="height:70px;width:100%;margin-top: 20px;">
         </footer>
@@ -227,5 +312,6 @@
         <script src="js/backgroundData.js"></script>
         <script src="js/recorder.js"></script>
         <script src="js/toolbar.js"></script>
+        <script src="js/spinebar.js"></script>
 
 </html>

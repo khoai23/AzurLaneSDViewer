@@ -2411,13 +2411,13 @@ var charData = {
 		"group" : "Siren",
 		"skin" : ["unknown3",]
 	},
-	"ganraozhe" : {
+	"intruder" : {
 		"name" : "Intruder",
 		"type" : "Light Cruiser",
 		"group" : "Siren",
 		"skin" : ["ganraozhe",]
 	},
-	"qingchuzhe" : {
+	"omitter" : {
 		"name" : "Omitter",
 		"type" : "Battleship",
 		"group" : "Siren",

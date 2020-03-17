@@ -1,6 +1,7 @@
 $(document).ready(function(){
     viewer.init();
     toolbar.init();
+    spinebar.init();
   });
 
 var viewer = {
@@ -17,6 +18,9 @@ var viewer = {
         viewer.selectAnimation = $(".selectAnimation");
         viewer.selectShip = $(".selectShip");
         viewer.selectBG = $(".selectBG");
+
+        viewer.selectedSpine = -1;
+        viewer.spine = [];
 
         viewer.selectAnimation.change(function() {
             viewer.changeAnimation(this.selectedIndex);
@@ -35,7 +39,7 @@ var viewer = {
             var sx = event.clientX - event.target.getBoundingClientRect().left;
             var sy = event.clientY - event.target.getBoundingClientRect().top;
             if(viewer.mouse){
-                viewer.spine.position.set((sx - viewer.lastMouseX) + viewer.spine.position._x, (sy - viewer.lastMouseY) + viewer.spine.position._y);
+                viewer.spine[viewer.selectedSpine].position.set((sx - viewer.lastMouseX) + viewer.spine[viewer.selectedSpine].position._x, (sy - viewer.lastMouseY) + viewer.spine[viewer.selectedSpine].position._y);
 
                 viewer.lastMouseX = sx;
                 viewer.lastMouseY = sy;
@@ -44,6 +48,7 @@ var viewer = {
 
         window.onresize = (event) => {
             if (event === void 0) { event = null; }
+            $("#mainbody").width(spinebar.spinebar.position().left-40);
             if (document.getElementById("darken") != null){
                 document.getElementById("darken").top = window.pageYOffset + "px";
                 document.getElementById("selector").top = (window.pageYOffset + (window.innerHeight * 0.05)) + "px";
@@ -53,6 +58,7 @@ var viewer = {
             $("#footer").css("top",height - $("#footer").height() - 20);
         };
         $(document).ready(() => {
+            $("#mainbody").width(spinebar.spinebar.position().left-40);
             var height = Math.max( document.body.scrollHeight, document.body.offsetHeight, 
                                document.documentElement.clientHeight, document.documentElement.scrollHeight, document.documentElement.offsetHeight );   
             $("#footer").css("top",height - $("#footer").height() - 20);
@@ -60,27 +66,25 @@ var viewer = {
         });
         $(window).scroll(function(){
             toolbar.toolbar.css("top", window.pageYOffset);
+            spinebar.spinebar.css("top", window.pageYOffset);
         });
     },
     changeCanvas : function(skeletonData) {
-        viewer.app.stage.removeChildren();
-
-        viewer.spine = new PIXI.spine.Spine(skeletonData);
-        var animations = viewer.spine.spineData.animations;
-        var stringAnimations = "";
-        for(var i = 0; i < animations.length; i++) {
-            stringAnimations += "<option value=\"" + animations[i].name + "\">" + animations[i].name + "</option>";
-        }
-        viewer.selectAnimation.html(stringAnimations);
-        viewer.changeAnimation(0);
+        viewer.spine.push(new PIXI.spine.Spine(skeletonData));
+        viewer.spine[viewer.spine.length-1].name = skeletonData.name;
+        viewer.selectedSpine = viewer.spine.length - 1;
+        
         if (viewer.app.stage.children.length <= 1)
             viewer.drawBG(viewer.currentBG);
-        viewer.app.stage.addChild(viewer.spine);
-        viewer.spine.position.set(viewer.app.view.width * 0.5 , viewer.app.view.height * 0.8);
+        viewer.app.stage.addChild(viewer.spine[viewer.selectedSpine]);
+        viewer.spine[viewer.selectedSpine].position.set(viewer.app.view.width * 0.5 , viewer.app.view.height * 0.8);
+        //console.log(viewer.app.stage.children);
+        spinebar.addToSpriteList({"icon":skeletonData.icon,"id":skeletonData.name,"index":viewer.selectedSpine});
+        //viewer.spine[viewer.selectedSpine].skeleton.flipX = true;
     },
     changeAnimation : function(num) {
-        var name = viewer.spine.spineData.animations[num].name;
-        viewer.spine.state.setAnimation(0, name, true);
+        var name = viewer.spine[viewer.selectedSpine].spineData.animations[num].name;
+        viewer.spine[viewer.selectedSpine].state.setAnimation(0, name, true);
     },
     search : function(filter, filterType, key){
         if (filter != null && filterType != null){
@@ -121,7 +125,30 @@ var viewer = {
                     $(this).css("background-size", "100%");
                 })
                 .click(function(){
-                    $("#skinContainer").empty();
+                    $(document.body).append($("<div></div>")
+                        .attr("id","darken2")
+                        .addClass("darken")
+                        .css("top", window.pageYOffset + "px")
+                        .click(function(){
+                            $('#darken2').remove();
+                            $('#selector2').remove();
+                            $(document.body).css("overflow", "auto");
+                            viewer.searchResults = charData;
+                        })
+                    )
+                    .append($("<div></div>")
+                        .attr("id","selector2")
+                        .addClass("selector")
+                        .css("top", (window.pageYOffset + (window.innerHeight * 0.05)) + "px")
+                    )
+                    .css("overflow", "hidden");
+
+
+                    $("#selector2").append($("<div></div>")
+                        .attr("id","skinContainer")
+                        .attr("align","center")
+                    );
+
                     for (var x in data[$(this).attr("id")].skin){
                         $("#skinContainer").append($("<div></div>")
                             .addClass("shipIcon")
@@ -129,8 +156,7 @@ var viewer = {
                             .css("background", "url(../assets/qicon/"+data[$(this).attr("id")].skin[x]+".png)")
                             .css("background-size", "70px 70px")
                             .click(function(){
-                                viewer.toggleButtonState(true);
-                                viewer.sd.load($(this).attr("id"), viewer, viewer.toggleButtonState);        
+                                viewer.activeId = $(this).attr("id");
                                 var self = this;
                                 $("#skinContainer").children("div").each(function(){
                                     if ($(this).attr("id") == $(self).attr("id"))
@@ -138,13 +164,36 @@ var viewer = {
                                     else
                                         $(this).css({"height":"70px","width":"70px","background-size":"100%"});
                                 });
-                            }));                                                       
+                            })
+                        );
+                        $("#"+data[$(this).attr("id")].skin[0]).trigger("click");
+                    }
+
+                    $("#selector2").append($("<div></div>")
+                        .attr("id","ctrlContainer")
+                        .attr("align","center")
+                        .css("margin-top","10px")
+                    );
+
+                    $("#ctrlContainer").append($("<div></div>")
+                        .attr("id","skinSelectOK")
+                        .addClass("btnGenericText")
+                        .html("<b>Select</b>")
+                    );
+
+                    $("#skinSelectOK").click(function() {
+                        viewer.toggleButtonState(true);
+                        viewer.sd.load(viewer.activeId, viewer, viewer.toggleButtonState);
+                        
+                        viewer.loaded = true;
                         $('#selector').remove();
                         $('#darken').remove();
+                        $('#selector2').remove();
+                        $('#darken2').remove();
                         $(document.body).css("overflow", "auto");
                         viewer.searchResults = charData;
-                    }
-                    $("#skinContainer").children(":first").trigger("click");
+                    });
+                    
                     var height = Math.max( document.body.scrollHeight, document.body.offsetHeight, 
                                        document.documentElement.clientHeight, document.documentElement.scrollHeight, document.documentElement.offsetHeight );  
                     $("#footer").css("top",height - $("#footer").height() - 20);
@@ -176,20 +225,23 @@ var viewer = {
         }
     },
     toggleButtonState : function(b){
-        viewer.selectShip.prop("disabled", b);
         viewer.selectAnimation.prop("disabled", b);
         viewer.selectBG.prop("disabled", b);
         if (b){
             viewer.selectAnimation.css("color","gray");
             viewer.selectBG.css("color","gray");
             viewer.selectBG.attr("onclick","");
-            viewer.selectShip.css("color","gray");
+            viewer.selectShip.removeClass("q");
+            viewer.selectShip.removeClass("spinetoolbar");
+            viewer.selectShip.addClass("disabled-btn");
             viewer.selectShip.attr("onclick","");
         } else {
             viewer.selectAnimation.css("color","white");
             viewer.selectBG.css("color","white");
             viewer.selectBG.attr("onclick","onSelectBG()");
-            viewer.selectShip.css("color","white");
+            viewer.selectShip.removeClass("disabled-btn");
+            viewer.selectShip.addClass("spinetoolbar");
+            viewer.selectShip.addClass("q");
             viewer.selectShip.attr("onclick","onSelectShip()");
         }
     },
