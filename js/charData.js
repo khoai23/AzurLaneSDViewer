@@ -75,7 +75,7 @@ var charData = {
 		"name" : "Akashi",
 		"type" : "Repair",
 		"group" : "Sakura Empire",
-		"skin" : ["mingshi","mingshi_2","mingshi_3","mingshi_4",]
+		"skin" : ["mingshi","mingshi_2","mingshi_3","mingshi_4","mingshi_5",]
 	},
 	"akatsuki" : {
 		"name" : "Akatsuki",
@@ -207,7 +207,7 @@ var charData = {
 		"name" : "Ayanami",
 		"type" : "Destroyer",
 		"group" : "Sakura Empire",
-		"skin" : ["lingbo","lingbo_2","lingbo_3","lingbo_4","lingbo_5","lingbo_6","lingbo_7","lingbo_8","lingbo_h","lingbo_g",]
+		"skin" : ["lingbo","lingbo_2","lingbo_3","lingbo_4","lingbo_5","lingbo_6","lingbo_7","lingbo_8","lingbo_9","lingbo_h","lingbo_g",]
 	},
 	"aylwin" : {
 		"name" : "Aylwin",
@@ -1803,7 +1803,7 @@ var charData = {
 		"name" : "Ryuujou",
 		"type" : "Light Aircraft Carrier",
 		"group" : "Sakura Empire",
-		"skin" : ["longxiang",]
+		"skin" : ["longxiang","longxiang_2",]
 	},
 	"saint_louis" : {
 		"name" : "Saint Louis",
@@ -2413,7 +2413,7 @@ var charData = {
 	},
 	"ganraozhe" : {
 		"name" : "Intruder",
-		"type" : "Battleship",
+		"type" : "Light Cruiser",
 		"group" : "Siren",
 		"skin" : ["ganraozhe",]
 	},
