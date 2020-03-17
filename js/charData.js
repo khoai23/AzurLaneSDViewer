@@ -959,49 +959,49 @@ var charData = {
 		"group" : "Sakura Empire",
 		"skin" : ["rixiang","rixiang_g",]
 	},
-	"i-13" : {
+	"i-13_" : {
 		"name" : "I13",
 		"type" : "Submarine Aircraft Carrier",
 		"group" : "Sakura Empire",
 		"skin" : ["I13",]
 	},
-	"i168" : {
+	"i168_" : {
 		"name" : "I168",
 		"type" : "Submarine",
 		"group" : "Sakura Empire",
 		"skin" : ["I168","i168_2",]
 	},
-	"i19" : {
+	"i19_" : {
 		"name" : "I19",
 		"type" : "Submarine",
 		"group" : "Sakura Empire",
 		"skin" : ["i19","i19_2",]
 	},
-	"i25" : {
+	"i25_" : {
 		"name" : "I25",
 		"type" : "Submarine",
 		"group" : "Sakura Empire",
 		"skin" : ["I25","i25_2",]
 	},
-	"i26" : {
+	"i26_" : {
 		"name" : "I26",
 		"type" : "Submarine",
 		"group" : "Sakura Empire",
 		"skin" : ["i26","i26_2","i26_3",]
 	},
-	"i56" : {
+	"i56_" : {
 		"name" : "I56",
 		"type" : "Submarine",
 		"group" : "Sakura Empire",
 		"skin" : ["I56","i56_2",]
 	},
-	"i58" : {
+	"i58_" : {
 		"name" : "I58",
 		"type" : "Submarine",
 		"group" : "Sakura Empire",
 		"skin" : ["i58",]
 	},
-	"i8" : {
+	"i8_" : {
 		"name" : "I-8",
 		"type" : "Submarine",
 		"group" : "Sakura Empire",
@@ -2087,49 +2087,49 @@ var charData = {
 		"group" : "Sakura Empire",
 		"skin" : ["ligen",]
 	},
-	"u101" : {
+	"u101_" : {
 		"name" : "U-101",
 		"type" : "Submarine",
 		"group" : "Ironblood",
 		"skin" : ["U101","u101_2",]
 	},
-	"u110" : {
+	"u110_" : {
 		"name" : "U-110",
 		"type" : "Submarine",
 		"group" : "Ironblood",
 		"skin" : ["U110","U110_2",]
 	},
-	"u47" : {
+	"u47_" : {
 		"name" : "U-47",
 		"type" : "Submarine",
 		"group" : "Ironblood",
 		"skin" : ["u47","u47_2","U47_3",]
 	},
-	"u522" : {
+	"u522_" : {
 		"name" : "U-522",
 		"type" : "Submarine",
 		"group" : "Ironblood",
 		"skin" : ["U522",]
 	},
-	"u556" : {
+	"u556_" : {
 		"name" : "U-556",
 		"type" : "Submarine",
 		"group" : "Ironblood",
 		"skin" : ["U556","U556_2",]
 	},
-	"u557" : {
+	"u557_" : {
 		"name" : "U-557",
 		"type" : "Submarine",
 		"group" : "Ironblood",
 		"skin" : ["u557",]
 	},
-	"u73" : {
+	"u73_" : {
 		"name" : "U-73",
 		"type" : "Submarine",
 		"group" : "Ironblood",
 		"skin" : ["U73","u73_3",]
 	},
-	"u81" : {
+	"u81_" : {
 		"name" : "U-81",
 		"type" : "Submarine",
 		"group" : "Ironblood",
@@ -2315,67 +2315,67 @@ var charData = {
 		"group" : "Sakura Empire",
 		"skin" : ["ximu","ximu_2","ximu_3","ximu_4","ximu_g",]
 	},
-	"z1" : {
+	"z1_" : {
 		"name" : "Z1 (Leberecht Maass)",
 		"type" : "Destroyer",
 		"group" : "Ironblood",
 		"skin" : ["z1","z1_2","z1_g",]
 	},
-	"z18" : {
+	"z18_" : {
 		"name" : "Hans Lüdemann",
 		"type" : "Destroyer",
 		"group" : "Ironblood",
 		"skin" : ["z18",]
 	},
-	"z19" : {
+	"z19_" : {
 		"name" : "Hermann Künne",
 		"type" : "Destroyer",
 		"group" : "Ironblood",
 		"skin" : ["z19",]
 	},
-	"z2" : {
+	"z2_" : {
 		"name" : "Georg Thiele",
 		"type" : "Destroyer",
 		"group" : "Ironblood",
 		"skin" : ["z2",]
 	},
-	"z20" : {
+	"z20_" : {
 		"name" : "Karl Galster",
 		"type" : "Destroyer",
 		"group" : "Ironblood",
 		"skin" : ["z20",]
 	},
-	"z21" : {
+	"z21_" : {
 		"name" : "Wilhelm Heidkamp",
 		"type" : "Destroyer",
 		"group" : "Ironblood",
 		"skin" : ["z21",]
 	},
-	"z23" : {
+	"z23_" : {
 		"name" : "Z23",
 		"type" : "Destroyer",
 		"group" : "Ironblood",
 		"skin" : ["z23","z23_2","z23_4","z23_3","z23_5","z23_g",]
 	},
-	"z25" : {
+	"z25_" : {
 		"name" : "Z25",
 		"type" : "Destroyer",
 		"group" : "Ironblood",
 		"skin" : ["z25","z25_2",]
 	},
-	"z35" : {
+	"z35_" : {
 		"name" : "Z35",
 		"type" : "Destroyer",
 		"group" : "Ironblood",
 		"skin" : ["z35","z35_2",]
 	},
-	"z36" : {
+	"z36_" : {
 		"name" : "Z36",
 		"type" : "Destroyer",
 		"group" : "Ironblood",
 		"skin" : ["z36",]
 	},
-	"z46" : {
+	"z46_" : {
 		"name" : "Z46",
 		"type" : "Destroyer",
 		"group" : "Ironblood",
