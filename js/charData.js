@@ -677,7 +677,7 @@ var charData = {
 		"group" : "Royal Navy",
 		"skin" : ["jialadiya",]
 	},
-	"gangute" : {
+	"gangute__" : {
 		"name" : "Gangut",
 		"type" : "Battleship",
 		"group" : "Northern Parliament",
