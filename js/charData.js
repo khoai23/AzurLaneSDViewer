@@ -225,7 +225,7 @@ var charData = {
 		"name" : "Bache",
 		"type" : "Destroyer",
 		"group" : "Eagle Union",
-		"skin" : ["beiqi","beiqi_2",]
+		"skin" : ["beiqi","beiqi_2","beiqi_3",]
 	},
 	"bailey" : {
 		"name" : "Bailey",
@@ -237,7 +237,7 @@ var charData = {
 		"name" : "Baltimore",
 		"type" : "Heavy Cruiser",
 		"group" : "Eagle Union",
-		"skin" : ["baerdimo","baerdimo_2",]
+		"skin" : ["baerdimo","baerdimo_2","baerdimo_4",]
 	},
 	"bataan" : {
 		"name" : "Bataan",
@@ -305,11 +305,23 @@ var charData = {
 		"group" : "Royal Navy",
 		"skin" : ["heitaizi","heitaizi_2","heitaizi_3",]
 	},
+	"bluegill" : {
+		"name" : "Bluegill",
+		"type" : "Submarine",
+		"group" : "Eagle Union",
+		"skin" : ["lansaiyu","lansaiyu_2",]
+	},
 	"bogue" : {
 		"name" : "Bogue",
 		"type" : "Light Aircraft Carrier",
 		"group" : "Eagle Union",
 		"skin" : ["boge","boge_g",]
+	},
+	"bremerton" : {
+		"name" : "Bremerton",
+		"type" : "Heavy Cruiser",
+		"group" : "Eagle Union",
+		"skin" : ["bulaimodun","bulaimodun_3",]
 	},
 	"brooklyn" : {
 		"name" : "Brooklyn",
@@ -358,6 +370,12 @@ var charData = {
 		"type" : "Destroyer",
 		"group" : "Sardegna Empire",
 		"skin" : ["longqibing","longqibing_2",]
+	},
+	"casablanca" : {
+		"name" : "Casablanca",
+		"type" : "Escort Aircraft Carrier",
+		"group" : "Eagle Union",
+		"skin" : ["kasabulanka","kasabulanka_2",]
 	},
 	"cassin" : {
 		"name" : "Cassin",
@@ -461,6 +479,12 @@ var charData = {
 		"group" : "Sardegna Empire",
 		"skin" : ["jiafuerbojue",]
 	},
+	"cooper" : {
+		"name" : "Cooper",
+		"type" : "Destroyer",
+		"group" : "Eagle Union",
+		"skin" : ["kubo","kubo_2",]
+	},
 	"craven" : {
 		"name" : "Craven",
 		"type" : "Destroyer",
@@ -489,7 +513,7 @@ var charData = {
 		"name" : "Cygnet",
 		"type" : "Destroyer",
 		"group" : "Royal Navy",
-		"skin" : ["xiaotiane","xiaotiane_2","xiaotiane_3","xiaotiane_5","xiaotiane_4","xiaotiane_g",]
+		"skin" : ["xiaotiane","xiaotiane_2","xiaotiane_3","xiaotiane_5","xiaotiane_4","xiaotiane_6","xiaotiane_g",]
 	},
 	"dace" : {
 		"name" : "Dace",
@@ -1043,6 +1067,12 @@ var charData = {
 		"group" : "Eagle Union",
 		"skin" : ["bolisi","bolisi_2",]
 	},
+	"intrepid" : {
+		"name" : "Intrepid",
+		"type" : "Aircraft Carrier",
+		"group" : "Eagle Union",
+		"skin" : ["wuwei","wuwei_2",]
+	},
 	"ise" : {
 		"name" : "Ise",
 		"type" : "Battleship",
@@ -1385,6 +1415,12 @@ var charData = {
 		"group" : "Sakura Empire",
 		"skin" : ["juanbo",]
 	},
+	"marblehead" : {
+		"name" : "Marblehead",
+		"type" : "Light Cruiser",
+		"group" : "Eagle Union",
+		"skin" : ["mabuerheide","mabuerheide_2",]
+	},
 	"maryland" : {
 		"name" : "Maryland",
 		"type" : "Battleship",
@@ -1479,7 +1515,7 @@ var charData = {
 		"name" : "Minneapolis",
 		"type" : "Heavy Cruiser",
 		"group" : "Eagle Union",
-		"skin" : ["mingniabolisi","mingniabolisi_2",]
+		"skin" : ["mingniabolisi","mingniabolisi_2","mingniabolisi_3",]
 	},
 	"mogami" : {
 		"name" : "Mogami",
@@ -1762,6 +1798,12 @@ var charData = {
 		"type" : "Light Aircraft Carrier",
 		"group" : "Eagle Union",
 		"skin" : ["tujizhe","tujizhe_g",]
+	},
+	"reno" : {
+		"name" : "Reno",
+		"type" : "Light Cruiser",
+		"group" : "Eagle Union",
+		"skin" : ["linuo","linuo_2",]
 	},
 	"renown" : {
 		"name" : "Renown",
@@ -2379,7 +2421,7 @@ var charData = {
 		"name" : "Z46",
 		"type" : "Destroyer",
 		"group" : "Ironblood",
-		"skin" : ["z46","z46_2",]
+		"skin" : ["z46","z46_2","z46_3",]
 	},
 	"zara" : {
 		"name" : "Zara",
@@ -2423,6 +2465,12 @@ var charData = {
 		"group" : "Siren",
 		"skin" : ["qingchuzhe",]
 	},
+	"siren_boss" : {
+		"name" : "Siren boss",
+		"type" : "Battleship",
+		"group" : "Siren",
+		"skin" : ["sairenboss11",]
+	},
 	"siren_scavenger" : {
 		"name" : "Scavenger",
 		"type" : "Destroyer",
@@ -2463,7 +2511,7 @@ var charData = {
 		"name" : "Siren Ship",
 		"type" : "Miscellaneous",
 		"group" : "Miscellaneous",
-		"skin" : ["SrBB","srBB2","srBB3","SrCA","srCA2","srCA3","SrCL","srCL2","srCL3","SrCV","srCV2","srCV3","SrDD","srDD2","srDD3","zibao_maozi",]
+		"skin" : ["SrBB","srBB2","srBB3","srBB4","SrCA","srCA2","srCA3","srCA4","SrCL","srCL2","srCL3","srCL4","SrCV","srCV2","srCV3","srCV4","SrDD","srDD2","srDD3","srDD4","zibao_maozi","zibao4","srSS"]
 	},
     "enemy_ship" : {
         "name" : "Enemy Ship",
@@ -2588,6 +2636,9 @@ var charData = {
             "vtuber2",
             "chuizi",
             "elf",
-            "liandao",]
+            "liandao",
+            "cowboy",
+            "eagle",
+            "super"]
     }
 };
