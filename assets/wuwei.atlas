@@ -5,43 +5,43 @@ format: RGBA8888
 filter: Linear,Linear
 repeat: none
 #
-  rotate: false
-  xy: 891, 36
+  rotate: true
+  xy: 463, 2
   size: 28, 25
   orig: 28, 25
   offset: 0, 0
   index: -1
 body
-  rotate: true
-  xy: 304, 37
+  rotate: false
+  xy: 308, 33
   size: 70, 74
   orig: 70, 74
   offset: 0, 0
   index: -1
 body_w
-  rotate: false
-  xy: 650, 70
+  rotate: true
+  xy: 482, 33
   size: 45, 48
   orig: 45, 48
   offset: 0, 0
   index: -1
 ear
-  rotate: true
-  xy: 347, 8
+  rotate: false
+  xy: 983, 21
   size: 27, 31
   orig: 27, 31
   offset: 0, 0
   index: -1
 eye_1
   rotate: false
-  xy: 380, 10
+  xy: 182, 25
   size: 100, 28
   orig: 100, 28
   offset: 0, 0
   index: -1
 eye_2
   rotate: false
-  xy: 556, 81
+  xy: 853, 60
   size: 92, 37
   orig: 92, 37
   offset: 0, 0
@@ -55,28 +55,28 @@ eye_2 (2)
   index: -1
 eye_3
   rotate: false
-  xy: 910, 164
+  xy: 853, 164
   size: 102, 90
   orig: 102, 90
   offset: 0, 0
   index: -1
 eye_3 (2)
-  rotate: false
-  xy: 182, 2
+  rotate: true
+  xy: 717, 50
   size: 77, 38
   orig: 77, 38
   offset: 0, 0
   index: -1
 eye_4
   rotate: false
-  xy: 907, 102
+  xy: 380, 45
   size: 100, 60
   orig: 100, 60
   offset: 0, 0
   index: -1
 eye_5
   rotate: false
-  xy: 697, 76
+  xy: 769, 78
   size: 82, 62
   orig: 82, 62
   offset: 0, 0
@@ -96,15 +96,15 @@ fashi_F
   offset: 0, 0
   index: -1
 fashi_L
-  rotate: false
-  xy: 772, 24
+  rotate: true
+  xy: 893, 23
   size: 35, 43
   orig: 35, 43
   offset: 0, 0
   index: -1
 fashi_R
-  rotate: false
-  xy: 477, 60
+  rotate: true
+  xy: 938, 25
   size: 27, 43
   orig: 27, 43
   offset: 0, 0
@@ -118,14 +118,14 @@ hair_BF
   index: -1
 hair_F
   rotate: true
-  xy: 869, 63
+  xy: 757, 39
   size: 37, 86
   orig: 37, 86
   offset: 0, 0
   index: -1
 hair_L1
-  rotate: true
-  xy: 783, 184
+  rotate: false
+  xy: 697, 129
   size: 70, 125
   orig: 70, 125
   offset: 0, 0
@@ -139,7 +139,7 @@ hair_L2
   index: -1
 hair_R1
   rotate: true
-  xy: 783, 130
+  xy: 184, 55
   size: 52, 122
   orig: 52, 122
   offset: 0, 0
@@ -153,91 +153,91 @@ hair_R2
   index: -1
 hand_L1
   rotate: true
-  xy: 869, 102
+  xy: 425, 17
   size: 26, 36
   orig: 26, 36
   offset: 0, 0
   index: -1
 hand_L2
   rotate: true
-  xy: 809, 13
+  xy: 567, 31
   size: 26, 32
   orig: 26, 32
   offset: 0, 0
   index: -1
 hand_R1
   rotate: true
-  xy: 857, 38
+  xy: 560, 6
   size: 23, 32
   orig: 23, 32
   offset: 0, 0
   index: -1
 hand_R2
-  rotate: false
-  xy: 319, 2
+  rotate: true
+  xy: 532, 31
   size: 26, 33
   orig: 26, 33
   offset: 0, 0
   index: -1
 jianzhuang_L1
   rotate: true
-  xy: 382, 105
-  size: 61, 122
-  orig: 61, 122
+  xy: 382, 107
+  size: 59, 120
+  orig: 59, 120
   offset: 0, 0
   index: -1
 jianzhuang_R5
   rotate: false
-  xy: 697, 140
-  size: 84, 114
-  orig: 84, 114
+  xy: 769, 142
+  size: 82, 112
+  orig: 82, 112
   offset: 0, 0
   index: -1
 leg_L1
   rotate: true
-  xy: 809, 41
+  xy: 845, 32
   size: 26, 46
   orig: 26, 46
   offset: 0, 0
   index: -1
 leg_L2
-  rotate: false
-  xy: 261, 7
+  rotate: true
+  xy: 490, 4
   size: 27, 33
   orig: 27, 33
   offset: 0, 0
   index: -1
 leg_R1
   rotate: true
-  xy: 506, 52
+  xy: 380, 17
   size: 26, 43
   orig: 26, 43
   offset: 0, 0
   index: -1
 leg_R2
-  rotate: false
-  xy: 290, 2
+  rotate: true
+  xy: 525, 2
   size: 27, 33
   orig: 27, 33
   offset: 0, 0
   index: -1
 meimao_1
   rotate: false
-  xy: 781, 69
+  xy: 554, 59
   size: 86, 59
   orig: 86, 59
   offset: 0, 0
   index: -1
 meimao_2
   rotate: false
-  xy: 697, 6
+  xy: 642, 50
   size: 73, 68
   orig: 73, 68
   offset: 0, 0
   index: -1
 meimao_3
   rotate: true
-  xy: 957, 20
+  xy: 950, 54
   size: 80, 60
   orig: 80, 60
   offset: 0, 0
@@ -251,21 +251,21 @@ paopao1
   index: -1
 sleep5
   rotate: true
-  xy: 506, 80
+  xy: 504, 80
   size: 86, 48
   orig: 86, 48
   offset: 0, 0
   index: -1
 yifu_B
-  rotate: false
-  xy: 184, 42
+  rotate: true
+  xy: 957, 136
   size: 118, 65
   orig: 118, 65
   offset: 0, 0
   index: -1
 yifu_F
   rotate: false
-  xy: 380, 40
+  xy: 853, 99
   size: 95, 63
   orig: 95, 63
   offset: 0, 0

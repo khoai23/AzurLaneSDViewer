@@ -1,0 +1,55 @@
+
+zibao_zuantou.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body1
+  rotate: false
+  xy: 2, 114
+  size: 206, 134
+  orig: 206, 134
+  offset: 0, 0
+  index: -1
+body2
+  rotate: false
+  xy: 210, 99
+  size: 173, 149
+  orig: 173, 149
+  offset: 0, 0
+  index: -1
+zd01
+  rotate: false
+  xy: 2, 58
+  size: 179, 54
+  orig: 179, 54
+  offset: 0, 0
+  index: -1
+zd02
+  rotate: false
+  xy: 2, 2
+  size: 179, 54
+  orig: 179, 54
+  offset: 0, 0
+  index: -1
+zd03
+  rotate: false
+  xy: 183, 43
+  size: 179, 54
+  orig: 179, 54
+  offset: 0, 0
+  index: -1
+zhadan1
+  rotate: false
+  xy: 385, 166
+  size: 99, 82
+  orig: 99, 82
+  offset: 0, 0
+  index: -1
+zhadan2
+  rotate: false
+  xy: 385, 90
+  size: 94, 74
+  orig: 94, 74
+  offset: 0, 0
+  index: -1

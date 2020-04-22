@@ -1,7 +1,13 @@
  
 {"result":{"id":"f8e3210ff3a9d59b07a980e0df8779a2"},"success":true,"errors":[],"messages":[]}
- changliang_2.png 
+ kin.png 
 {"result":{"id":"f8e3210ff3a9d59b07a980e0df8779a2"},"success":true,"errors":[],"messages":[]}
- changliang_2.atlas 
+ kin.atlas 
 {"result":{"id":"f8e3210ff3a9d59b07a980e0df8779a2"},"success":true,"errors":[],"messages":[]}
- changliang_2.skel 
+ kin.skel 
+{"result":{"id":"f8e3210ff3a9d59b07a980e0df8779a2"},"success":true,"errors":[],"messages":[]}
+ xukufu_2.png 
+{"result":{"id":"f8e3210ff3a9d59b07a980e0df8779a2"},"success":true,"errors":[],"messages":[]}
+ xukufu_2.atlas 
+{"result":{"id":"f8e3210ff3a9d59b07a980e0df8779a2"},"success":true,"errors":[],"messages":[]}
+ xukufu_2.skel 

@@ -339,7 +339,7 @@ var charData = {
 		"name" : "Universal Bulin",
 		"type" : "Destroyer",
 		"group" : "Universal",
-		"skin" : ["gin",]
+		"skin" : ["gin","gin_2",]
 	},
 	"bullin_mkii" : {
 		"name" : "Trial Bulin MKII",
@@ -1317,7 +1317,7 @@ var charData = {
 		"name" : "Laffey",
 		"type" : "Destroyer",
 		"group" : "Eagle Union",
-		"skin" : ["lafei","lafei_2","lafei_3","lafei_4","lafei_5","lafei_6","lafei_g","lafei_h",]
+		"skin" : ["lafei","lafei_2","lafei_3","lafei_4","lafei_5","lafei_6","lafei_8","lafei_g","lafei_h",]
 	},
 	"langley" : {
 		"name" : "Langley",
@@ -2560,7 +2560,8 @@ var charData = {
             "DD_holo",
             "yunshu_holo",
             "zibao_holo",
-            "chichengdanchuan_BOSS",]
+            "chichengdanchuan_BOSS",
+            "zibao_zuantou",]
     },
     "miscellaneous" : {
         "name" : "Miscellaneous",
@@ -2639,6 +2640,8 @@ var charData = {
             "liandao",
             "cowboy",
             "eagle",
-            "super"]
+            "super",
+            "bulipaodun",
+            "bulizidan",]
     }
 };
