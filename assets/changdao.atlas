@@ -20,7 +20,7 @@ body
   index: -1
 bodyW
   rotate: true
-  xy: 596, 103
+  xy: 531, 103
   size: 45, 48
   orig: 45, 48
   offset: 0, 0
@@ -34,14 +34,14 @@ ear
   index: -1
 eye_1_1
   rotate: true
-  xy: 439, 2
+  xy: 433, 2
   size: 43, 35
   orig: 43, 35
   offset: 0, 0
   index: -1
 eye_1_2
-  rotate: true
-  xy: 158, 39
+  rotate: false
+  xy: 718, 94
   size: 34, 32
   orig: 34, 32
   offset: 0, 0
@@ -55,42 +55,42 @@ eye_2_1
   index: -1
 eye_2_2
   rotate: false
-  xy: 538, 61
+  xy: 405, 12
   size: 26, 17
   orig: 26, 17
   offset: 0, 0
   index: -1
 eye_3_1
   rotate: false
-  xy: 646, 110
+  xy: 650, 110
   size: 26, 38
   orig: 26, 38
   offset: 0, 0
   index: -1
 eye_3_2
-  rotate: false
-  xy: 513, 81
+  rotate: true
+  xy: 678, 100
   size: 26, 38
   orig: 26, 38
   offset: 0, 0
   index: -1
 eye_4_1
   rotate: false
-  xy: 158, 15
+  xy: 754, 104
   size: 29, 22
   orig: 29, 22
   offset: 0, 0
   index: -1
 eye_4_2
   rotate: false
-  xy: 513, 57
+  xy: 785, 104
   size: 23, 22
   orig: 23, 22
   offset: 0, 0
   index: -1
 eye_6_1
   rotate: false
-  xy: 541, 93
+  xy: 367, 2
   size: 36, 27
   orig: 36, 27
   offset: 0, 0
@@ -139,16 +139,30 @@ hair_R
   index: -1
 hand_L
   rotate: true
-  xy: 367, 14
-  size: 43, 70
-  orig: 43, 70
+  xy: 470, 11
+  size: 34, 45
+  orig: 34, 45
+  offset: 0, 0
+  index: -1
+hand_L2
+  rotate: false
+  xy: 581, 104
+  size: 34, 44
+  orig: 34, 44
   offset: 0, 0
   index: -1
 hand_R
-  rotate: true
-  xy: 476, 5
-  size: 40, 70
-  orig: 40, 70
+  rotate: false
+  xy: 158, 23
+  size: 32, 50
+  orig: 32, 50
+  offset: 0, 0
+  index: -1
+hand_R2
+  rotate: false
+  xy: 617, 113
+  size: 31, 35
+  orig: 31, 35
   offset: 0, 0
   index: -1
 hat
@@ -167,28 +181,28 @@ heart
   index: -1
 leg_L
   rotate: true
-  xy: 748, 128
+  xy: 682, 128
   size: 26, 63
   orig: 26, 63
   offset: 0, 0
   index: -1
 leg_L2
   rotate: true
-  xy: 531, 122
+  xy: 747, 128
   size: 26, 63
   orig: 26, 63
   offset: 0, 0
   index: -1
 leg_R
   rotate: true
-  xy: 955, 132
+  xy: 367, 31
   size: 26, 64
   orig: 26, 64
   offset: 0, 0
   index: -1
 leg_R2
   rotate: true
-  xy: 682, 128
+  xy: 955, 132
   size: 26, 64
   orig: 26, 64
   offset: 0, 0
@@ -229,8 +243,8 @@ sleep5
   offset: 0, 0
   index: -1
 tie
-  rotate: true
-  xy: 541, 80
+  rotate: false
+  xy: 513, 82
   size: 11, 37
   orig: 11, 37
   offset: 0, 0

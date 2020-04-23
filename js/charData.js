@@ -165,7 +165,7 @@ var charData = {
 		"name" : "Ashigara",
 		"type" : "Heavy Cruiser",
 		"group" : "Sakura Empire",
-		"skin" : ["zubing","zubing_2",]
+		"skin" : ["zubing","zubing_2","zubing_3",]
 	},
 	"astoria" : {
 		"name" : "Astoria",
@@ -803,6 +803,12 @@ var charData = {
 		"group" : "Eagle Union",
 		"skin" : ["haman","haman_2","haman_g",]
 	},
+	"hanazuki" : {
+		"name" : "Hanazuki",
+		"type" : "Destroyer",
+		"group" : "Sakura Empire",
+		"skin" : ["huayue","huayue_3",]
+	},
 	"hardy" : {
 		"name" : "Hardy",
 		"type" : "Destroyer",
@@ -915,7 +921,7 @@ var charData = {
 		"name" : "Hiei",
 		"type" : "Battlecruiser",
 		"group" : "Sakura Empire",
-		"skin" : ["birui","birui_2","birui_4",]
+		"skin" : ["birui","birui_2","birui_4","birui_5",]
 	},
 	"hieichan" : {
 		"name" : "Hiei-chan",
@@ -1089,7 +1095,7 @@ var charData = {
 		"name" : "Isuzu",
 		"type" : "Light Cruiser",
 		"group" : "Sakura Empire",
-		"skin" : ["wushiling","wushiling_2","wushiling_3",]
+		"skin" : ["wushiling","wushiling_2","wushiling_3","wushiling_g",]
 	},
 	"izumo" : {
 		"name" : "Izumo",
@@ -1379,6 +1385,12 @@ var charData = {
 		"group" : "Eagle Union",
 		"skin" : ["hailunna_younv",]
 	},
+	"little_renown" : {
+		"name" : "Little Renown",
+		"type" : "Battlecruiser",
+		"group" : "Royal Navy",
+		"skin" : ["shengwang_younv",]
+	},
 	"little_san_diego" : {
 		"name" : "Little San Diego",
 		"type" : "Light Cruiser",
@@ -1413,7 +1425,7 @@ var charData = {
 		"name" : "Makinami",
 		"type" : "Destroyer",
 		"group" : "Sakura Empire",
-		"skin" : ["juanbo",]
+		"skin" : ["juanbo","juanbo_2",]
 	},
 	"marblehead" : {
 		"name" : "Marblehead",
@@ -1577,6 +1589,12 @@ var charData = {
 		"group" : "Sakura Empire",
 		"skin" : ["nazhi",]
 	},
+	"naganami" : {
+		"name" : "Naganami",
+		"type" : "Destroyer",
+		"group" : "Sakura Empire",
+		"skin" : ["changbo","changbo_2",]
+	},
 	"nagara" : {
 		"name" : "Nagara",
 		"type" : "Light Cruiser",
@@ -1599,7 +1617,7 @@ var charData = {
 		"name" : "Naka",
 		"type" : "Light Cruiser",
 		"group" : "Sakura Empire",
-		"skin" : ["nake",]
+		"skin" : ["nake","nake_2",]
 	},
 	"nakiri_ayame" : {
 		"name" : "Nakiri Ayame",
@@ -2128,6 +2146,12 @@ var charData = {
 		"type" : "Heavy Cruiser",
 		"group" : "Sakura Empire",
 		"skin" : ["ligen",]
+	},
+	"tosa" : {
+		"name" : "Tosa",
+		"type" : "Battleship",
+		"group" : "Sakura Empire",
+		"skin" : ["tuzuo","tuzuo_2",]
 	},
 	"u101_" : {
 		"name" : "U-101",
