@@ -2099,6 +2099,12 @@ var charData = {
 		"group" : "Sakura Empire",
 		"skin" : ["gufeng","gufeng_2","gufeng_g",]
 	},
+	"tartu" : {
+		"name" : "Tartu",
+		"type" : "Destroyer",
+		"group" : "Vichya Dominion",
+		"skin" : ["taertu","taertu_2",]
+	},
 	"tashkent" : {
 		"name" : "Tashkent",
 		"type" : "Destroyer",
@@ -2585,7 +2591,8 @@ var charData = {
             "yunshu_holo",
             "zibao_holo",
             "chichengdanchuan_BOSS",
-            "zibao_zuantou",]
+            "zibao_zuantou",
+            "qiaozhiwushidanchuan",]
     },
     "miscellaneous" : {
         "name" : "Miscellaneous",
