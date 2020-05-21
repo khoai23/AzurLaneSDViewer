@@ -95,6 +95,12 @@ var charData = {
 		"group" : "Eagle Union",
 		"skin" : ["daqinghuayu",]
 	},
+	"algerie" : {
+		"name" : "Algerie",
+		"type" : "Heavy Cruiser",
+		"group" : "Vichya Dominion",
+		"skin" : ["aerjiliya","aerjiliya_2",]
+	},
 	"amagi" : {
 		"name" : "Amagi",
 		"type" : "Battlecruiser",
@@ -251,6 +257,12 @@ var charData = {
 		"group" : "Royal Navy",
 		"skin" : ["xiaolietuquan",]
 	},
+	"bearn" : {
+		"name" : "Bearn",
+		"type" : "Aircraft Carrier",
+		"group" : "Iris Libre",
+		"skin" : ["beiyaen","beiyaen_2",]
+	},
 	"belchan" : {
 		"name" : "Bel-chan",
 		"type" : "Light Cruiser",
@@ -261,7 +273,7 @@ var charData = {
 		"name" : "Belfast",
 		"type" : "Light Cruiser",
 		"group" : "Royal Navy",
-		"skin" : ["beierfasite","beierfasite_2","beierfasite_3","beierfasite_4","beierfasite_5","beierfasite_h",]
+		"skin" : ["beierfasite","beierfasite_2","beierfasite_3","beierfasite_4","beierfasite_5","beierfasite_7","beierfasite_h",]
 	},
 	"benson" : {
 		"name" : "Benson",
@@ -591,7 +603,7 @@ var charData = {
 		"name" : "Émile Bertin",
 		"type" : "Light Cruiser",
 		"group" : "Iris Libre",
-		"skin" : ["aimierbeierding","aimierbeierding_2","aimierbeierding_g",]
+		"skin" : ["aimierbeierding","aimierbeierding_2","aimierbeierding_3","aimierbeierding_g",]
 	},
 	"enterprise" : {
 		"name" : "Enterprise",
@@ -669,7 +681,7 @@ var charData = {
 		"name" : "Fubuki",
 		"type" : "Destroyer",
 		"group" : "Sakura Empire",
-		"skin" : ["chuixue","chuixue_2","chuixue_4","chuixue_3","chuixue_5",]
+		"skin" : ["chuixue","chuixue_2","chuixue_4","chuixue_3","chuixue_5","chuixue_6",]
 	},
 	"fumizuki" : {
 		"name" : "Fumizuki",
@@ -1119,7 +1131,13 @@ var charData = {
 		"name" : "Jean Bart",
 		"type" : "Battleship",
 		"group" : "Vichya Dominion",
-		"skin" : ["rangbaer","rangbaer_2",]
+		"skin" : ["rangbaer","rangbaer_2","rangbaer_3",]
+	},
+	"jeanne_d'arc" : {
+		"name" : "Jeanne d'Arc",
+		"type" : "Light Cruiser",
+		"group" : "Iris Libre",
+		"skin" : ["shengnvzhende","shengnvzhende_2",]
 	},
 	"jenkins" : {
 		"name" : "Jenkins",
@@ -1331,6 +1349,12 @@ var charData = {
 		"group" : "Eagle Union",
 		"skin" : ["lanli","lanli_g",]
 	},
+	"la_galissonniere" : {
+		"name" : "La Galissonniere",
+		"type" : "Light Cruiser",
+		"group" : "Vichya Dominion",
+		"skin" : ["jialisuoniye","jialisuoniye_2",]
+	},
 	"leander" : {
 		"name" : "Leander",
 		"type" : "Light Cruiser",
@@ -1353,7 +1377,7 @@ var charData = {
 		"name" : "Le Malin",
 		"type" : "Destroyer",
 		"group" : "Vichya Dominion",
-		"skin" : ["edu","edu_2",]
+		"skin" : ["edu","edu_2","edu_3",]
 	},
 	"le_mars" : {
 		"name" : "Le Mars",
@@ -1365,7 +1389,7 @@ var charData = {
 		"name" : "Le Téméraire",
 		"type" : "Destroyer",
 		"group" : "Iris Libre",
-		"skin" : ["lumang",]
+		"skin" : ["lumang","lumang_2",]
 	},
 	"le_triomphant" : {
 		"name" : "Le Triomphant",
@@ -1835,6 +1859,12 @@ var charData = {
 		"group" : "Royal Navy",
 		"skin" : ["fanji",]
 	},
+	"richelieu" : {
+		"name" : "Richelieu",
+		"type" : "Battleship",
+		"group" : "Iris Libre",
+		"skin" : ["lisailiu","lisailiu_2",]
+	},
 	"richmond" : {
 		"name" : "Richmond",
 		"type" : "Light Cruiser",
@@ -2273,6 +2303,12 @@ var charData = {
 		"group" : "Royal Navy",
 		"skin" : ["xixuegui","xixuegui_2","xixuegui_3","xixuegui_4","xixuegui_h",]
 	},
+	"vauquelin" : {
+		"name" : "Vauquelin",
+		"type" : "Destroyer",
+		"group" : "Vichya Dominion",
+		"skin" : ["wokelan","wokelan_2",]
+	},
 	"vestal" : {
 		"name" : "Vestal",
 		"type" : "Repair",
@@ -2427,7 +2463,7 @@ var charData = {
 		"name" : "Z23",
 		"type" : "Destroyer",
 		"group" : "Ironblood",
-		"skin" : ["z23","z23_2","z23_4","z23_3","z23_5","z23_g",]
+		"skin" : ["z23","z23_2","z23_4","z23_3","z23_5","z23_8","z23_7","z23_g",]
 	},
 	"z25_" : {
 		"name" : "Z25",
@@ -2592,7 +2628,12 @@ var charData = {
             "zibao_holo",
             "chichengdanchuan_BOSS",
             "zibao_zuantou",
-            "qiaozhiwushidanchuan",]
+            "qiaozhiwushidanchuan",
+            "aerjiliyadanchuan",
+            "aimierbeierdingdanchuan",
+            "beiyaendanchuan",
+            "bulietanidanchuan",
+            "kuangfengdanchuan",]
     },
     "miscellaneous" : {
         "name" : "Miscellaneous",
@@ -2673,6 +2714,7 @@ var charData = {
             "eagle",
             "super",
             "bulipaodun",
-            "bulizidan",]
+            "bulizidan",
+            "3rd",]
     }
 };
