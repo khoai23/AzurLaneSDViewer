@@ -45,7 +45,7 @@ var charData = {
 		"name" : "Agano",
 		"type" : "Light Cruiser",
 		"group" : "Sakura Empire",
-		"skin" : ["aheye","aheye_3","aheye_2",]
+		"skin" : ["aheye","aheye_3","aheye_2","aheye_4",]
 	},
 	"ajax" : {
 		"name" : "Ajax",
@@ -93,7 +93,7 @@ var charData = {
 		"name" : "Albacore",
 		"type" : "Submarine",
 		"group" : "Eagle Union",
-		"skin" : ["daqinghuayu",]
+		"skin" : ["daqinghuayu","daqinghuayu_4",]
 	},
 	"algerie" : {
 		"name" : "Algerie",
@@ -297,7 +297,7 @@ var charData = {
 		"name" : "Biloxi",
 		"type" : "Light Cruiser",
 		"group" : "Eagle Union",
-		"skin" : ["biluokexi","biluokexi_2",]
+		"skin" : ["biluokexi","biluokexi_2","biluokexi_4",]
 	},
 	"birmingham" : {
 		"name" : "Birmingham",
@@ -399,7 +399,7 @@ var charData = {
 		"name" : "Cavalla",
 		"type" : "Submarine",
 		"group" : "Eagle Union",
-		"skin" : ["jiqi","jiqi_2",]
+		"skin" : ["jiqi","jiqi_2","jiqi_3",]
 	},
 	"centaur" : {
 		"name" : "Centaur",
@@ -555,7 +555,7 @@ var charData = {
 		"name" : "Dido",
 		"type" : "Light Cruiser",
 		"group" : "Royal Navy",
-		"skin" : ["daiduo",]
+		"skin" : ["daiduo","daiduo_2",]
 	},
 	"dorsetshire" : {
 		"name" : "Dorsetshire",
@@ -609,7 +609,7 @@ var charData = {
 		"name" : "Enterprise",
 		"type" : "Aircraft Carrier",
 		"group" : "Eagle Union",
-		"skin" : ["qiye","qiye_2","qiye_3","qiye_4","qiye_5","qiye_h","qiye_dark",]
+		"skin" : ["qiye","qiye_2","qiye_3","qiye_4","qiye_5","qiye_6","qiye_h","qiye_dark",]
 	},
 	"erebus" : {
 		"name" : "Erebus",
@@ -651,7 +651,7 @@ var charData = {
 		"name" : "Forbin",
 		"type" : "Destroyer",
 		"group" : "Iris Libre",
-		"skin" : ["fuerban","fuerban_2","fuerban_3","fuerban_g",]
+		"skin" : ["fuerban","fuerban_2","fuerban_3","fuerban_4","fuerban_g",]
 	},
 	"fortune" : {
 		"name" : "Fortune",
@@ -813,7 +813,7 @@ var charData = {
 		"name" : "Hammann",
 		"type" : "Destroyer",
 		"group" : "Eagle Union",
-		"skin" : ["haman","haman_2","haman_g",]
+		"skin" : ["haman","haman_2","haman_3","haman_g",]
 	},
 	"hanazuki" : {
 		"name" : "Hanazuki",
@@ -1133,7 +1133,7 @@ var charData = {
 		"group" : "Vichya Dominion",
 		"skin" : ["rangbaer","rangbaer_2","rangbaer_3",]
 	},
-	"jeanne_d'arc" : {
+	"jeanne_d_arc" : {
 		"name" : "Jeanne d'Arc",
 		"type" : "Light Cruiser",
 		"group" : "Iris Libre",
@@ -1409,6 +1409,12 @@ var charData = {
 		"group" : "Eagle Union",
 		"skin" : ["hailunna_younv",]
 	},
+	"little_illustrious" : {
+		"name" : "Little Illustrious",
+		"type" : "Aircraft Carrier",
+		"group" : "Royal Navy",
+		"skin" : ["guanghui_younv",]
+	},
 	"little_renown" : {
 		"name" : "Little Renown",
 		"type" : "Battlecruiser",
@@ -1425,7 +1431,7 @@ var charData = {
 		"name" : "Littorio",
 		"type" : "Battleship",
 		"group" : "Sardegna Empire",
-		"skin" : ["lituoliao","lituoliao_2",]
+		"skin" : ["lituoliao","lituoliao_2","lituoliao_3",]
 	},
 	"london" : {
 		"name" : "London",
@@ -1467,7 +1473,7 @@ var charData = {
 		"name" : "Massachusetts",
 		"type" : "Battleship",
 		"group" : "Eagle Union",
-		"skin" : ["masazhusai",]
+		"skin" : ["masazhusai","masazhusai_2",]
 	},
 	"matchless" : {
 		"name" : "Matchless",
@@ -1695,7 +1701,7 @@ var charData = {
 		"name" : "Ning Hai",
 		"type" : "Light Cruiser",
 		"group" : "Dragon Empire",
-		"skin" : ["ninghai","ninghai_2","ninghai_3","ninghai_4","ninghai_5","ninghai_g",]
+		"skin" : ["ninghai","ninghai_2","ninghai_3","ninghai_4","ninghai_5","ninghai_6","ninghai_g",]
 	},
 	"norfolk" : {
 		"name" : "Norfolk",
@@ -1785,7 +1791,7 @@ var charData = {
 		"name" : "Ping Hai",
 		"type" : "Light Cruiser",
 		"group" : "Dragon Empire",
-		"skin" : ["pinghai","pinghai_2","pinghai_3","pinghai_4","pinghai_5","pinghai_g",]
+		"skin" : ["pinghai","pinghai_2","pinghai_3","pinghai_4","pinghai_5","pinghai_6","pinghai_g",]
 	},
 	"pola" : {
 		"name" : "Pola",
@@ -2061,7 +2067,7 @@ var charData = {
 		"name" : "St.Louis",
 		"type" : "Light Cruiser",
 		"group" : "Eagle Union",
-		"skin" : ["shengluyisi","shengluyisi_2","shengluyisi_3",]
+		"skin" : ["shengluyisi","shengluyisi_2","shengluyisi_3","shengluyisi_4",]
 	},
 	"stanly" : {
 		"name" : "Stanly",
@@ -2091,7 +2097,7 @@ var charData = {
 		"name" : "Sussex",
 		"type" : "Heavy Cruiser",
 		"group" : "Royal Navy",
-		"skin" : ["susaikesi","susaikesi_2",]
+		"skin" : ["susaikesi","susaikesi_2","susaikesi_3",]
 	},
 	"suzuya" : {
 		"name" : "Suzuya",

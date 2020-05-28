@@ -8,7 +8,7 @@
   "messages": []
 }
 
- xuefeng_h.png 
+ edu.png 
 {
   "result": {
     "id": "f8e3210ff3a9d59b07a980e0df8779a2"
@@ -18,7 +18,7 @@
   "messages": []
 }
 
- xuefeng_h.png 
+ edu.png 
 {
   "result": {
     "id": "f8e3210ff3a9d59b07a980e0df8779a2"
@@ -28,7 +28,7 @@
   "messages": []
 }
 
- xuefeng_h.atlas 
+ edu.atlas 
 {
   "result": {
     "id": "f8e3210ff3a9d59b07a980e0df8779a2"
@@ -38,7 +38,7 @@
   "messages": []
 }
 
- xuefeng_h.atlas 
+ edu.atlas 
 {
   "result": {
     "id": "f8e3210ff3a9d59b07a980e0df8779a2"
@@ -48,7 +48,7 @@
   "messages": []
 }
 
- xuefeng_h.skel 
+ edu.skel 
 {
   "result": {
     "id": "f8e3210ff3a9d59b07a980e0df8779a2"
@@ -58,4 +58,4 @@
   "messages": []
 }
 
- xuefeng_h.skel 
+ edu.skel 
