@@ -617,6 +617,12 @@ var charData = {
 		"group" : "Royal Navy",
 		"skin" : ["heianjie","heianjie_2","heianjie_3",]
 	},
+	"eskimo" : {
+		"name" : "Eskimo",
+		"type" : "Destroyer",
+		"group" : "Royal Navy",
+		"skin" : ["aisijimo","aisijimo_2",]
+	},
 	"essex" : {
 		"name" : "Essex",
 		"type" : "Aircraft Carrier",
@@ -669,7 +675,7 @@ var charData = {
 		"name" : "Friedrich der Große",
 		"type" : "Battleship",
 		"group" : "Ironblood",
-		"skin" : ["feiteliedadi","feiteliedadi_2",]
+		"skin" : ["feiteliedadi","feiteliedadi_2","feiteliedadi_h",]
 	},
 	"formidable" : {
 		"name" : "Formidable",
@@ -855,7 +861,7 @@ var charData = {
 		"name" : "Hatsushimo",
 		"type" : "Destroyer",
 		"group" : "Sakura Empire",
-		"skin" : ["chushuang",]
+		"skin" : ["chushuang","chushuang_g",]
 	},
 	"hazelwood" : {
 		"name" : "Hazelwood",
@@ -915,7 +921,7 @@ var charData = {
 		"name" : "Helena",
 		"type" : "Light Cruiser",
 		"group" : "Eagle Union",
-		"skin" : ["hailunna","hailunna_2","hailunna_3",]
+		"skin" : ["hailunna","hailunna_2","hailunna_3","hailunna_g",]
 	},
 	"hermes" : {
 		"name" : "Hermes",
@@ -1557,7 +1563,7 @@ var charData = {
 		"name" : "Minneapolis",
 		"type" : "Heavy Cruiser",
 		"group" : "Eagle Union",
-		"skin" : ["mingniabolisi","mingniabolisi_2","mingniabolisi_3",]
+		"skin" : ["mingniabolisi","mingniabolisi_2","mingniabolisi_3","mingniabolisi_h",]
 	},
 	"mogami" : {
 		"name" : "Mogami",
@@ -1917,7 +1923,7 @@ var charData = {
 		"name" : "San Diego",
 		"type" : "Light Cruiser",
 		"group" : "Eagle Union",
-		"skin" : ["shengdiyage","shengdiyage_2","shengdiyage_g",]
+		"skin" : ["shengdiyage","shengdiyage_2","shengdiyage_h","shengdiyage_g",]
 	},
     "san_francisco" : {
         "name" : "San Francisco",
@@ -2247,7 +2253,7 @@ var charData = {
 		"name" : "Unicorn",
 		"type" : "Light Aircraft Carrier",
 		"group" : "Royal Navy",
-		"skin" : ["dujiaoshou","dujiaoshou_2","dujiaoshou_3","dujiaoshou_4","dujiaoshou_5",]
+		"skin" : ["dujiaoshou","dujiaoshou_2","dujiaoshou_3","dujiaoshou_4","dujiaoshou_5","dujiaoshou_h",]
 	},
 	"urakaze" : {
 		"name" : "Urakaze",
