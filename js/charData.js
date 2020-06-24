@@ -183,7 +183,7 @@ var charData = {
 		"name" : "Atago",
 		"type" : "Heavy Cruiser",
 		"group" : "Sakura Empire",
-		"skin" : ["aidang","aidang_2","aidang_3","aidang_4","aidang_h",]
+		"skin" : ["aidang","aidang_2","aidang_3","aidang_4","aidang_5","aidang_h",]
 	},
 	"atlanta" : {
 		"name" : "Atlanta",
@@ -573,7 +573,7 @@ var charData = {
 		"name" : "Duke of York",
 		"type" : "Battleship",
 		"group" : "Royal Navy",
-		"skin" : ["yuekegongjue","yuekegongjue_3",]
+		"skin" : ["yuekegongjue","yuekegongjue_3","yuekegongjue_2",]
 	},
 	"dunkerque" : {
 		"name" : "Dunkerque",
@@ -1023,7 +1023,7 @@ var charData = {
 		"name" : "I19",
 		"type" : "Submarine",
 		"group" : "Sakura Empire",
-		"skin" : ["i19","i19_2",]
+		"skin" : ["i19","i19_2","I19_3",]
 	},
 	"i25_" : {
 		"name" : "I25",
@@ -1815,7 +1815,7 @@ var charData = {
 		"name" : "Prince of Wales",
 		"type" : "Battleship",
 		"group" : "Royal Navy",
-		"skin" : ["weiershiqinwang","weiershiqinwang_2","weiershiqinwang_4",]
+		"skin" : ["weiershiqinwang","weiershiqinwang_2","weiershiqinwang_4","weiershiqinwang_3",]
 	},
 	"prinz_eugen" : {
 		"name" : "Prinz Eugen",
@@ -1965,7 +1965,7 @@ var charData = {
 		"name" : "Shangri-La",
 		"type" : "Aircraft Carrier",
 		"group" : "Eagle Union",
-		"skin" : ["xianggelila","xianggelila_2",]
+		"skin" : ["xianggelila","xianggelila_2","xianggelila_3",]
 	},
 	"sheffield" : {
 		"name" : "Sheffield",
@@ -2013,7 +2013,7 @@ var charData = {
 		"name" : "Shoukaku",
 		"type" : "Aircraft Carrier",
 		"group" : "Sakura Empire",
-		"skin" : ["xianghe","xianghe_2",]
+		"skin" : ["xianghe","xianghe_2","xianghe_3",]
 	},
 	"shropshire" : {
 		"name" : "Shropshire",
@@ -2121,7 +2121,7 @@ var charData = {
 		"name" : "Taihou",
 		"type" : "Aircraft Carrier",
 		"group" : "Sakura Empire",
-		"skin" : ["dafeng","dafeng_2","dafeng_4",]
+		"skin" : ["dafeng","dafeng_2","dafeng_4","dafeng_5",]
 	},
 	"tai_yuan" : {
 		"name" : "Tai Yuan",
@@ -2133,7 +2133,7 @@ var charData = {
 		"name" : "Takao",
 		"type" : "Heavy Cruiser",
 		"group" : "Sakura Empire",
-		"skin" : ["gaoxiong","gaoxiong_2","gaoxiong_3","gaoxiong_4","gaoxiong_h","gaoxiong_dark",]
+		"skin" : ["gaoxiong","gaoxiong_2","gaoxiong_3","gaoxiong_4","gaoxiong_5","gaoxiong_h","gaoxiong_dark",]
 	},
 	"tanikaze" : {
 		"name" : "Tanikaze",
@@ -2517,7 +2517,7 @@ var charData = {
 		"name" : "Zuikaku",
 		"type" : "Aircraft Carrier",
 		"group" : "Sakura Empire",
-		"skin" : ["ruihe","ruihe_2",]
+		"skin" : ["ruihe","ruihe_2","ruihe_3",]
 	},
 	"siren_tester" : {
 		"name" : "Tester",
@@ -2727,6 +2727,7 @@ var charData = {
             "super",
             "bulipaodun",
             "bulizidan",
-            "3rd",]
+            "3rd",
+            "redcar",]
     }
 };
