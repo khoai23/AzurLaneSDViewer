@@ -83,7 +83,7 @@ var charData = {
 		"group" : "Sakura Empire",
 		"skin" : ["xiao","xiao_2","xiao_3",]
 	},
-	"alabama" : {
+	"alabama_" : {
 		"name" : "Alabama",
 		"type" : "Battleship",
 		"group" : "Eagle Union",

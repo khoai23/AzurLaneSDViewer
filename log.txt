@@ -8,7 +8,7 @@
   "messages": []
 }
 
- edu.png 
+ aidang.png 
 {
   "result": {
     "id": "f8e3210ff3a9d59b07a980e0df8779a2"
@@ -18,7 +18,7 @@
   "messages": []
 }
 
- edu.png 
+ aidang.png 
 {
   "result": {
     "id": "f8e3210ff3a9d59b07a980e0df8779a2"
@@ -28,7 +28,7 @@
   "messages": []
 }
 
- edu.atlas 
+ aidang.atlas 
 {
   "result": {
     "id": "f8e3210ff3a9d59b07a980e0df8779a2"
@@ -38,7 +38,7 @@
   "messages": []
 }
 
- edu.atlas 
+ aidang.atlas 
 {
   "result": {
     "id": "f8e3210ff3a9d59b07a980e0df8779a2"
@@ -48,7 +48,7 @@
   "messages": []
 }
 
- edu.skel 
+ aidang.skel 
 {
   "result": {
     "id": "f8e3210ff3a9d59b07a980e0df8779a2"
@@ -58,4 +58,64 @@
   "messages": []
 }
 
- edu.skel 
+ aidang.skel 
+{
+  "result": {
+    "id": "f8e3210ff3a9d59b07a980e0df8779a2"
+  },
+  "success": true,
+  "errors": [],
+  "messages": []
+}
+
+ hailunna_g.png 
+{
+  "result": {
+    "id": "f8e3210ff3a9d59b07a980e0df8779a2"
+  },
+  "success": true,
+  "errors": [],
+  "messages": []
+}
+
+ hailunna_g.png 
+{
+  "result": {
+    "id": "f8e3210ff3a9d59b07a980e0df8779a2"
+  },
+  "success": true,
+  "errors": [],
+  "messages": []
+}
+
+ hailunna_g.atlas 
+{
+  "result": {
+    "id": "f8e3210ff3a9d59b07a980e0df8779a2"
+  },
+  "success": true,
+  "errors": [],
+  "messages": []
+}
+
+ hailunna_g.atlas 
+{
+  "result": {
+    "id": "f8e3210ff3a9d59b07a980e0df8779a2"
+  },
+  "success": true,
+  "errors": [],
+  "messages": []
+}
+
+ hailunna_g.skel 
+{
+  "result": {
+    "id": "f8e3210ff3a9d59b07a980e0df8779a2"
+  },
+  "success": true,
+  "errors": [],
+  "messages": []
+}
+
+ hailunna_g.skel 
