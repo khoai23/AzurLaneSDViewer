@@ -407,6 +407,12 @@ var charData = {
 		"group" : "Royal Navy",
 		"skin" : ["banrenma","banrenma_2","banrenma_3",]
 	},
+	"champagne" : {
+		"name" : "Champagne",
+		"type" : "Battleship",
+		"group" : "Iris Libre",
+		"skin" : ["xiangbin",]
+	},
 	"chang_chun" : {
 		"name" : "Chang Chun",
 		"type" : "Destroyer",
@@ -430,6 +436,12 @@ var charData = {
 		"type" : "Light Aircraft Carrier",
 		"group" : "Royal Navy",
 		"skin" : ["zhuiganzhe","zhuiganzhe_2","zhuiganzhe_3",]
+	},
+	"chesire" : {
+		"name" : "Chesire",
+		"type" : "Heavy Cruiser",
+		"group" : "Royal Navy",
+		"skin" : ["chaijun",]
 	},
 	"chicago" : {
 		"name" : "Chicago",
@@ -568,6 +580,12 @@ var charData = {
 		"type" : "Destroyer",
 		"group" : "Eagle Union",
 		"skin" : ["tangsi","tangsi_g",]
+	},
+	"drake" : {
+		"name" : "Drake",
+		"type" : "Heavy Cruiser",
+		"group" : "Royal Navy",
+		"skin" : ["deleike",]
 	},
 	"duke_of_york" : {
 		"name" : "Duke of York",
@@ -1457,6 +1475,12 @@ var charData = {
 		"group" : "Iris Libre",
 		"skin" : ["juejiang","juejiang_2",]
 	},
+	"mainz" : {
+		"name" : "Mainz",
+		"type" : "Light Cruiser",
+		"group" : "Ironblood",
+		"skin" : ["meiyinci",]
+	},
 	"makinami" : {
 		"name" : "Makinami",
 		"type" : "Destroyer",
@@ -1739,6 +1763,12 @@ var charData = {
 		"group" : "Sakura Empire",
 		"skin" : ["yefen",]
 	},
+	"odin" : {
+		"name" : "Odin",
+		"type" : "Battlecruiser",
+		"group" : "Ironblood",
+		"skin" : ["aoding",]
+	},
 	"oklahoma" : {
 		"name" : "Oklahoma",
 		"type" : "Battleship",
@@ -1953,7 +1983,7 @@ var charData = {
 		"name" : "Seattle",
 		"type" : "Light Cruiser",
 		"group" : "Eagle Union",
-		"skin" : ["xiyatu","xiyatu_2","xiyatu_3",]
+		"skin" : ["xiyatu","xiyatu_2","xiyatu_3","xiyatu_4",]
 	},
 	"sendai" : {
 		"name" : "Sendai",
