@@ -411,7 +411,7 @@ var charData = {
 		"name" : "Champagne",
 		"type" : "Battleship",
 		"group" : "Iris Libre",
-		"skin" : ["xiangbin",]
+		"skin" : ["xiangbin","xiangbin_open",]
 	},
 	"chang_chun" : {
 		"name" : "Chang Chun",
