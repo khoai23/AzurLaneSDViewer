@@ -4326,8 +4326,10 @@ var pixi_spine;
                         var end = this.getValue(map, "end", null);
                         if (end != null) {
                             var slot = skeletonData.findSlot(end);
-                            if (slot == null)
-                                throw new Error("Clipping end slot not found: " + end);
+                            if (slot == null){
+                                console.log(name);
+                                //throw new Error("Clipping end slot not found: " + end);
+                            }
                             clip.endSlot = slot;
                         }
                         var vertexCount = map.vertexCount;
