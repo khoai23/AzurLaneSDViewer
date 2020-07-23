@@ -599,6 +599,12 @@ var charData = {
 		"group" : "Vichya Dominion",
 		"skin" : ["dunkeerke","dunkeerke_2","dunkeerke_3",]
 	},
+	"eagle" : {
+		"name" : "Eagle",
+		"type" : "Aircraft Carrier",
+		"group" : "Royal Navy",
+		"skin" : ["ying","ying_2",]
+	},
 	"echo" : {
 		"name" : "Echo",
 		"type" : "Destroyer",
@@ -947,6 +953,12 @@ var charData = {
 		"group" : "Royal Navy",
 		"skin" : ["jingjishen","jingjishen_g",]
 	},
+	"hermione" : {
+		"name" : "Hermione",
+		"type" : "Light Cruiser",
+		"group" : "Royal Navy",
+		"skin" : ["hemin","hemin_3",]
+	},
 	"hibiki" : {
 		"name" : "Hibiki",
 		"type" : "Destroyer",
@@ -1013,6 +1025,12 @@ var charData = {
 		"group" : "Eagle Union",
 		"skin" : ["xiusidun",]
 	},
+	"howe" : {
+		"name" : "Howe",
+		"type" : "Battleship",
+		"group" : "Royal Navy",
+		"skin" : ["hao","hao_2",]
+	},
 	"hunter" : {
 		"name" : "Hunter",
 		"type" : "Destroyer",
@@ -1078,6 +1096,12 @@ var charData = {
 		"type" : "Heavy Cruiser",
 		"group" : "Sakura Empire",
 		"skin" : ["yichui","yichui_2","yichui_3","yichui_4",]
+	},
+	"icarus" : {
+		"name" : "Icarus",
+		"type" : "Destroyer",
+		"group" : "Royal Navy",
+		"skin" : ["yikaluosi","yikaluosi_3"]
 	},
 	"ikazuchi" : {
 		"name" : "Ikazuchi",
@@ -1347,7 +1371,7 @@ var charData = {
 		"name" : "Kongou",
 		"type" : "Battlecruiser",
 		"group" : "Sakura Empire",
-		"skin" : ["jingang","jingang_2",]
+		"skin" : ["jingang","jingang_2","jingang_3",]
 	},
 	"konigsberg" : {
 		"name" : "Königsberg",
@@ -1810,6 +1834,12 @@ var charData = {
 		"type" : "Battleship",
 		"group" : "Eagle Union",
 		"skin" : ["binxifaniya",]
+	},
+	"perseus" : {
+		"name" : "Perseus",
+		"type" : "Light Aircraft Carrier",
+		"group" : "Royal Navy",
+		"skin" : ["yingxianzuo","yingxianzuo_2",]
 	},
 	"pensacola" : {
 		"name" : "Pensacola",
@@ -2339,6 +2369,12 @@ var charData = {
 		"group" : "Sakura Empire",
 		"skin" : ["maoyue","maoyue_2",]
 	},
+	"valiant" : {
+		"name" : "Valiant",
+		"type" : "Battleship",
+		"group" : "Royal Navy",
+		"skin" : ["yingyong","yingyong_2",]
+	},
 	"vampire" : {
 		"name" : "Vampire",
 		"type" : "Destroyer",
@@ -2578,6 +2614,12 @@ var charData = {
 		"type" : "Battleship",
 		"group" : "Siren",
 		"skin" : ["sairenboss11",]
+	},
+	"qinraozhe_" : {
+		"name" : "qinraozhe",
+		"type" : "Battleship",
+		"group" : "Siren",
+		"skin" : ["qinraozhe",]
 	},
 	"siren_scavenger" : {
 		"name" : "Scavenger",

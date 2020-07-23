@@ -26,8 +26,8 @@ eye_1_1
   offset: 0, 0
   index: -1
 eye_1_2
-  rotate: true
-  xy: 497, 16
+  rotate: false
+  xy: 527, 82
   size: 34, 26
   orig: 34, 26
   offset: 0, 0
@@ -41,35 +41,35 @@ eye_2_1
   index: -1
 eye_2_2
   rotate: true
-  xy: 1003, 156
+  xy: 468, 56
   size: 26, 17
   orig: 26, 17
   offset: 0, 0
   index: -1
 eye_3_1
   rotate: true
-  xy: 527, 82
+  xy: 667, 120
   size: 26, 38
   orig: 26, 38
   offset: 0, 0
   index: -1
 eye_3_2
   rotate: true
-  xy: 567, 82
+  xy: 707, 120
   size: 26, 38
   orig: 26, 38
   offset: 0, 0
   index: -1
 eye_4_1
-  rotate: false
-  xy: 559, 58
+  rotate: true
+  xy: 597, 79
   size: 29, 22
   orig: 29, 22
   offset: 0, 0
   index: -1
 eye_4_2
   rotate: false
-  xy: 203, 5
+  xy: 487, 62
   size: 23, 22
   orig: 23, 22
   offset: 0, 0
@@ -110,29 +110,29 @@ hair_R
   offset: 0, 0
   index: -1
 hand_L1
-  rotate: false
-  xy: 619, 115
+  rotate: true
+  xy: 747, 112
   size: 34, 35
   orig: 34, 35
   offset: 0, 0
   index: -1
 hand_L2
-  rotate: false
-  xy: 468, 44
+  rotate: true
+  xy: 955, 155
   size: 27, 38
   orig: 27, 38
   offset: 0, 0
   index: -1
 hand_R1
-  rotate: false
-  xy: 497, 52
+  rotate: true
+  xy: 563, 80
   size: 28, 32
   orig: 28, 32
   offset: 0, 0
   index: -1
 hand_R2
   rotate: false
-  xy: 468, 7
+  xy: 995, 147
   size: 27, 35
   orig: 27, 35
   offset: 0, 0
@@ -146,14 +146,14 @@ hat
   index: -1
 leg_L1
   rotate: true
-  xy: 955, 156
+  xy: 619, 124
   size: 26, 46
   orig: 26, 46
   offset: 0, 0
   index: -1
 leg_L2
   rotate: true
-  xy: 527, 56
+  xy: 173, 3
   size: 24, 30
   orig: 24, 30
   offset: 0, 0
@@ -167,7 +167,7 @@ leg_R1
   index: -1
 leg_R2
   rotate: true
-  xy: 173, 6
+  xy: 205, 6
   size: 21, 28
   orig: 21, 28
   offset: 0, 0
@@ -223,8 +223,8 @@ weapon1
   index: -1
 weapon2
   rotate: false
-  xy: 667, 162
-  size: 122, 92
-  orig: 122, 92
+  xy: 667, 148
+  size: 122, 106
+  orig: 122, 106
   offset: 0, 0
   index: -1
