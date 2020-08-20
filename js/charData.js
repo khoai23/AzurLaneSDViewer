@@ -105,7 +105,7 @@ var charData = {
 		"name" : "Amagi",
 		"type" : "Battlecruiser",
 		"group" : "Sakura Empire",
-		"skin" : ["tiancheng",]
+		"skin" : ["tiancheng","tiancheng_2",]
 	},
 	"amazon" : {
 		"name" : "Amazon",
@@ -1125,13 +1125,13 @@ var charData = {
 		"name" : "Independence",
 		"type" : "Light Aircraft Carrier",
 		"group" : "Eagle Union",
-		"skin" : ["duli","duli_2",]
+		"skin" : ["duli","duli_2","duli_5",]
 	},
 	"indianapolis" : {
 		"name" : "Indianapolis",
 		"type" : "Heavy Cruiser",
 		"group" : "Eagle Union",
-		"skin" : ["bolisi","bolisi_2",]
+		"skin" : ["bolisi","bolisi_2","bolisi_3",]
 	},
 	"intrepid" : {
 		"name" : "Intrepid",
@@ -2541,7 +2541,7 @@ var charData = {
 		"name" : "Z23",
 		"type" : "Destroyer",
 		"group" : "Ironblood",
-		"skin" : ["z23","z23_2","z23_4","z23_3","z23_5","z23_8","z23_7","z23_g",]
+		"skin" : ["z23","z23_2","z23_4","z23_3","z23_5","z23_8","z23_7","z23_h","z23_g",]
 	},
 	"z25_" : {
 		"name" : "Z25",
