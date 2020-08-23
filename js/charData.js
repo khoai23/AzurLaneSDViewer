@@ -437,11 +437,11 @@ var charData = {
 		"group" : "Royal Navy",
 		"skin" : ["zhuiganzhe","zhuiganzhe_2","zhuiganzhe_3",]
 	},
-	"chesire" : {
-		"name" : "Chesire",
+	"cheshire" : {
+		"name" : "Cheshire",
 		"type" : "Heavy Cruiser",
 		"group" : "Royal Navy",
-		"skin" : ["chaijun",]
+		"skin" : ["chaijun","chaijun_2",]
 	},
 	"chicago" : {
 		"name" : "Chicago",
@@ -585,7 +585,7 @@ var charData = {
 		"name" : "Drake",
 		"type" : "Heavy Cruiser",
 		"group" : "Royal Navy",
-		"skin" : ["deleike",]
+		"skin" : ["deleike","deleike_2",]
 	},
 	"duke_of_york" : {
 		"name" : "Duke of York",
@@ -2309,6 +2309,12 @@ var charData = {
 		"group" : "Ironblood",
 		"skin" : ["u81","U81_2",]
 	},
+	"u96_" : {
+		"name" : "U-96",
+		"type" : "Submarine",
+		"group" : "Ironblood",
+		"skin" : ["u96","u96_2",]
+	},
 	"unicorn" : {
 		"name" : "Unicorn",
 		"type" : "Light Aircraft Carrier",
@@ -2469,7 +2475,7 @@ var charData = {
 		"name" : "York",
 		"type" : "Heavy Cruiser",
 		"group" : "Royal Navy",
-		"skin" : ["yueke","yueke_2","yueke_g",]
+		"skin" : ["yueke","yueke_2","yueke_3","yueke_g",]
 	},
 	"yorktown" : {
 		"name" : "Yorktown",
@@ -2548,6 +2554,12 @@ var charData = {
 		"type" : "Destroyer",
 		"group" : "Ironblood",
 		"skin" : ["z25","z25_2",]
+	},
+	"z26_" : {
+		"name" : "Z26",
+		"type" : "Destroyer",
+		"group" : "Ironblood",
+		"skin" : ["z26","z26_2",]
 	},
 	"z35_" : {
 		"name" : "Z35",
