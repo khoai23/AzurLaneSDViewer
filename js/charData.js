@@ -2193,7 +2193,7 @@ var charData = {
 		"name" : "Surcouf",
 		"type" : "Submarine",
 		"group" : "Iris Libre",
-		"skin" : ["xukufu","xukufu_2",]
+		"skin" : ["xukufu","xukufu_2","xukufu_3",]
 	},
 	"suruga" : {
 		"name" : "Suruga",
