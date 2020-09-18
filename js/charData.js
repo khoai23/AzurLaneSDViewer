@@ -359,6 +359,12 @@ var charData = {
 		"group" : "Universal",
 		"skin" : ["kin",]
 	},
+	"bullin_mkiii" : {
+		"name" : "Specialized Bulin Custom MKIII",
+		"type" : "Destroyer",
+		"group" : "Universal",
+		"skin" : ["buli_super",]
+	},
 	"bunker_hill" : {
 		"name" : "Bunker Hill",
 		"type" : "Aircraft Carrier",
@@ -454,6 +460,18 @@ var charData = {
 		"type" : "Heavy Cruiser",
 		"group" : "Sakura Empire",
 		"skin" : ["zhumo",]
+	},
+	"chiyoda" : {
+		"name" : "Chiyoda",
+		"type" : "Light Aircraft carrier",
+		"group" : "Sakura Empire",
+		"skin" : ["qiandaitian","qiandaitian_2",]
+	},
+	"chitose" : {
+		"name" : "Chitose",
+		"type" : "Light Aircraft carrier",
+		"group" : "Sakura Empire",
+		"skin" : ["qiansui","qiansui_2",]
 	},
 	"choukai" : {
 		"name" : "Choukai",
@@ -957,7 +975,7 @@ var charData = {
 		"name" : "Hermione",
 		"type" : "Light Cruiser",
 		"group" : "Royal Navy",
-		"skin" : ["hemin","hemin_3",]
+		"skin" : ["hemin","hemin_3","hemin_2",]
 	},
 	"hibiki" : {
 		"name" : "Hibiki",
@@ -1101,7 +1119,7 @@ var charData = {
 		"name" : "Icarus",
 		"type" : "Destroyer",
 		"group" : "Royal Navy",
-		"skin" : ["yikaluosi","yikaluosi_3"]
+		"skin" : ["yikaluosi","yikaluosi_3","yikaluosi_2",]
 	},
 	"ikazuchi" : {
 		"name" : "Ikazuchi",
@@ -1271,6 +1289,12 @@ var charData = {
 		"group" : "Ironblood",
 		"skin" : ["kaersilue","kaersilue_g",]
 	},
+	"kashino" : {
+		"name" : "Kashino",
+		"type" : "Munition",
+		"group" : "Sakura Empire",
+		"skin" : ["jianye","jianye_2",]
+	},
 	"kasumi" : {
 		"name" : "Kasumi",
 		"type" : "Destroyer",
@@ -1288,6 +1312,12 @@ var charData = {
 		"type" : "Heavy Cruiser",
 		"group" : "Royal Navy",
 		"skin" : ["kente",]
+	},
+	"kii" : {
+		"name" : "Kii",
+		"type" : "Battleship",
+		"group" : "Sakura Empire",
+		"skin" : ["jiyi","jiyi_2",]
 	},
 	"kimberly" : {
 		"name" : "Kimberly",
@@ -1378,6 +1408,12 @@ var charData = {
 		"type" : "Light Cruiser",
 		"group" : "Ironblood",
 		"skin" : ["kenisibao",]
+	},
+	"kumano" : {
+		"name" : "Kumano",
+		"type" : "Heavy Cruiser",
+		"group" : "Sakura Empire",
+		"skin" : ["xiongye","xiongye_2",]
 	},
 	"kuroshio" : {
 		"name" : "Kuroshio",
@@ -1743,7 +1779,7 @@ var charData = {
 		"name" : "Nicholas",
 		"type" : "Destroyer",
 		"group" : "Eagle Union",
-		"skin" : ["nigulasi","nigulasi_2","nigulasi_3","nigulasi_g",]
+		"skin" : ["nigulasi","nigulasi_2","nigulasi_3","nigulasi_4","nigulasi_g",]
 	},
 	"niizuki" : {
 		"name" : "Niizuki",
@@ -1917,7 +1953,7 @@ var charData = {
 		"name" : "Reno",
 		"type" : "Light Cruiser",
 		"group" : "Eagle Union",
-		"skin" : ["linuo","linuo_2",]
+		"skin" : ["linuo","linuo_2","linuo_4",]
 	},
 	"renown" : {
 		"name" : "Renown",
@@ -2045,6 +2081,12 @@ var charData = {
 		"group" : "Sakura Empire",
 		"skin" : ["shiyu","shiyu_2","shiyu_3","shiyu_g",]
 	},
+	"shinano" : {
+		"name" : "Shinano",
+		"type" : "Aircraft Carrier",
+		"group" : "Sakura Empire",
+		"skin" : ["xinnong",]
+	},
 	"shirakami_fubuki" : {
 		"name" : "Shirakami Fubuki",
 		"type" : "Destroyer",
@@ -2165,6 +2207,12 @@ var charData = {
 		"group" : "Royal Navy",
 		"skin" : ["susaikesi","susaikesi_2","susaikesi_3",]
 	},
+	"suzutsuki" : {
+		"name" : "Suzutsuki",
+		"type" : "Destroyer",
+		"group" : "Sakura Empire",
+		"skin" : ["liangyue","liangyue_2",]
+	},
 	"suzuya" : {
 		"name" : "Suzuya",
 		"type" : "Heavy Cruiser",
@@ -2175,7 +2223,7 @@ var charData = {
 		"name" : "Swiftsure",
 		"type" : "Light Cruiser",
 		"group" : "Royal Navy",
-		"skin" : ["quejie","quejie_2","quejie_3",]
+		"skin" : ["quejie","quejie_2","quejie_3","quejie_4",]
 	},
 	"taihou" : {
 		"name" : "Taihou",
@@ -2637,43 +2685,43 @@ var charData = {
 		"name" : "Scavenger",
 		"type" : "Destroyer",
 		"group" : "Siren",
-		"skin" : ["sairenquzhu","sairenquzhu_i","sairenquzhu_ii",]
+		"skin" : ["sairenquzhu","sairenquzhu_i","sairenquzhu_ii","sairenquzhu_M",]
 	},
 	"siren_chaser" : {
 		"name" : "Chaser",
 		"type" : "Light Cruiser",
 		"group" : "Siren",
-		"skin" : ["sairenqingxun","sairenqingxun_i","sairenqingxun_iI",]
+		"skin" : ["sairenqingxun","sairenqingxun_i","sairenqingxun_iI","sairenqingxun_M",]
 	},
 	"siren_navigator" : {
 		"name" : "Navigator",
 		"type" : "Heavy Cruiser",
 		"group" : "Siren",
-		"skin" : ["sairenzhongxun","sairenzhongxun_i","sairenzhongxun_ii",]
+		"skin" : ["sairenzhongxun","sairenzhongxun_i","sairenzhongxun_ii","sairenzhongxun_M",]
 	},
 	"siren_smasher" : {
 		"name" : "Smasher",
 		"type" : "Battleship",
 		"group" : "Siren",
-		"skin" : ["sairenzhanlie","sairenzhanlie_i","sairenzhanlie_ii",]
+		"skin" : ["sairenzhanlie","sairenzhanlie_i","sairenzhanlie_ii","sairenzhanlie_M",]
 	},
 	"siren_conductor" : {
 		"name" : "Conductor",
 		"type" : "Aircraft Carrier",
 		"group" : "Siren",
-		"skin" : ["sairenhangmu","sairenhangmu_i","sairenhangmu_ii",]
+		"skin" : ["sairenhangmu","sairenhangmu_i","sairenhangmu_ii","sairenhangmu_M",]
 	},
 	"siren_lurker" : {
 		"name" : "Lurker",
 		"type" : "Submarine",
 		"group" : "Siren",
-		"skin" : ["sairenqianting",]
+		"skin" : ["sairenqianting","sairenqianting_I","sairenqianting_M",]
 	},
 	"siren_ship" : {
 		"name" : "Siren Ship",
 		"type" : "Miscellaneous",
 		"group" : "Miscellaneous",
-		"skin" : ["SrBB","srBB2","srBB3","srBB4","SrCA","srCA2","srCA3","srCA4","SrCL","srCL2","srCL3","srCL4","SrCV","srCV2","srCV3","srCV4","SrDD","srDD2","srDD3","srDD4","zibao_maozi","zibao4","srSS"]
+		"skin" : ["SrBB","srBB2","srBB3","srBB4","srBB5","SrCA","srCA2","srCA3","srCA4","srCA5","SrCL","srCL2","srCL3","srCL4","srCL5","SrCV","srCV2","srCV3","srCV4","srCV5","SrDD","srDD2","srDD3","srDD4","srDD5","zibao_maozi","zibao4","zibao5","srSS","srSS4","srSS5",]
 	},
     "enemy_ship" : {
         "name" : "Enemy Ship",
@@ -2729,7 +2777,8 @@ var charData = {
             "aimierbeierdingdanchuan",
             "beiyaendanchuan",
             "bulietanidanchuan",
-            "kuangfengdanchuan",]
+            "kuangfengdanchuan",
+            "qiantingdanchuan",]
     },
     "miscellaneous" : {
         "name" : "Miscellaneous",
@@ -2812,6 +2861,7 @@ var charData = {
             "bulipaodun",
             "bulizidan",
             "3rd",
-            "redcar",]
+            "redcar",
+            "tiangoujuu"]
     }
 };

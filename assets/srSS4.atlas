@@ -1,0 +1,34 @@
+
+srSS4.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 2, 279
+  size: 423, 230
+  orig: 423, 230
+  offset: 0, 0
+  index: -1
+qt01
+  rotate: false
+  xy: 2, 192
+  size: 408, 85
+  orig: 408, 85
+  offset: 0, 0
+  index: -1
+qt02
+  rotate: true
+  xy: 427, 90
+  size: 419, 83
+  orig: 419, 83
+  offset: 0, 0
+  index: -1
+qt03
+  rotate: false
+  xy: 2, 2
+  size: 428, 86
+  orig: 428, 86
+  offset: 0, 0
+  index: -1

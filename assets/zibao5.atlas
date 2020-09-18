@@ -1,0 +1,62 @@
+
+zibao5.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ji
+  rotate: false
+  xy: 2, 58
+  size: 320, 196
+  orig: 320, 196
+  offset: 0, 0
+  index: -1
+ji2
+  rotate: false
+  xy: 183, 28
+  size: 22, 28
+  orig: 22, 28
+  offset: 0, 0
+  index: -1
+wu
+  rotate: false
+  xy: 324, 45
+  size: 232, 209
+  orig: 232, 209
+  offset: 0, 0
+  index: -1
+zd01
+  rotate: false
+  xy: 2, 2
+  size: 179, 54
+  orig: 179, 54
+  offset: 0, 0
+  index: -1
+zd02
+  rotate: false
+  xy: 558, 200
+  size: 179, 54
+  orig: 179, 54
+  offset: 0, 0
+  index: -1
+zd03
+  rotate: false
+  xy: 558, 144
+  size: 179, 54
+  orig: 179, 54
+  offset: 0, 0
+  index: -1
+zhadan_1
+  rotate: false
+  xy: 739, 184
+  size: 116, 70
+  orig: 116, 70
+  offset: 0, 0
+  index: -1
+zhadan_2
+  rotate: false
+  xy: 558, 72
+  size: 116, 70
+  orig: 116, 70
+  offset: 0, 0
+  index: -1

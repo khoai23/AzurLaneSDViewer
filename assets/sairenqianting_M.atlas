@@ -1,0 +1,181 @@
+
+sairenqianting_M.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: true
+  xy: 2, 2
+  size: 104, 114
+  orig: 104, 114
+  offset: 0, 0
+  index: -1
+eye_1_1
+  rotate: true
+  xy: 214, 51
+  size: 55, 32
+  orig: 55, 32
+  offset: 0, 0
+  index: -1
+eye_1_2
+  rotate: true
+  xy: 280, 68
+  size: 41, 34
+  orig: 41, 34
+  offset: 0, 0
+  index: -1
+eye_2_1
+  rotate: true
+  xy: 1002, 473
+  size: 37, 17
+  orig: 37, 17
+  offset: 0, 0
+  index: -1
+eye_2_2
+  rotate: true
+  xy: 1002, 445
+  size: 26, 17
+  orig: 26, 17
+  offset: 0, 0
+  index: -1
+eye_3_1
+  rotate: false
+  xy: 281, 28
+  size: 26, 38
+  orig: 26, 38
+  offset: 0, 0
+  index: -1
+eye_3_2
+  rotate: true
+  xy: 641, 293
+  size: 26, 38
+  orig: 26, 38
+  offset: 0, 0
+  index: -1
+face
+  rotate: false
+  xy: 641, 321
+  size: 163, 189
+  orig: 163, 189
+  offset: 0, 0
+  index: -1
+hair_B
+  rotate: false
+  xy: 2, 108
+  size: 230, 248
+  orig: 230, 248
+  offset: 0, 0
+  index: -1
+hair_F
+  rotate: false
+  xy: 118, 5
+  size: 94, 101
+  orig: 94, 101
+  offset: 0, 0
+  index: -1
+hair_L
+  rotate: false
+  xy: 373, 307
+  size: 266, 203
+  orig: 266, 203
+  offset: 0, 0
+  index: -1
+hair_R
+  rotate: true
+  xy: 806, 318
+  size: 50, 119
+  orig: 50, 119
+  offset: 0, 0
+  index: -1
+hand_L1
+  rotate: false
+  xy: 248, 14
+  size: 31, 40
+  orig: 31, 40
+  offset: 0, 0
+  index: -1
+hand_L2
+  rotate: false
+  xy: 214, 5
+  size: 32, 44
+  orig: 32, 44
+  offset: 0, 0
+  index: -1
+hand_R1
+  rotate: true
+  xy: 316, 63
+  size: 29, 40
+  orig: 29, 40
+  offset: 0, 0
+  index: -1
+hand_R2
+  rotate: true
+  xy: 309, 27
+  size: 34, 39
+  orig: 34, 39
+  offset: 0, 0
+  index: -1
+hat
+  rotate: false
+  xy: 806, 370
+  size: 194, 140
+  orig: 194, 140
+  offset: 0, 0
+  index: -1
+leg_L1
+  rotate: false
+  xy: 248, 56
+  size: 30, 53
+  orig: 30, 53
+  offset: 0, 0
+  index: -1
+leg_L2
+  rotate: false
+  xy: 234, 179
+  size: 84, 99
+  orig: 84, 99
+  offset: 0, 0
+  index: -1
+leg_R1
+  rotate: false
+  xy: 318, 94
+  size: 44, 62
+  orig: 44, 62
+  offset: 0, 0
+  index: -1
+leg_R2
+  rotate: true
+  xy: 234, 111
+  size: 66, 82
+  orig: 66, 82
+  offset: 0, 0
+  index: -1
+meimao_1
+  rotate: false
+  xy: 234, 280
+  size: 125, 76
+  orig: 125, 76
+  offset: 0, 0
+  index: -1
+meimao_3
+  rotate: false
+  xy: 927, 308
+  size: 80, 60
+  orig: 80, 60
+  offset: 0, 0
+  index: -1
+weapon
+  rotate: false
+  xy: 2, 358
+  size: 369, 152
+  orig: 369, 152
+  offset: 0, 0
+  index: -1
+yanjing
+  rotate: true
+  xy: 320, 158
+  size: 120, 40
+  orig: 120, 40
+  offset: 0, 0
+  index: -1

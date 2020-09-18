@@ -1,0 +1,69 @@
+
+srCA5.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 106, 12
+  size: 310, 63
+  orig: 310, 63
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 691, 170
+  size: 314, 81
+  orig: 314, 81
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 418, 9
+  size: 305, 82
+  orig: 305, 82
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 347, 93
+  size: 342, 158
+  orig: 342, 158
+  offset: 0, 0
+  index: -1
+pao
+  rotate: true
+  xy: 2, 30
+  size: 221, 56
+  orig: 221, 56
+  offset: 0, 0
+  index: -1
+weapon
+  rotate: true
+  xy: 60, 4
+  size: 71, 44
+  orig: 71, 44
+  offset: 0, 0
+  index: -1
+wen
+  rotate: false
+  xy: 725, 41
+  size: 271, 127
+  orig: 271, 127
+  offset: 0, 0
+  index: -1
+wen2
+  rotate: true
+  xy: 2, 2
+  size: 26, 15
+  orig: 26, 15
+  offset: 0, 0
+  index: -1
+wu
+  rotate: false
+  xy: 60, 77
+  size: 285, 174
+  orig: 285, 174
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,55 @@
+
+srBB5.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 365, 366
+  size: 337, 124
+  orig: 337, 124
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 2, 166
+  size: 352, 118
+  orig: 352, 118
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 2, 43
+  size: 332, 121
+  orig: 332, 121
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 286
+  size: 361, 204
+  orig: 361, 204
+  offset: 0, 0
+  index: -1
+weapon1
+  rotate: false
+  xy: 2, 2
+  size: 68, 39
+  orig: 68, 39
+  offset: 0, 0
+  index: -1
+wen
+  rotate: false
+  xy: 704, 344
+  size: 279, 146
+  orig: 279, 146
+  offset: 0, 0
+  index: -1
+wu
+  rotate: true
+  xy: 365, 138
+  size: 226, 242
+  orig: 226, 242
+  offset: 0, 0
+  index: -1
