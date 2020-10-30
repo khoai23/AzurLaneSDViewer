@@ -75,7 +75,7 @@ var charData = {
 		"name" : "Akashi",
 		"type" : "Repair",
 		"group" : "Sakura Empire",
-		"skin" : ["mingshi","mingshi_2","mingshi_3","mingshi_4","mingshi_5",]
+		"skin" : ["mingshi","mingshi_2","mingshi_3","mingshi_4","mingshi_5","mingshi_h",]
 	},
 	"akatsuki" : {
 		"name" : "Akatsuki",
@@ -94,6 +94,12 @@ var charData = {
 		"type" : "Submarine",
 		"group" : "Eagle Union",
 		"skin" : ["daqinghuayu","daqinghuayu_4",]
+	},
+	"albacore_idol" : {
+		"name" : "Albacore (Idol)",
+		"type" : "Submarine",
+		"group" : "Eagle Union",
+		"skin" : ["daqinghuayu_idol",]
 	},
 	"algerie" : {
 		"name" : "Algerie",
@@ -147,7 +153,7 @@ var charData = {
 		"name" : "Ariake",
 		"type" : "Destroyer",
 		"group" : "Sakura Empire",
-		"skin" : ["youming","youming_2",]
+		"skin" : ["youming","youming_2","youming_g",]
 	},
 	"arizona" : {
 		"name" : "Arizona",
@@ -245,6 +251,12 @@ var charData = {
 		"group" : "Eagle Union",
 		"skin" : ["baerdimo","baerdimo_2","baerdimo_4","baerdimo_5",]
 	},
+	"baltimore_idol" : {
+		"name" : "Baltimore (Idol)",
+		"type" : "Heavy Cruiser",
+		"group" : "Eagle Union",
+		"skin" : ["baerdimo_idol",]
+	},
 	"bataan" : {
 		"name" : "Bataan",
 		"type" : "Light Aircraft Carrier",
@@ -279,7 +291,7 @@ var charData = {
 		"name" : "Benson",
 		"type" : "Destroyer",
 		"group" : "Eagle Union",
-		"skin" : ["bensen",]
+		"skin" : ["bensen","bensen_2",]
 	},
 	"bili_22" : {
 		"name" : "22",
@@ -587,6 +599,12 @@ var charData = {
 		"group" : "Royal Navy",
 		"skin" : ["daiduo","daiduo_2",]
 	},
+	"dido_idol" : {
+		"name" : "Dido (Idol)",
+		"type" : "Light Cruiser",
+		"group" : "Royal Navy",
+		"skin" : ["daiduo_idol",]
+	},
 	"dorsetshire" : {
 		"name" : "Dorsetshire",
 		"type" : "Heavy Cruiser",
@@ -861,7 +879,7 @@ var charData = {
 		"name" : "Hammann",
 		"type" : "Destroyer",
 		"group" : "Eagle Union",
-		"skin" : ["haman","haman_2","haman_3","haman_g",]
+		"skin" : ["haman","haman_2","haman_3","haman_4","haman_g",]
 	},
 	"hanazuki" : {
 		"name" : "Hanazuki",
@@ -1132,6 +1150,12 @@ var charData = {
 		"type" : "Aircraft Carrier",
 		"group" : "Royal Navy",
 		"skin" : ["guanghui","guanghui_2","guanghui_3","guanghui_4","guanghui_5","guanghui_h",]
+	},
+	"illustrious_idol" : {
+		"name" : "Illustrious (Idol)",
+		"type" : "Aircraft Carrier",
+		"group" : "Royal Navy",
+		"skin" : ["guanghui_idol",]
 	},
 	"inazuma" : {
 		"name" : "Inazuma",
@@ -1463,6 +1487,12 @@ var charData = {
 		"group" : "Vichya Dominion",
 		"skin" : ["edu","edu_2","edu_3",]
 	},
+	"le_malin_idol" : {
+		"name" : "Le Malin (Idol)",
+		"type" : "Destroyer",
+		"group" : "Vichya Dominion",
+		"skin" : ["edu_idol",]
+	},
 	"le_mars" : {
 		"name" : "Le Mars",
 		"type" : "Destroyer",
@@ -1527,7 +1557,7 @@ var charData = {
 		"name" : "Long Island",
 		"type" : "Light Aircraft Carrier",
 		"group" : "Eagle Union",
-		"skin" : ["changdao","changdao_2","changdao_g",]
+		"skin" : ["changdao","changdao_2","changdao_3","changdao_g",]
 	},
 	"l_opiniatre" : {
 		"name" : "L'Opiniâtre",
@@ -1611,7 +1641,7 @@ var charData = {
 		"name" : "Mikasa",
 		"type" : "Battleship",
 		"group" : "Sakura Empire",
-		"skin" : ["sanli","sanli_2","sanli_4",]
+		"skin" : ["sanli","sanli_2","sanli_4","sanli_h",]
 	},
 	"mikazuki" : {
 		"name" : "Mikazuki",
@@ -1913,6 +1943,12 @@ var charData = {
 		"group" : "Royal Navy",
 		"skin" : ["weiershiqinwang","weiershiqinwang_2","weiershiqinwang_4","weiershiqinwang_3",]
 	},
+	"princeton" : {
+		"name" : "Princeton",
+		"type" : "Light Aircraft Carrier",
+		"group" : "Royal Navy",
+		"skin" : ["pulinsidun","pulinsidun_2",]
+	},
 	"prinz_eugen" : {
 		"name" : "Prinz Eugen",
 		"type" : "Heavy Cruiser",
@@ -1923,7 +1959,7 @@ var charData = {
 		"name" : "Queen Elizabeth",
 		"type" : "Battleship",
 		"group" : "Royal Navy",
-		"skin" : ["yilishabai","yilishabai_2",]
+		"skin" : ["yilishabai","yilishabai_2","yilishabai_3",]
 	},
 	"quincy" : {
 		"name" : "Quincy",
@@ -1935,7 +1971,7 @@ var charData = {
 		"name" : "Radford",
 		"type" : "Destroyer",
 		"group" : "Eagle Union",
-		"skin" : ["ladefute",]
+		"skin" : ["ladefute","ladefute_3",]
 	},
 	"raleigh" : {
 		"name" : "Raleigh",
@@ -1990,6 +2026,12 @@ var charData = {
 		"type" : "Heavy Cruiser",
 		"group" : "Ironblood",
 		"skin" : ["luoen","luoen_2",]
+	},
+	"roon_idol" : {
+		"name" : "Roon (Idol)",
+		"type" : "Heavy Cruiser",
+		"group" : "Ironblood",
+		"skin" : ["luoen_idol",]
 	},
 	"ryuuhou" : {
 		"name" : "Ryuuhou",
@@ -2231,6 +2273,12 @@ var charData = {
 		"group" : "Sakura Empire",
 		"skin" : ["dafeng","dafeng_2","dafeng_4","dafeng_5",]
 	},
+	"taihou_idol" : {
+		"name" : "Taihou (Idol)",
+		"type" : "Aircraft Carrier",
+		"group" : "Sakura Empire",
+		"skin" : ["dafeng_idol",]
+	},
 	"tai_yuan" : {
 		"name" : "Tai Yuan",
 		"type" : "Destroyer",
@@ -2260,6 +2308,12 @@ var charData = {
 		"type" : "Destroyer",
 		"group" : "Northern Parliament",
 		"skin" : ["tashigan","tashigan_2",]
+	},
+	"tashkent_idol" : {
+		"name" : "Tashkent (Idol)",
+		"type" : "Destroyer",
+		"group" : "Northern Parliament",
+		"skin" : ["tashigan_idol",]
 	},
 	"tennessee" : {
 		"name" : "Tennessee",
@@ -2319,7 +2373,7 @@ var charData = {
 		"name" : "U-110",
 		"type" : "Submarine",
 		"group" : "Ironblood",
-		"skin" : ["U110","U110_2","u110_3",]
+		"skin" : ["U110","U110_2","u110_3","u110_4",]
 	},
 	"u47_" : {
 		"name" : "U-47",
@@ -2367,7 +2421,7 @@ var charData = {
 		"name" : "Unicorn",
 		"type" : "Light Aircraft Carrier",
 		"group" : "Royal Navy",
-		"skin" : ["dujiaoshou","dujiaoshou_2","dujiaoshou_3","dujiaoshou_4","dujiaoshou_5","dujiaoshou_h",]
+		"skin" : ["dujiaoshou","dujiaoshou_2","dujiaoshou_3","dujiaoshou_4","dujiaoshou_5","dujiaoshou_6","dujiaoshou_h",]
 	},
 	"urakaze" : {
 		"name" : "Urakaze",
@@ -2433,7 +2487,7 @@ var charData = {
 		"name" : "Vampire",
 		"type" : "Destroyer",
 		"group" : "Royal Navy",
-		"skin" : ["xixuegui","xixuegui_2","xixuegui_3","xixuegui_4","xixuegui_h",]
+		"skin" : ["xixuegui","xixuegui_2","xixuegui_3","xixuegui_4","xixuegui_5","xixuegui_h",]
 	},
 	"vauquelin" : {
 		"name" : "Vauquelin",
@@ -2475,7 +2529,7 @@ var charData = {
 		"name" : "Warspite",
 		"type" : "Battleship",
 		"group" : "Royal Navy",
-		"skin" : ["yanzhan","yanzhan_2","yanzhan_g",]
+		"skin" : ["yanzhan","yanzhan_2","yanzhan_3","yanzhan_g",]
 	},
 	"washington" : {
 		"name" : "Washington",
@@ -2499,7 +2553,7 @@ var charData = {
 		"name" : "Wichita",
 		"type" : "Heavy Cruiser",
 		"group" : "Eagle Union",
-		"skin" : ["weiqita","weiqita_2",]
+		"skin" : ["weiqita","weiqita_2","weiqita_3",]
 	},
 	"yamashiro" : {
 		"name" : "Yamashiro",
@@ -2625,7 +2679,7 @@ var charData = {
 		"name" : "Z46",
 		"type" : "Destroyer",
 		"group" : "Ironblood",
-		"skin" : ["z46","z46_2","z46_3",]
+		"skin" : ["z46","z46_2","z46_3","z46_4",]
 	},
 	"zara" : {
 		"name" : "Zara",
@@ -2862,6 +2916,11 @@ var charData = {
             "bulizidan",
             "3rd",
             "redcar",
-            "tiangoujuu"]
+            "tiangoujuu",
+            "hangkongwutai",
+            "hangtianyulei",
+            "huojianyulei",
+            "shenshengtianshi",
+            "weixingbanwu",]
     }
 };

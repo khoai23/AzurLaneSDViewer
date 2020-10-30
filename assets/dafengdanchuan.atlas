@@ -4,9 +4,30 @@ size: 512,512
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-ruihe
+hm01
+  rotate: false
+  xy: 2, 74
+  size: 328, 70
+  orig: 328, 70
+  offset: 0, 0
+  index: -1
+hm02
   rotate: false
   xy: 2, 2
+  size: 328, 70
+  orig: 328, 70
+  offset: 0, 0
+  index: -1
+hm03
+  rotate: false
+  xy: 2, 146
+  size: 328, 70
+  orig: 328, 70
+  offset: 0, 0
+  index: -1
+ruihe
+  rotate: false
+  xy: 2, 218
   size: 336, 265
   orig: 336, 265
   offset: 0, 0
