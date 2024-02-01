@@ -1,1 +1,5 @@
 hello.bat
+__pycache__/*
+*.swp
+*.swo
+
